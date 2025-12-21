@@ -2,7 +2,7 @@ name: Auto Update 4GTV
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # 每 6 小時一次
+    - cron: "0 * * * *"   # 每 6 小時一次
   workflow_dispatch:
 
 jobs:
