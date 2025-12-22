@@ -1,31 +1,30 @@
-name: Auto Update 4GTV
-
-on:
-  schedule:
-    - cron: "0 */6 * * *"   # 每 6 小時一次
-  workflow_dispatch:
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Download 4gtv.m3u
+- name: Generate categorized playlists
         run: |
-          curl -L https://raw.githubusercontent.com/judy-gotv/iptv/main/4gtv.m3u -o 4gtv.m3u
+          make_list () {
+            output=$1
+            shift
+            keywords=("$@")
 
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+            echo "#EXTM3U" > "$output"
 
-          if git diff --quiet; then
-            echo "No change"
-          else
-            git add 4gtv.m3u
-            git commit -m "Auto update 4gtv.m3u"
-            git push
-          fi
+            for key in "${keywords[@]}"; do
+              awk -v k="$key" '
+                $0 ~ k {
+                  print prev
+                  print
+                  getline
+                  print
+                }
+                { prev=$0 }
+              ' 4gtv.m3u >> "$output"
+            done
+          }
+
+          make_list 4gtv-news.m3u \
+            "新聞" "TVBS" "中天" "三立" "東森" "年代" "寰宇"
+
+          make_list 4gtv-general.m3u \
+            "台視" "中視" "華視" "民視" "公視" "八大" "緯來"
+
+          make_list 4gtv-kids.m3u \
+            "YOYO" "MOMO" "卡通" "兒童" "Disney"
