@@ -1,0 +1,79 @@
+name: Sync My Classified IPTV
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每天凌晨 12 點自動同步
+  workflow_dispatch:      # 允許手動點擊運行
+
+permissions:
+  [span_0](start_span)contents: write         # 允許 Actions 修改你的倉庫文件[span_0](end_span)
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 檢查倉庫代碼
+        [span_1](start_span)uses: actions/checkout@v4[span_1](end_span)
+        with:
+          persist-credentials: false
+
+      - name: 分類下載 IPTV 源
+        run: |
+          # 創建一個臨時資料夾存放下載
+          echo "開始分類下載..."
+
+          # 1. 台灣新聞 & 綜合 (Taiwan News & General)
+          # 使用常用的台灣綜合整理源
+          curl -L -o "Taiwan_TV.m3u" "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u" || true
+
+          # 2. 泰國頻道 (Thailand)
+          echo "下載泰國源..."
+          [span_2](start_span)[span_3](start_span)curl -L -o "Thailand_News.m3u" "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Thailand.m3u" || true[span_2](end_span)[span_3](end_span)
+
+          # 3. 香港頻道 (Hong Kong)
+          echo "下載香港源..."
+          [span_4](start_span)curl -L -o "HK_News.m3u" "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/Hong_Kong.m3u" || true[span_4](end_span)
+
+          # 4. 體育專區 (Sports)
+          echo "下載體育源..."
+          [span_5](start_span)curl -L -o "Nowsports.m3u" "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u" || true[span_5](end_span)
+
+          # 5. 綜合/其他 (StarHub & Others)
+          echo "下載綜合源..."
+          [span_6](start_span)curl -L -o "StarHub_General.m3u" "https://raw.githubusercontent.com/AbidUrsa/StarHubPlaylist/refs/heads/main/StarHub.m3u" || true[span_6](end_span)
+
+          # 6. 自動抓取剩餘的所有來源 (標記為 Others)
+          curl -s https://api.github.com/repos/abusaeeidx/IPTV-Scraper-Zilla/contents | \
+          jq -r '.[] | select(.name | test("\\.(m3u8?)$")) | [span_7](start_span).download_url' > urls.txt[span_7](end_span)
+          
+          while read -r url; do
+            [ -z "$url" ] && continue
+            fname=$(basename "$url")
+            # 避免重複下載已經分類過的文件
+            if [[ "$fname" != "Thailand.m3u" && "$fname" != "Hong_Kong.m3u" ]]; then
+               echo "下載其他源: $fname"
+               [span_8](start_span)curl -L -o "Other_$fname" "$url"[span_8](end_span)
+            fi
+          done < urls.txt
+
+      - name: 提交更新到我的 GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          [span_9](start_span)set -e[span_9](end_span)
+          [span_10](start_span)git config user.name "github-actions[bot]"[span_10](end_span)
+          [span_11](start_span)git config user.email "41898282+github-actions[bot]@users.noreply.github.com"[span_11](end_span)
+
+          # [span_12](start_span)加入所有 m3u 文件[span_12](end_span)
+          git add *.m3u *.m3u8 2>/dev/null || true 
+
+          # [span_13](start_span)如果內容沒變就停止，不產生無用提交[span_13](end_span)
+          if git diff --cached --quiet; then
+            echo "內容已是最新，無需更新。"
+            exit 0
+          fi
+
+          git commit -m "自動分類更新: $(date +'%Y-%m-%d %H:%M')"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:main
