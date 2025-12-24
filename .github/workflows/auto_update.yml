@@ -1,39 +1,34 @@
-import requests
-import os
+name: Auto Update IPTV List
 
-M3U_URL = "https://jody.im5k.fun/4gtv.m3u"
-CATEGORIES = {
-    "台新聞": ["新聞", "東森", "中天", "TVBS", "三立", "民視"],
-    "香港新聞": ["香港", "HK", "鳳凰", "有線"],
-    "泰國新聞": ["Thailand", "泰國", "Thai"],
-    "綜合": ["綜合", "綜藝", "電影", "戲劇"],
-}
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
 
-def parse_and_save():
-    try:
-        response = requests.get(M3U_URL, timeout=30)
-        response.raise_for_status()
-        lines = response.text.split('\n')
-    except Exception as e:
-        print(f"下載失敗: {e}")
-        return
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    header = "#EXTM3U"
-    organized = {k: [] for k in CATEGORIES.keys()}
-    organized["其它"] = []
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    temp_info = ""
-    for line in lines:
-        line = line.strip()
-        if not line: continue
-        
-        if line.startswith("#EXTM3U"):
-            continue
-        if line.startswith("#EXTINF"):
-            temp_info = line
-        elif line.startswith("http") and temp_info:
-            assigned = False
-            for cat, keywords in CATEGORIES.items():
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run update script
+        run: python update_iptv.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update: $(date)" && git push)
                 if any(k.lower() in temp_info.lower() for k in keywords):
                     organized[cat].append(f"{temp_info}\n{line}")
                     assigned = True
