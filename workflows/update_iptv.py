@@ -15,19 +15,17 @@ def parse_and_save():
         response.raise_for_status()
         lines = response.text.split('\n')
     except Exception as e:
-        print(f"下載失敗: {e}")
+        print(f"Error: {e}")
         return
 
     header = "#EXTM3U"
-    organized = {k: [] for k in CATEGORIES.items()}
+    organized = {k: [] for k in CATEGORIES.keys()}
     organized["其它"] = []
 
     temp_info = ""
     for line in lines:
         line = line.strip()
-        if not line:
-            continue
-        if line.startswith("#EXTM3U"):
+        if not line or line.startswith("#EXTM3U"):
             continue
         if line.startswith("#EXTINF"):
             temp_info = line
@@ -42,19 +40,16 @@ def parse_and_save():
                 organized["其它"].append(f"{temp_info}\n{line}")
             temp_info = ""
 
-    # 儲存個別分類檔案
     for cat, items in organized.items():
         with open(f"{cat}.m3u", "w", encoding="utf-8") as f:
-            f.write(f"{header}\n")
-            f.write("\n".join(items))
+            f.write(header + "\n" + "\n".join(items))
     
-    # 儲存總表
     with open("all.m3u", "w", encoding="utf-8") as f:
-        f.write(f"{header}\n")
+        f.write(header + "\n")
         for items in organized.values():
             if items:
                 f.write("\n".join(items) + "\n")
 
 if __name__ == "__main__":
     parse_and_save()
-
+            
