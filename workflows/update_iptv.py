@@ -1,5 +1,4 @@
 import requests
-import os
 
 M3U_URL = "https://jody.im5k.fun/4gtv.m3u"
 CATEGORIES = {
@@ -11,34 +10,32 @@ CATEGORIES = {
 
 def parse_and_save():
     try:
-        response = requests.get(M3U_URL, timeout=30)
-        response.raise_for_status()
-        lines = response.text.split('\n')
-    except Exception as e:
-        print(f"Error: {e}")
+        r = requests.get(M3U_URL, timeout=30)
+        r.raise_for_status()
+        lines = r.text.split('\n')
+    except:
         return
 
     header = "#EXTM3U"
     organized = {k: [] for k in CATEGORIES.keys()}
     organized["其它"] = []
+    temp = ""
 
-    temp_info = ""
     for line in lines:
         line = line.strip()
-        if not line or line.startswith("#EXTM3U"):
-            continue
+        if not line or line.startswith("#EXTM3U"): continue
         if line.startswith("#EXTINF"):
-            temp_info = line
-        elif line.startswith("http") and temp_info:
+            temp = line
+        elif line.startswith("http") and temp:
             assigned = False
             for cat, keywords in CATEGORIES.items():
-                if any(k.lower() in temp_info.lower() for k in keywords):
-                    organized[cat].append(f"{temp_info}\n{line}")
+                if any(k.lower() in temp.lower() for k in keywords):
+                    organized[cat].append(f"{temp}\n{line}")
                     assigned = True
                     break
             if not assigned:
-                organized["其它"].append(f"{temp_info}\n{line}")
-            temp_info = ""
+                organized["其它"].append(f"{temp}\n{line}")
+            temp = ""
 
     for cat, items in organized.items():
         with open(f"{cat}.m3u", "w", encoding="utf-8") as f:
@@ -47,9 +44,7 @@ def parse_and_save():
     with open("all.m3u", "w", encoding="utf-8") as f:
         f.write(header + "\n")
         for items in organized.values():
-            if items:
-                f.write("\n".join(items) + "\n")
+            if items: f.write("\n".join(items) + "\n")
 
 if __name__ == "__main__":
     parse_and_save()
-            
