@@ -57,6 +57,29 @@ def parse_and_save():
 
 if __name__ == "__main__":
     parse_and_save()
+                if any(k.lower() in temp_info.lower() for k in keywords):
+                    organized[cat].append(f"{temp_info}\n{line}")
+                    assigned = True
+                    break
+            if not assigned:
+                organized["其它"].append(f"{temp_info}\n{line}")
+            temp_info = ""
+
+    # 儲存個別分類檔案
+    for cat, items in organized.items():
+        with open(f"{cat}.m3u", "w", encoding="utf-8") as f:
+            f.write(f"{header}\n")
+            f.write("\n".join(items))
+    
+    # 儲存總表
+    with open("all.m3u", "w", encoding="utf-8") as f:
+        f.write(f"{header}\n")
+        for items in organized.values():
+            if items:
+                f.write("\n".join(items) + "\n")
+
+if __name__ == "__main__":
+    parse_and_save()
                     organized[cat].append(f"{current_info}\n{line}")
                     assigned = True
                     break
