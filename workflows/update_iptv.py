@@ -59,5 +59,30 @@ if __name__ == "__main__":
     print("正在進行分類...")
     parse_and_save(raw_content)
     print("處理完成！")
+                    organized[cat].append(f"{current_info}\n{line}")
+                    assigned = True
+                    break
+            if not assigned:
+                organized["其它"].append(f"{current_info}\n{line}")
+
+    # 寫入檔案
+    for cat, items in organized.items():
+        filename = f"{cat}.m3u"
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(f"{header}\n")
+            f.write("\n".join(items))
+    
+    # 同時產出一個合併但已分類的總表
+    with open("all.m3u", "w", encoding="utf-8") as f:
+        f.write(f"{header}\n")
+        for cat in organized:
+            f.write("\n".join(organized[cat]) + "\n")
+
+if __name__ == "__main__":
+    print("正在下載直播源...")
+    raw_content = download_m3u(M3U_URL)
+    print("正在進行分類...")
+    parse_and_save(raw_content)
+    print("處理完成！")
                 f.write(info + "\n" + link + "\n")
 
