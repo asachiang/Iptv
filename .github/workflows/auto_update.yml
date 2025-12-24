@@ -8,13 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - run: pip install requests
-      - run: python update_iptv.py
-      - run: |
+      - name: Install dependencies
+        run: pip install requests
+      - name: Debug Path
+        run: ls -R # 這行會幫我們列出所有檔案，確認 Python 檔在哪
+      - name: Run update script
+        run: python update_iptv.py
+      - name: Commit and Push
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add *.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "update" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update" && git push)
