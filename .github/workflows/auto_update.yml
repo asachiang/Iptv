@@ -1,21 +1,22 @@
-name: Auto Update IPTV List
-on:
-  schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch:
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-      - run: pip install requests
-      - run: python update_iptv.py
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add international_tv.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update International TV List" && git push)
+      # ...前面的下載步驟保持不變...
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Filter Bad Links
+        run: python update_iptv.py  # 執行過濾腳本
+
+      - name: Commit and Push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
           git add *.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update International TV" && git push)
+          git diff --cached --quiet || (git commit -m "Auto sync and filtered" && git push)
