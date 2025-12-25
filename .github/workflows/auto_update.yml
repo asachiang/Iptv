@@ -1,6 +1,21 @@
+name: Auto Update IPTV List
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: pip install requests
+      - run: python update_iptv.py
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add international_tv.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update International TV List" && git push)
+          git add 4gtv.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync original" && git push)
