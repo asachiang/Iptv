@@ -17,5 +17,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add 4gtv.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync original" && git push)
+          git add *.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update International TV" && git push)
