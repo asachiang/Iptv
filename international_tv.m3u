@@ -27,14 +27,10 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
 #EXTINF:-1 group-title="香港" tvg-id="PetClubTV.hk@SD" tvg-logo="https://i.imgur.com/ykPNNwQ.png" ,Pet Club TV (1080p)
 https://petclub-samsungaus.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="香港" tvg-id="RTHKTV31.hk@SD" tvg-logo="https://i.imgur.com/kf818kM.png" ,RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 group-title="泰國" tvg-id="13SiamThai.th@SD" tvg-logo="https://i.imgur.com/FvEp1S2.png" ,13 Siam Thai (1080p)
 https://live.x2.co.th/live/13livetv-th.m3u8
 #EXTINF:-1 group-title="泰國" tvg-id="ALTV.th@SD" tvg-logo="https://i.imgur.com/MCbCSWv.png" ,ALTV (1080p)
 https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8
-#EXTINF:-1 group-title="泰國" tvg-id="News1.th@SD" tvg-logo="" ,ASTV News 1 (720p) [Not 24/7]
-http://news1.live14.com/stream/news1.m3u8
 #EXTINF:-1 group-title="泰國" tvg-id="BoonniyomTV.th@SD" tvg-logo="https://i.imgur.com/KvdFCD5.png" ,Boonniyom TV
 https://live.x2.co.th/live/bntv.m3u8
 #EXTINF:-1 group-title="泰國" tvg-id="Channel5.th@SD" tvg-logo="https://i.imgur.com/wOIaqg7.png" ,Channel 5 (1080p)
