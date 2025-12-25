@@ -4,7 +4,7 @@ import re
 def run():
     url = "https://jody.im5k.fun/4gtv.m3u"
     # 您指定的排序順序
-    PREFERRED_ORDER = ["台灣", "新聞", "綜合", "體育", "電影", "戲劇", "兒童", "其他"]
+    PREFERRED_ORDER = ["台灣新闻", "财经新聞", "綜合", "體育", "電影", "戲劇", "兒童", "其他"]
     
     try:
         r = requests.get(url, timeout=30)
