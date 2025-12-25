@@ -1,4 +1,16 @@
 import requests
+
+def is_alive(url):
+    try:
+        # 只抓取頭部資訊，不下載影片，測試是否通暢
+        r = requests.head(url, timeout=3, allow_redirects=True)
+        return r.status_code == 200
+    except:
+        return False
+
+# 在寫入檔案前，先用 is_alive(link) 過濾一遍
+
+mport requests
 import re
 
 def run():
