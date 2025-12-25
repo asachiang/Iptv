@@ -1,39 +1,50 @@
 import requests
+import re
 
-SOURCE_URL = "https://jody.im5k.fun/4gtv.m3u"
-OUTPUT_FILE = "4gtv_sorted.m3u"
+def run():
+    url = "https://jody.im5k.fun/4gtv.m3u"
+    order = ["台灣", "新聞", "綜合", "體育", "電影", "戲劇", "兒童", "其他"]
+    
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        content = r.text
+        
+        # 將頻道解析成 (group_name, channel_block) 的格式
+        channels = []
+        blocks = re.split(r'(?=#EXTINF)', content)
+        header = blocks[0] if not blocks[0].startswith('#EXTINF') else "#EXTM3U\n"
+        
+        groups = {name: [] for name in order}
+        
+        for block in blocks:
+            if not block.strip() or block.startswith('#EXTM3U'):
+                continue
+            
+            # 嘗試從 group-title="..." 或 #EXTGRP: 提取分類
+            group_match = re.search(r'group-title="([^"]+)"', block)
+            if not group_match:
+                group_match = re.search(r'#EXTGRP:(.+)', block)
+            
+            group_name = group_match.group(1) if group_match else "其他"
+            
+            # 匹配到預設排序中，若無則歸類為「其他」
+            target_group = group_name if group_name in groups else "其他"
+            groups[target_group].append(block.strip())
 
-# =========================
-# 分類關鍵字（可自行調整）
-# =========================
-NEWS = [
-    "新聞", "TVBS", "鏡電視", "年代", "東森新聞", "民視新聞"
-]
+        # 按順序組合內容
+        with open("4gtv.m3u", "w", encoding="utf-8") as f:
+            f.write(header.strip() + "\n")
+            for name in order:
+                for channel in groups[name]:
+                    f.write(channel + "\n")
+                    
+        print("IPTV 列表已更新並按順序分類。")
+    except Exception as e:
+        print(f"發生錯誤: {e}")
 
-FINANCE = [
-    "財經", "iNEWS", "SBN"
-]
-
-GENERAL = [
-    "民視", "中視", "華視", "公視", "大愛", "三立", "八大", "緯來"
-]
-
-# =========================
-
-def download_m3u(url):
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    return r.text.splitlines()
-
-def parse_channels(lines):
-    channels = []
-    i = 0
-    while i < len(lines):
-        if lines[i].startswith("#EXTINF"):
-            info = lines[i]
-            url = lines[i + 1] if i + 1 < len(lines) else ""
-            channels.append((info, url))
-            i += 2
+if __name__ == "__main__":
+    run()
         else:
             i += 1
     return channels
