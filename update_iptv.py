@@ -1,39 +1,57 @@
 import requests
+import re
 
-SOURCE_URL = "https://jody.im5k.fun/4gtv.m3u"
-RAW_FILE = "4gtv.m3u"
-SORTED_FILE = "4gtv_sorted.m3u"
+def run():
+    url = "https://jody.im5k.fun/4gtv.m3u"
+    # 定義您要求的排序順序
+    PREFERRED_GROUP_ORDER = ["台灣", "新聞", "綜合", "體育", "電影", "戲劇", "兒童", "其他"]
+    
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        content = r.text
+        
+        # 建立分類容器
+        groups = {name: [] for name in PREFERRED_GROUP_ORDER}
+        
+        # 使用正則表達式切分每一個頻道區塊 (以 #EXTINF 開頭)
+        # 這裡會保留 #EXTM3U 標頭以外的所有頻道資訊
+        blocks = re.split(r'(?=#EXTINF)', content)
+        header = "#EXTM3U\n"
+        
+        for block in blocks:
+            block = block.strip()
+            if not block or block.startswith('#EXTM3U'):
+                continue
+            
+            # 提取分類名稱：先找 group-title，再找 #EXTGRP
+            group_name = "其他"
+            group_match = re.search(r'group-title="([^"]+)"', block)
+            if group_match:
+                group_name = group_match.group(1)
+            else:
+                extgrp_match = re.search(r'#EXTGRP:(.+)', block)
+                if extgrp_match:
+                    group_name = extgrp_match.group(1).strip()
+            
+            # 如果分類不在清單中，統一歸類到「其他」
+            target_key = group_name if group_name in groups else "其他"
+            groups[target_key].append(block)
 
-# =========================
-# 分類關鍵字設定
-# =========================
-NEWS = [
-    "新聞", "TVBS", "鏡電視", "年代"
-]
+        # 依照指定順序寫回檔案
+        with open("4gtv.m3u", "w", encoding="utf-8") as f:
+            f.write(header)
+            for group in PREFERRED_GROUP_ORDER:
+                for channel_data in groups[group]:
+                    f.write(channel_data + "\n")
+                    
+        print("成功：IPTV 列表已按指定分類排序完成。")
+        
+    except Exception as e:
+        print(f"執行出錯: {e}")
 
-FINANCE = [
-    "財經", "iNEWS", "SBN"
-]
-
-GENERAL = [
-    "民視", "中視", "華視", "公視", "大愛", "三立"
-]
-
-# =========================
-
-def download_m3u():
-    r = requests.get(SOURCE_URL, timeout=30)
-    r.raise_for_status()
-    with open(RAW_FILE, "w", encoding="utf-8") as f:
-        f.write(r.text)
-    return r.text.splitlines()
-
-def parse_channels(lines):
-    channels = []
-    i = 0
-    while i < len(lines):
-        if lines[i].startswith("#EXTINF"):
-            info = lines[i]
+if __name__ == "__main__":
+    run()
             url = lines[i + 1] if i + 1 < len(lines) else ""
             channels.append((info, url))
             i += 2
