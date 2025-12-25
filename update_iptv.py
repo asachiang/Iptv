@@ -1,4 +1,7 @@
 import requests
+import re
+
+import requests
 
 def is_alive(url):
     try:
@@ -8,10 +11,6 @@ def is_alive(url):
     except:
         return False
 
-# 在寫入檔案前，先用 is_alive(link) 過濾一遍
-
-mport requests
-import re
 
 def run():
     # 定義國家來源與關鍵字過濾（使用 IPTV-org 的分類連結最為穩定）
