@@ -1,24 +1,41 @@
-import re
+import requests
+import os
 
-with open('input.m3u', 'r', encoding='utf-8') as f:
-    lines = f.readlines()
+SOURCE_URL = "https://iptv-org.github.io/iptv/index.m3u"
+OUTPUT_DIR = "output"
 
-output_tw_news = []
-output_hk_sports = []
-current_info = None
+COUNTRIES = {
+    "TW": "taiwan.m3u",
+    "HK": "hongkong.m3u",
+    "TH": "thailand.m3u"
+}
 
-for line in lines:
-    if line.startswith('#EXTINF'):
-        current_info = line
-    elif line.strip() and not line.startswith('#'):
-        if 'tvg-country="TW"' in current_info and 'news' in current_info.lower():
-            output_tw_news.append(current_info + line)
-        if 'tvg-country="HK"' in current_info and 'sports' in current_info.lower():
-            output_hk_sports.append(current_info + line)
+def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 寫出檔案
-with open('tw_news.m3u', 'w', encoding='utf-8') as f:
-    f.write('#EXTM3U\n' + ''.join(output_tw_news))
+    print("Downloading source m3u...")
+    r = requests.get(SOURCE_URL, timeout=30)
+    r.raise_for_status()
+    lines = r.text.splitlines()
 
-with open('hk_sports.m3u', 'w', encoding='utf-8') as f:
-    f.write('#EXTM3U\n' + ''.join(output_hk_sports))
+    buffers = {c: ["#EXTM3U"] for c in COUNTRIES}
+
+    extinf = None
+    for line in lines:
+        if line.startswith("#EXTINF"):
+            extinf = line
+        elif line.startswith("http") and extinf:
+            for c in COUNTRIES:
+                if f'tvg-country="{c}"' in extinf:
+                    buffers[c].append(extinf)
+                    buffers[c].append(line)
+            extinf = None
+
+    for c, filename in COUNTRIES.items():
+        path = os.path.join(OUTPUT_DIR, filename)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("\n".join(buffers[c]))
+        print(f"Generated {path}")
+
+if __name__ == "__main__":
+    main()
