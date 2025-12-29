@@ -1,42 +1,60 @@
 import requests
 import os
 
-SOURCE_URL = "https://iptv-org.github.io/iptv/index.m3u"
+BASE = "https://iptv-org.github.io/iptv/countries/"
 OUTPUT_DIR = "output"
 
-RULES = {
-    "taiwan.m3u": ["tvg-country=\"TW\"", "Taiwan", "台灣", "台視", "中視", "民視"],
-    "hongkong.m3u": ["tvg-country=\"HK\"", "Hong Kong", "香港", "TVB", "翡翠"],
-    "thailand.m3u": ["tvg-country=\"TH\"", "Thailand", "泰國", "Thai"]
+COUNTRIES = {
+    "taiwan": "tw.m3u",
+    "hongkong": "hk.m3u",
+    "thailand": "th.m3u"
 }
+
+NEWS_KEYWORDS = [
+    "news", "新聞", "台視新聞", "中視新聞", "民視新聞",
+    "TVBS", "CNN", "BBC", "Bloomberg"
+]
+
+def download(url):
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return r.text.splitlines()
+
+def is_news(text):
+    text = text.lower()
+    return any(k.lower() in text for k in NEWS_KEYWORDS)
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    print("Downloading source m3u...")
-    r = requests.get(SOURCE_URL, timeout=30)
-    r.raise_for_status()
-    lines = r.text.splitlines()
+    for country, file in COUNTRIES.items():
+        print(f"Processing {country}")
+        lines = download(BASE + file)
 
-    outputs = {name: ["#EXTM3U"] for name in RULES}
+        news = ["#EXTM3U"]
+        other = ["#EXTM3U"]
 
-    extinf = ""
-    for line in lines:
-        if line.startswith("#EXTINF"):
-            extinf = line
-        elif line.startswith("http") and extinf:
-            text = extinf + line
-            for out, keywords in RULES.items():
-                if any(k.lower() in text.lower() for k in keywords):
-                    outputs[out].append(extinf)
-                    outputs[out].append(line)
-            extinf = ""
+        extinf = ""
+        for line in lines:
+            if line.startswith("#EXTINF"):
+                extinf = line
+            elif line.startswith("http") and extinf:
+                block = extinf + line
+                if is_news(block):
+                    news.extend([extinf, line])
+                else:
+                    other.extend([extinf, line])
+                extinf = ""
 
-    for name, content in outputs.items():
-        path = os.path.join(OUTPUT_DIR, name)
-        with open(path, "w", encoding="utf-8") as f:
-            f.write("\n".join(content))
-        print(f"Generated {path} ({len(content)//2} channels)")
+        with open(f"{OUTPUT_DIR}/{country}_news.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(news))
+
+        with open(f"{OUTPUT_DIR}/{country}_other.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(other))
+
+        print(
+            f"{country}: news={len(news)//2}, other={len(other)//2}"
+        )
 
 if __name__ == "__main__":
     main()
