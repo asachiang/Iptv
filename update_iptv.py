@@ -1,60 +1,86 @@
 import requests
 import os
+import time
 
 BASE = "https://iptv-org.github.io/iptv/countries/"
-OUTPUT_DIR = "output"
+OUTPUT = "output"
+TIMEOUT = 8
 
 COUNTRIES = {
-    "taiwan": "tw.m3u",
-    "hongkong": "hk.m3u",
-    "thailand": "th.m3u"
+    "taiwan": ["tw.m3u", "4gtv.m3u"],
+    "hongkong": ["hk.m3u"],
+    "thailand": ["th.m3u"]
 }
 
-NEWS_KEYWORDS = [
-    "news", "新聞", "台視新聞", "中視新聞", "民視新聞",
-    "TVBS", "CNN", "BBC", "Bloomberg"
-]
+NEWS_WIRELESS = ["台視", "中視", "華視", "公視"]
+NEWS_KEYWORDS = ["news", "新聞", "TVBS", "CNN", "BBC"]
+SPORTS_KEYWORDS = ["sport", "體育", "ESPN", "FOX", "ELEVEN", "DAZN"]
 
-def download(url):
+def fetch(url):
     r = requests.get(url, timeout=30)
     r.raise_for_status()
     return r.text.splitlines()
 
-def is_news(text):
-    text = text.lower()
-    return any(k.lower() in text for k in NEWS_KEYWORDS)
+def alive(url):
+    try:
+        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
+        return r.status_code < 400
+    except:
+        return False
+
+def classify(extinf, url):
+    text = (extinf + url).lower()
+
+    if any(k.lower() in text for k in SPORTS_KEYWORDS):
+        return "sports"
+
+    if any(k.lower() in text for k in NEWS_KEYWORDS):
+        if any(k in text for k in NEWS_WIRELESS):
+            return "news_wireless"
+        return "news"
+
+    return "other"
 
 def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(OUTPUT, exist_ok=True)
 
-    for country, file in COUNTRIES.items():
-        print(f"Processing {country}")
-        lines = download(BASE + file)
+    for country, sources in COUNTRIES.items():
+        buckets = {
+            "news_wireless": ["#EXTM3U"],
+            "news": ["#EXTM3U"],
+            "sports": ["#EXTM3U"],
+            "other": ["#EXTM3U"]
+        }
 
-        news = ["#EXTM3U"]
-        other = ["#EXTM3U"]
+        for src in sources:
+            print(f"{country}: loading {src}")
+            if src.startswith("http") or src.endswith(".m3u") and src != "4gtv.m3u":
+                lines = fetch(BASE + src) if src != "4gtv.m3u" else []
+            if src == "4gtv.m3u" and os.path.exists("4gtv.m3u"):
+                with open("4gtv.m3u", encoding="utf-8") as f:
+                    lines = f.read().splitlines()
 
-        extinf = ""
-        for line in lines:
-            if line.startswith("#EXTINF"):
-                extinf = line
-            elif line.startswith("http") and extinf:
-                block = extinf + line
-                if is_news(block):
-                    news.extend([extinf, line])
-                else:
-                    other.extend([extinf, line])
-                extinf = ""
+            extinf = ""
+            for line in lines:
+                if line.startswith("#EXTINF"):
+                    extinf = line
+                elif line.startswith("http") and extinf:
+                    if alive(line):
+                        cat = classify(extinf, line)
+                        buckets[cat].extend([extinf, line])
+                    extinf = ""
+                    time.sleep(0.2)
 
-        with open(f"{OUTPUT_DIR}/{country}_news.m3u", "w", encoding="utf-8") as f:
-            f.write("\n".join(news))
+        for cat, content in buckets.items():
+            if len(content) <= 1:
+                continue
 
-        with open(f"{OUTPUT_DIR}/{country}_other.m3u", "w", encoding="utf-8") as f:
-            f.write("\n".join(other))
+            name = f"{country}_{cat}.m3u".replace("_news_wireless", "_news_wireless")
+            path = os.path.join(OUTPUT, name)
+            with open(path, "w", encoding="utf-8") as f:
+                f.write("\n".join(content))
 
-        print(
-            f"{country}: news={len(news)//2}, other={len(other)//2}"
-        )
+            print(f"✓ {path} ({len(content)//2})")
 
 if __name__ == "__main__":
     main()
