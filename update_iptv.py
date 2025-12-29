@@ -1,86 +1,59 @@
 import requests
-import os
-import time
+import re
 
-BASE = "https://iptv-org.github.io/iptv/countries/"
-OUTPUT = "output"
-TIMEOUT = 8
-
-COUNTRIES = {
-    "taiwan": ["tw.m3u", "4gtv.m3u"],
-    "hongkong": ["hk.m3u"],
-    "thailand": ["th.m3u"]
-}
-
-NEWS_WIRELESS = ["台視", "中視", "華視", "公視"]
-NEWS_KEYWORDS = ["news", "新聞", "TVBS", "CNN", "BBC"]
-SPORTS_KEYWORDS = ["sport", "體育", "ESPN", "FOX", "ELEVEN", "DAZN"]
-
-def fetch(url):
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    return r.text.splitlines()
-
-def alive(url):
+def run():
+    url = "https://jody.im5k.fun/4gtv.m3u"
+    # 您要求的嚴格排序順序
+    PREFERRED_ORDER = ["財經新聞", "新聞", "綜合", "戲劇、電影", "電影", "戲劇", "兒童", "其他"]
+    
     try:
-        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        return r.status_code < 400
-    except:
-        return False
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        r.encoding = 'utf-8'
+        lines = r.text.splitlines()
 
-def classify(extinf, url):
-    text = (extinf + url).lower()
+        # 初始化分類容器
+        groups = {name: [] for name in PREFERRED_ORDER}
+        header = "#EXTM3U"
 
-    if any(k.lower() in text for k in SPORTS_KEYWORDS):
-        return "sports"
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            if line.startswith("#EXTINF"):
+                info_line = line
+                # 取得下一行 URL
+                url_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
+                
+                # 提取 group-title 分類
+                group_match = re.search(r'group-title="([^"]+)"', info_line)
+                detected_group = group_match.group(1) if group_match else "其他"
+                
+                # 比對是否在您的排序名單中
+                found_key = "其他"
+                for order_name in PREFERRED_ORDER:
+                    if order_name in detected_group:
+                        found_key = order_name
+                        break
+                
+                groups[found_key].append(f"{info_line}\n{url_line}")
+                i += 2
+            else:
+                if line.startswith("#EXTM3U"):
+                    header = line
+                i += 1
 
-    if any(k.lower() in text for k in NEWS_KEYWORDS):
-        if any(k in text for k in NEWS_WIRELESS):
-            return "news_wireless"
-        return "news"
+        # 一次性寫入存檔：嚴格按照 PREFERRED_ORDER 順序
+        with open("4gtv.m3u", "w", encoding="utf-8") as f:
+            f.write(header + "\n")
+            for category in PREFERRED_ORDER:
+                for entry in groups[category]:
+                    f.write(entry + "\n")
+                    
+        print(f"成功：已按順序分類並存檔。")
 
-    return "other"
-
-def main():
-    os.makedirs(OUTPUT, exist_ok=True)
-
-    for country, sources in COUNTRIES.items():
-        buckets = {
-            "news_wireless": ["#EXTM3U"],
-            "news": ["#EXTM3U"],
-            "sports": ["#EXTM3U"],
-            "other": ["#EXTM3U"]
-        }
-
-        for src in sources:
-            print(f"{country}: loading {src}")
-            if src.startswith("http") or src.endswith(".m3u") and src != "4gtv.m3u":
-                lines = fetch(BASE + src) if src != "4gtv.m3u" else []
-            if src == "4gtv.m3u" and os.path.exists("4gtv.m3u"):
-                with open("4gtv.m3u", encoding="utf-8") as f:
-                    lines = f.read().splitlines()
-
-            extinf = ""
-            for line in lines:
-                if line.startswith("#EXTINF"):
-                    extinf = line
-                elif line.startswith("http") and extinf:
-                    if alive(line):
-                        cat = classify(extinf, line)
-                        buckets[cat].extend([extinf, line])
-                    extinf = ""
-                    time.sleep(0.2)
-
-        for cat, content in buckets.items():
-            if len(content) <= 1:
-                continue
-
-            name = f"{country}_{cat}.m3u".replace("_news_wireless", "_news_wireless")
-            path = os.path.join(OUTPUT, name)
-            with open(path, "w", encoding="utf-8") as f:
-                f.write("\n".join(content))
-
-            print(f"✓ {path} ({len(content)//2})")
+    except Exception as e:
+        print(f"執行出錯: {e}")
 
 if __name__ == "__main__":
-    main()
+    run()
+
