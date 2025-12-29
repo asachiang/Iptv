@@ -1,21 +1,29 @@
-name: Auto Update IPTV List
+name: Update IPTV
+
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "0 2 * * *"
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.10"
+
       - run: pip install requests
+
       - run: python update_iptv.py
-      - name: Commit and Push
+
+      - name: Commit files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add 4gtv.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sort and sync IPTV" && git push)
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add output/*.m3u
+          git commit -m "Auto update IPTV" || echo "No changes"
+          git push
