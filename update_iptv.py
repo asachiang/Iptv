@@ -20,6 +20,14 @@ def run():
         "兒童", "其他"
     ]
 
+     smart_file =  “smart.m3u”
+     COUNTRY_ORDER = [
+    "gpt-台湾",
+    "gpt-香港",
+    "gpt-泰国",
+    "gpt-日本",
+    "gpt-其他"
+]
     try:
         # ========= 1️⃣ 抓取 4GTV =========
         lines = fetch_m3u(URL_4GTV)
