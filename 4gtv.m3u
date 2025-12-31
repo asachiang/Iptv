@@ -1,4 +1,28 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="https://logo.catvod.com/TVBS新聞.png" group-title="YOUTUBE油管新聞",TVBS新聞
+https://www.youtube.com/watch?v=m_dhMSvUCIc
+#EXTINF:-1 tvg-name="東森新聞" tvg-logo="https://logo.catvod.com/東森新聞.png" group-title="YOUTUBE油管新聞",東森新聞
+https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
+#EXTINF:-1 tvg-name="中天新聞" tvg-logo="https://logo.catvod.com/中天新聞.png" group-title="YOUTUBE油管新聞",中天新聞
+https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
+#EXTINF:-1 tvg-name="三立新聞" tvg-logo="https://logo.catvod.com/三立新聞.png" group-title="YOUTUBE油管新聞",三立新聞
+https://www.youtube.com/live/VqkrkP_k-nc?si=Goo84iTb0nBqAjJR
+#EXTINF:-1 tvg-name="華視新聞" tvg-logo="https://logo.catvod.com/華視新聞.png" group-title="YOUTUBE油管新聞",華視新聞
+https://www.youtube.com/watch?v=wM0g8EoUZ_E
+#EXTINF:-1 tvg-name="中視新聞" tvg-logo="https://logo.catvod.com/中視新聞.png" group-title="YOUTUBE油管新聞",中視新聞
+https://www.youtube.com/watch?v=TCnaIE_SAtM
+#EXTINF:-1 tvg-name="台視新聞" tvg-logo="https://logo.catvod.com/台視新聞.png" group-title="YOUTUBE油管新聞",台視新聞
+https://www.youtube.com/watch?v=xL0ch83RAK8
+#EXTINF:-1 tvg-name="寰宇新聞" tvg-logo="https://logo.catvod.com/寰宇新聞.png" group-title="YOUTUBE油管新聞",寰宇新聞
+https://www.youtube.com/watch?v=6IquAgfvYmc
+#EXTINF:-1 tvg-name="寰宇台灣" tvg-logo="https://logo.catvod.com/寰宇台灣.png" group-title="YOUTUBE油管新聞",寰宇台灣
+https://www.youtube.com/watch?v=w87VGpgd90U
+#EXTINF:-1 tvg-name="鏡新聞" tvg-logo="https://logo.catvod.com/鏡新聞.png" group-title="YOUTUBE油管新聞",鏡新聞
+https://www.youtube.com/watch?v=5n0y6b0Q25o
+#EXTINF:-1 tvg-name="民視新聞" tvg-logo="https://logo.catvod.com/民視新聞.png" group-title="YOUTUBE油管新聞",民視新聞
+https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1 tvg-name="公視新聞" tvg-logo="https://logo.catvod.com/公視新聞.png" group-title="YOUTUBE油管新聞",公視新聞
+https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
 #EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv075_mobile.png" group-title="新聞財經",鏡電視新聞台
 https://4gtvmobile-mozai.4gtv.tv/TFyjADjrIKUf_lwqiFV4I0Dz4SnNjTXTsoz84S7T96w%3d/index.m3u8?token=FrVwJ-6sh3Y7SeauHBo4Bg&expires=1767161091&token1=73Bofkxv-esGPPmfmxe0pA&expires1=1767161091&refer=MmRlNmU1OTgtMzJkNy00MzE0LTk5YmMtMDViZjcwNjNkNWY3&y=0
 #EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-ftv14_mobile.png" group-title="新聞財經",東森新聞台
@@ -407,27 +431,3 @@ https://4gtvmobile-mozai.4gtv.tv/Jsm-owzgeKP3ommDPkV4cLexfCSsSky9qQ9JgjqjRIKFcUG
 https://4gtvmobile-mozai.4gtv.tv/hJgUmFAQA6GQcuA7ackjckLpgfreCG3yi4dY0mesEg9rx5q8IyoawDoLt9-5nsi3/index.m3u8?token=p7p7SUBS-1VSfJpvNNNaxQ&expires=1767162411&token1=SWmkMA3qvXHXjxPBUljeFw&expires1=1767191211&refer=MzA4NmM1OTYtMWYwMC00YzUwLTk4N2MtZjkxZWZjYWEwZTU2&y=2021
 #EXTINF:-1 tvg-id="東離劍遊紀-FastTV飛速看" tvg-name="東離劍遊紀-FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/FastTV飛速看-主題推薦(PILI).png" group-title="FastTV飛速看",東離劍遊紀-FastTV飛速看
 https://4gtvmobile-mozai.4gtv.tv/AdTwt6cHYth-0xcO1T_cPtZjwmTb3e5oIfQxgbtBhRNvFzQJ_7UeAfqCsUVPa8a972TvmwkMOqcAbo_7sGYQ2Q%3d%3d/index.m3u8?token=KfJyPdkkFxtHJ2JMpTPJ9g&expires=1767162419&token1=iKOpbKU3daQCqCNDB3LPbw&expires1=1767191219&refer=MDcxMzNlNmUtN2Q1NS00NTZkLThlYTEtOGQ0OWE5NzgyYzgw&y=2024
-#EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="https://logo.catvod.com/TVBS新聞.png" group-title="YOUTUBE油管新聞",TVBS新聞
-https://www.youtube.com/watch?v=m_dhMSvUCIc
-#EXTINF:-1 tvg-name="東森新聞" tvg-logo="https://logo.catvod.com/東森新聞.png" group-title="YOUTUBE油管新聞",東森新聞
-https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
-#EXTINF:-1 tvg-name="中天新聞" tvg-logo="https://logo.catvod.com/中天新聞.png" group-title="YOUTUBE油管新聞",中天新聞
-https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
-#EXTINF:-1 tvg-name="三立新聞" tvg-logo="https://logo.catvod.com/三立新聞.png" group-title="YOUTUBE油管新聞",三立新聞
-https://www.youtube.com/live/VqkrkP_k-nc?si=Goo84iTb0nBqAjJR
-#EXTINF:-1 tvg-name="華視新聞" tvg-logo="https://logo.catvod.com/華視新聞.png" group-title="YOUTUBE油管新聞",華視新聞
-https://www.youtube.com/watch?v=wM0g8EoUZ_E
-#EXTINF:-1 tvg-name="中視新聞" tvg-logo="https://logo.catvod.com/中視新聞.png" group-title="YOUTUBE油管新聞",中視新聞
-https://www.youtube.com/watch?v=TCnaIE_SAtM
-#EXTINF:-1 tvg-name="台視新聞" tvg-logo="https://logo.catvod.com/台視新聞.png" group-title="YOUTUBE油管新聞",台視新聞
-https://www.youtube.com/watch?v=xL0ch83RAK8
-#EXTINF:-1 tvg-name="寰宇新聞" tvg-logo="https://logo.catvod.com/寰宇新聞.png" group-title="YOUTUBE油管新聞",寰宇新聞
-https://www.youtube.com/watch?v=6IquAgfvYmc
-#EXTINF:-1 tvg-name="寰宇台灣" tvg-logo="https://logo.catvod.com/寰宇台灣.png" group-title="YOUTUBE油管新聞",寰宇台灣
-https://www.youtube.com/watch?v=w87VGpgd90U
-#EXTINF:-1 tvg-name="鏡新聞" tvg-logo="https://logo.catvod.com/鏡新聞.png" group-title="YOUTUBE油管新聞",鏡新聞
-https://www.youtube.com/watch?v=5n0y6b0Q25o
-#EXTINF:-1 tvg-name="民視新聞" tvg-logo="https://logo.catvod.com/民視新聞.png" group-title="YOUTUBE油管新聞",民視新聞
-https://www.youtube.com/watch?v=ylYJSBUgaMA
-#EXTINF:-1 tvg-name="公視新聞" tvg-logo="https://logo.catvod.com/公視新聞.png" group-title="YOUTUBE油管新聞",公視新聞
-https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
