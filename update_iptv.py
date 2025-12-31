@@ -65,25 +65,32 @@ def run():
                 i += 2
             else: i += 1
 
-        # ========= 4️⃣ 寫入 4gtv.m3u (在這裡調整順序) =========
+                # ========= 4️⃣ 寫入 4gtv.m3u (自定義精細順序) =========
         with open("4gtv.m3u", "w", encoding="utf-8") as f:
             f.write(header + "\n")
 
             # [順位 1] YouTube 新聞
-            for line in youtube_content: f.write(line + "\n")
+            for line in youtube_content: 
+                f.write(line + "\n")
 
-            # [順位 2] 台灣 (如果你想改順序，就把這兩行跟下面交換)
+            # [順位 2] 4GTV 的「新聞」與「財經新聞」
+            # 這樣這兩類就會排在最前面
+            for cat in ["新聞", "財經新聞", "綜合"]:
+                if cat in groups:
+                    for entry in groups[cat]:
+                        f.write(entry + "\n")
+
+            # [順位 3] GPT 系列 (台、港、泰)
             for entry in smart_tw: f.write(entry + "\n")
-
-            # [順位 3] 香港
             for entry in smart_hk: f.write(entry + "\n")
-
-            # [順位 4] 泰國
             for entry in smart_th: f.write(entry + "\n")
 
-            # [順位 5] 4GTV 各類頻道
+            # [順位 4] 剩餘的 4GTV 分類
+            # 我們要避開剛才已經寫過的新聞、財經和綜合
             for cat in PREFERRED_ORDER:
-                for entry in groups[cat]: f.write(entry + "\n")
+                if cat not in ["新聞", "財經新聞", "綜合"]:
+                    for entry in groups[cat]:
+                        f.write(entry + "\n")
 
         print("✅ 成功：已按 台灣 > 香港 > 泰國 順序更新合併檔")
 
