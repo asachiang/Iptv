@@ -3,82 +3,83 @@ import re
 import os
 
 def run():
-    # 定義多個來源網址
-    urls = [
-        "https://jody.im5k.fun/4gtv.m3u",
-        "https://jody.im5k.fun/smart.m3u"  # 新加入的來源
-    ]
-    
+    url = "https://jody.im5k.fun/4gtv.m3u"
+    # 本地 YouTube/GPT 檔案名稱
     youtube_file = "youtube 新聞.m3u"
-    PREFERRED_ORDER = ["財經新聞", "新聞", "綜合", "泰国、新聞", "電影", "戲劇", "兒童", "其他"]
+    # 定義 4GTV 的排序順序
+    PREFERRED_ORDER = ["財經新聞", "新聞", "綜合", "戲劇、電影", "電影", "戲劇", "兒童", "其他"]
     
-    # 初始化分類容器
-    groups = {name: [] for name in PREFERRED_ORDER}
-    header = "#EXTM3U"
-
     try:
-        # 1. 循環抓取所有網路 M3U 列表
-        for url in urls:
-            print(f"正在抓取: {url}...")
-            try:
-                r = requests.get(url, timeout=30)
-                r.raise_for_status()
-                r.encoding = 'utf-8'
-                lines = r.text.splitlines()
+        # 1. 抓取網路 4GTV 列表並分類
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        r.encoding = 'utf-8'
+        lines = r.text.splitlines()
 
-                i = 0
-                while i < len(lines):
-                    line = lines[i].strip()
-                    if line.startswith("#EXTINF"):
-                        info_line = line
-                        url_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
-                        
-                        # 提取分類標籤
-                        group_match = re.search(r'group-title="([^"]+)"', info_line)
-                        detected_group = group_match.group(1) if group_match else "其他"
-                        
-                        # 比對優先排序順序
-                        found_key = "其他"
-                        for order_name in PREFERRED_ORDER:
-                            if order_name in detected_group:
-                                found_key = order_name
-                                break
-                        
-                        groups[found_key].append(f"{info_line}\n{url_line}")
-                        i += 2
-                    else:
-                        if line.startswith("#EXTM3U"):
-                            header = line
-                        i += 1
-            except Exception as url_e:
-                print(f"抓取 {url} 失敗: {url_e}")
+        groups = {name: [] for name in PREFERRED_ORDER}
+        header = "#EXTM3U"
 
-        # 2. 讀取本地 YouTube 新聞內容
-        youtube_content = []
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            if line.startswith("#EXTINF"):
+                info_line = line
+                url_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
+                group_match = re.search(r'group-title="([^"]+)"', info_line)
+                detected_group = group_match.group(1) if group_match else "其他"
+                found_key = "其他"
+                for order_name in PREFERRED_ORDER:
+                    if order_name in detected_group:
+                        found_key = order_name
+                        break
+                groups[found_key].append(f"{info_line}\n{url_line}")
+                i += 2
+            else:
+                if line.startswith("#EXTM3U"):
+                    header = line
+                i += 1
+
+        # 2. 讀取本地檔案，並將「GPT-泰國」與其他內容分開
+        gpt_thai_content = []
+        other_youtube_content = []
+        
         if os.path.exists(youtube_file):
             with open(youtube_file, "r", encoding="utf-8") as yf:
-                y_lines = yf.readlines()
-                # 排除第一行標頭，只取頻道內容
-                for y_line in y_lines:
-                    if not y_line.startswith("#EXTM3U") and y_line.strip():
-                        youtube_content.append(y_line.strip())
+                content = yf.read()
+                # 使用正則表達式拆分每一個頻道項目
+                entries = re.findall(r'(#EXTINF:.*?\nhttp.*)', content, re.MULTILINE)
+                for entry in entries:
+                    if "GPT-泰國" in entry:
+                        gpt_thai_content.append(entry)
+                    else:
+                        other_youtube_content.append(entry)
         else:
-            print(f"警告：找不到 {youtube_file}，將跳過此部分。")
+            print(f"警告：找不到 {youtube_file}")
 
-        # 3. 寫入最終檔案
+        # 3. 按順序組合並寫入 4gtv.m3u
         with open("4gtv.m3u", "w", encoding="utf-8") as f:
             f.write(header + "\n")
             
-            # 首先寫入置頂的 YouTube 內容
-            for yt_line in youtube_content:
-                f.write(yt_line + "\n")
+            # 位置 1: 財經新聞
+            for entry in groups["財經新聞"]: f.write(entry + "\n")
+            # 位置 2: 新聞
+            for entry in groups["新聞"]: f.write(entry + "\n")
+            # 位置 3: 綜合
+            for entry in groups["綜合"]: f.write(entry + "\n")
             
-            # 接著按自定義順序寫入合併後的 4GTV 與 Smart 分類內容
-            for category in PREFERRED_ORDER:
-                for entry in groups[category]:
-                    f.write(entry + "\n")
+            # 位置 4: [插入點] 寫入 GPT-泰國
+            for entry in gpt_thai_content:
+                f.write(entry + "\n")
+            
+            # 位置 5 之後: 寫入剩餘的 4GTV 分類與其他 YouTube 頻道
+            remaining_categories = ["戲劇、電影", "電影", "戲劇", "兒童", "其他"]
+            for cat in remaining_categories:
+                for entry in groups[cat]: f.write(entry + "\n")
+            
+            for entry in other_youtube_content:
+                f.write(entry + "\n")
                     
-        print(f"成功：已整合 4GTV 與 Smart 列表，並完成分類存檔。")
+        print(f"成功：已將『GPT-泰國』移動至第四個分類位置。")
 
     except Exception as e:
         print(f"執行出錯: {e}")
