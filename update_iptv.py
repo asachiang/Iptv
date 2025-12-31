@@ -61,13 +61,17 @@ def run():
                         youtube_content.append(line.strip())
 
         # ========= 3️⃣ 抓取 smart.m3u 並進行過濾 =========
+          # ========= 3️⃣ 抓取 smart.m3u 並進行過濾 =========
         smart_lines = fetch_m3u(URL_SMART)
         
-        # 【修改】這裡同時做兩件事：1.存成原始檔，2.篩選後準備合併
-        # 儲存原始檔案到你的 GitHub
+        # 儲存原始檔案到你的網下 (GitHub)
         with open("smart.m3u", "w", encoding="utf-8") as sf:
             sf.write("\n".join(smart_lines))
         
+        # 【精準過濾】使用原始檔案中的簡體字標籤
+        # 或者是包含 GPT- 關鍵字來進行更廣泛的抓取
+        SMART_FILTER = ["GPT-台湾", "GPT-台灣", "GPT-香港", "GPT-泰国", "GPT-泰國"]
+
         filtered_smart_content = []
         i = 0
         while i < len(smart_lines):
@@ -76,12 +80,13 @@ def run():
                 info = line
                 url_line = smart_lines[i + 1].strip() if i + 1 < len(smart_lines) else ""
                 
-                # 【關鍵】檢查這一行是否包含 台灣、香港 或 泰國
+                # 檢查是否匹配清單中的關鍵字
                 if any(keyword in info for keyword in SMART_FILTER):
                     filtered_smart_content.append(f"{info}\n{url_line}")
                 i += 2
             else:
                 i += 1
+
 
         # ========= 4️⃣ 寫入最終合併的 4gtv.m3u =========
         with open("4gtv.m3u", "w", encoding="utf-8") as f:
