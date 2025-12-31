@@ -67,6 +67,7 @@ def run():
                         youtube_content.append(line.strip())
 
         # ========= 3️⃣ 處理 smart.m3u（重新排序） =========
+  # ========= 3️⃣ 處理 smart.m3u（重新排序，修正版） =========
         smart_groups = {k: [] for k in SMART_ORDER}
         smart_lines = fetch_m3u(URL_SMART)
 
@@ -76,6 +77,20 @@ def run():
             if line.startswith("#EXTINF"):
                 info = line
                 url_line = smart_lines[i + 1].strip() if i + 1 < len(smart_lines) else ""
+
+                match = re.search(r'group-title="([^"]+)"', info)
+                group = match.group(1) if match else ""
+
+                key = "gpt-其他"
+                for k in SMART_ORDER:
+                    if k in group:
+                        key = k
+                        break
+
+                smart_groups[key].append(f"{info}\n{url_line}")
+                i += 2
+            else:
+                i += 1 ""
 
                 match = re.search(r'group-title="([^"]+)"', info)
                 group = match.group(1) if match else "gpt-其他"
