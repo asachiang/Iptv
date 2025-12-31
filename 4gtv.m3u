@@ -23,32 +23,6 @@ https://www.youtube.com/watch?v=5n0y6b0Q25o
 https://www.youtube.com/watch?v=ylYJSBUgaMA
 #EXTINF:-1 tvg-name="公視新聞" tvg-logo="https://logo.catvod.com/公視新聞.png" group-title="YOUTUBE油管新聞",公視新聞
 https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="GPT-香港",翡翠台
-https://live.catvod.com/live.php?id=jade_twn
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="GPT-香港",翡翠台
-https://live.catvod.com/live.php?id=Jade_xue
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="" group-title="GPT-香港",明珠台
-https://live.catvod.com/live.php?id=pearl_twn
-#EXTINF:-1 tvg-id="无线新闻" tvg-name="无线新闻" tvg-logo="" group-title="GPT-香港",无线新闻
-https://live.catvod.com/live.php?id=inews_twn
-#EXTINF:-1 tvg-id="TVBPLUS" tvg-name="TVBPLUS" tvg-logo="" group-title="GPT-香港",TVBPLUS
-https://live.catvod.com/live.php?id=j2_twn
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="" group-title="GPT-香港",ViuTV
-https://live.catvod.com/live.php?id=viu1_twn
-#EXTINF:-1 tvg-id="ViuTV 6" tvg-name="ViuTV 6" tvg-logo="" group-title="GPT-香港",ViuTV 6
-https://live.catvod.com/live.php?id=viusix_twn
-#EXTINF:-1 tvg-id="RTHK 31" tvg-name="RTHK 31" tvg-logo="" group-title="GPT-香港",RTHK 31
-https://live.catvod.com/live.php?id=rhk31_twn
-#EXTINF:-1 tvg-id="RTHK 32" tvg-name="RTHK 32" tvg-logo="" group-title="GPT-香港",RTHK 32
-https://live.catvod.com/live.php?id=rhk32_twn
-#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="" group-title="GPT-香港",HOY TV
-https://live.catvod.com/live.php?id=hoycaijing_twn
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="" group-title="GPT-香港",凤凰中文
-https://live.catvod.com/live.php?id=phoenixtv_hd
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="" group-title="GPT-香港",凤凰资讯
-https://live.catvod.com/live.php?id=phoenixinfo_hd
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="" group-title="GPT-香港",凤凰香港
-https://live.catvod.com/live.php?id=hkphoenix_twn
 #EXTINF:-1 tvg-id="台视 HD" tvg-name="台视 HD" tvg-logo="" group-title="GPT-台湾",台视 HD
 https://live.catvod.com/live.php?id=ttv_taiwan
 #EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="" group-title="GPT-台湾",台视新闻
@@ -219,6 +193,32 @@ https://live.catvod.com/live.php?id=bositennis_twn
 https://live.catvod.com/live.php?id=bosiunlimited_twn
 #EXTINF:-1 tvg-id="好消息 2" tvg-name="好消息 2" tvg-logo="" group-title="GPT-台湾",好消息 2
 https://live.catvod.com/live.php?id=good2_twn
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="GPT-香港",翡翠台
+https://live.catvod.com/live.php?id=jade_twn
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="GPT-香港",翡翠台
+https://live.catvod.com/live.php?id=Jade_xue
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="" group-title="GPT-香港",明珠台
+https://live.catvod.com/live.php?id=pearl_twn
+#EXTINF:-1 tvg-id="无线新闻" tvg-name="无线新闻" tvg-logo="" group-title="GPT-香港",无线新闻
+https://live.catvod.com/live.php?id=inews_twn
+#EXTINF:-1 tvg-id="TVBPLUS" tvg-name="TVBPLUS" tvg-logo="" group-title="GPT-香港",TVBPLUS
+https://live.catvod.com/live.php?id=j2_twn
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="" group-title="GPT-香港",ViuTV
+https://live.catvod.com/live.php?id=viu1_twn
+#EXTINF:-1 tvg-id="ViuTV 6" tvg-name="ViuTV 6" tvg-logo="" group-title="GPT-香港",ViuTV 6
+https://live.catvod.com/live.php?id=viusix_twn
+#EXTINF:-1 tvg-id="RTHK 31" tvg-name="RTHK 31" tvg-logo="" group-title="GPT-香港",RTHK 31
+https://live.catvod.com/live.php?id=rhk31_twn
+#EXTINF:-1 tvg-id="RTHK 32" tvg-name="RTHK 32" tvg-logo="" group-title="GPT-香港",RTHK 32
+https://live.catvod.com/live.php?id=rhk32_twn
+#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="" group-title="GPT-香港",HOY TV
+https://live.catvod.com/live.php?id=hoycaijing_twn
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="" group-title="GPT-香港",凤凰中文
+https://live.catvod.com/live.php?id=phoenixtv_hd
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="" group-title="GPT-香港",凤凰资讯
+https://live.catvod.com/live.php?id=phoenixinfo_hd
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="" group-title="GPT-香港",凤凰香港
+https://live.catvod.com/live.php?id=hkphoenix_twn
 #EXTINF:-1 tvg-id="Channel 3 Thailand" tvg-name="Channel 3 Thailand" tvg-logo="" group-title="GPT-泰国",Channel 3 Thailand
 https://live.catvod.com/live.php?id=ch3_pat
 #EXTINF:-1 tvg-id="Channel 5 Thailand" tvg-name="Channel 5 Thailand" tvg-logo="" group-title="GPT-泰国",Channel 5 Thailand
