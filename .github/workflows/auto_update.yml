@@ -17,5 +17,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add 4gtv.m3u
+          # 使用 git add . 會把腳本產生的所有新檔案都抓進去
+          git add .
           git diff --quiet && git diff --staged --quiet || (git commit -m "Sort and sync IPTV" && git push)
