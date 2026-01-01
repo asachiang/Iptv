@@ -10,24 +10,28 @@ def fetch_m3u(url):
     return r.text.splitlines()
 
 def run():
+    # 只保留 4GTV 來源
     URL_4GTV = "https://jody.im5k.fun/4gtv.m3u"
-    URL_SMART = "https://jody.im5k.fun/smart.m3u"
     youtube_file = "youtube 新聞.m3u"
     
+    # 4GTV 分類排序清單
     PREFERRED_ORDER = ["新聞", "財經新聞", "綜合", "戲劇、電影", "電影", "戲劇", "兒童", "其他"]
 
     try:
-        # ========= 1️⃣ 處理 4GTV 分類 =========
+        # ========= 1️⃣ 處理 4GTV 內容並分類 =========
         lines = fetch_m3u(URL_4GTV)
         groups = {name: [] for name in PREFERRED_ORDER}
         header = "#EXTM3U"
+        
         i = 0
         while i < len(lines):
             line = lines[i].strip()
             if line.startswith("#EXTINF"):
-                info, url_line = line, (lines[i+1].strip() if i+1 < len(lines) else "")
+                info = line
+                url_line = lines[i+1].strip() if i+1 < len(lines) else ""
                 match = re.search(r'group-title="([^"]+)"', info)
                 detected = match.group(1) if match else "其他"
+                # 判斷屬於哪個分類
                 key = next((k for k in PREFERRED_ORDER if k in detected), "其他")
                 groups[key].append(f"{info}\n{url_line}")
                 i += 2
@@ -35,35 +39,29 @@ def run():
                 if line.startswith("#EXTM3U"): header = line
                 i += 1
 
-        # ========= 2️⃣ 讀取 YouTube 新聞 =========
+        # ========= 2️⃣ 讀取本地 YouTube 新聞 =========
         youtube_content = []
         if os.path.exists(youtube_file):
             with open(youtube_file, "r", encoding="utf-8") as yf:
                 youtube_content = [line.strip() for line in yf if not line.startswith("#EXTM3U") and line.strip()]
 
-        
-
-        # ========= 4️⃣ 寫入合併後的 4gtv.m3u =========
+        # ========= 3️⃣ 寫入最終 4gtv.m3u (回歸最穩定的排序) =========
         with open("4gtv.m3u", "w", encoding="utf-8") as f:
             f.write(header + "\n")
-            # 1. YouTube
-            for line in youtube_content: f.write(line + "\n")
-            # 2. 4GTV 新聞/財經/綜合 (優先)
-            priority_cats = ["新聞", "財經新聞", "綜合"]
-            for cat in priority_cats:
-                for entry in groups[cat]: f.write(entry + "\n")
-            # 3. GPT 台、港、泰
-            for entry in smart_tw: f.write(entry + "\n")
-            for entry in smart_hk: f.write(entry + "\n")
-            for entry in smart_th: f.write(entry + "\n")
-            # 4. 剩餘分類
-            for cat in PREFERRED_ORDER:
-                if cat not in priority_cats:
-                    for entry in groups[cat]: f.write(entry + "\n")
 
-        print("✅ 檔案已成功更新並儲存")
+            # A. YouTube 新聞 (最頂端)
+            for line in youtube_content:
+                f.write(line + "\n")
+
+            # B. 4GTV 依序寫入 (新聞、財經會排在最前面)
+            for cat in PREFERRED_ORDER:
+                for entry in groups[cat]:
+                    f.write(entry + "\n")
+
+        print("✅ 腳本已完成更新：已移除 smart.m3u 相關邏輯。")
+
     except Exception as e:
-        print(f"❌ 錯誤：{e}")
+        print(f"❌ 發生錯誤：{e}")
 
 if __name__ == "__main__":
     run()
