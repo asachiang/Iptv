@@ -14,7 +14,8 @@ jobs:
       - run: pip install requests
       - run: python update_iptv.py
       - name: Commit and Push
-       run: |
+        - name: Commit and Push
+  run: |
     git config --local user.email "action@github.com"
     git config --local user.name "GitHub Action"
     git add .  # 這樣才會抓到新產生的 smart.m3u
