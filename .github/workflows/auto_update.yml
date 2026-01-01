@@ -14,10 +14,8 @@ jobs:
       - run: pip install requests
       - run: python update_iptv.py
       - name: Commit and Push
-        - name: Commit and Push
-  run: |
-    git config --local user.email "action@github.com"
-    git config --local user.name "GitHub Action"
-    git add .  # 這樣才會抓到新產生的 smart.m3u
-    git commit -m "Update IPTV lists" || exit 0
-    git push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add 4gtv.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sort and sync IPTV" && git push)
