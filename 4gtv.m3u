@@ -1949,8 +1949,6 @@ http://4gtvtw.koyeb.app/li-4gtv-4gtv053/index.m3u8?token=abcd1234
 http://4gtvtw.koyeb.app/li-litv-ftv07/index.m3u8?token=abcd1234
 #EXTINF:-1 tvg-id="亚洲旅游台" tvg-name="亚洲旅游台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Asiatravel.png"?token=abcd1234 group-title="生活旅遊",亞洲旅遊
 http://4gtvtw.koyeb.app/li-4gtv-4gtv076/index.m3u8?token=abcd1234
-#EXTINF:-1 tvg-id="SMART知识台" tvg-name="SMART知识台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/smarttv.png"?token=abcd1234 group-title="生活旅遊",Smart知識台
-http://4gtvtw.koyeb.app/li-litv-longturn19/index.m3u8?token=abcd1234
 #EXTINF:-1 group-title="亞太GT",華視教育體育文化
 http://211.23.95.147:18881/live/dtv19_h265.ts
 #EXTINF:-1 group-title="亞太GT",TLC旅遊生活
@@ -2725,8 +2723,6 @@ https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
 https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8
 #EXTINF:-1 tvg-id="DramaChannel.th@SD" tvg-logo="https://i.imgur.com/ill1Ux6.png" group-title="Series",MV Mall DD (1080p)
 https://lb1-live-mv.v2h-cdn.com/hls/fdee/mvmalldd/mvmalldd.m3u8
-#EXTINF:-1 tvg-id="One31.th@SD" tvg-logo="https://i.imgur.com/HXFNbuc.png" group-title="General",One 31
-https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="PoliceTV.th@SD" tvg-logo="https://i.imgur.com/GhboFGt.png" group-title="Undefined",Police TV (1080p)
 https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8
 #EXTINF:-1 tvg-id="RamaChannel.th@SD" tvg-logo="https://i.imgur.com/pnbzE2V.png" group-title="Undefined",Rama Channel
