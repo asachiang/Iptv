@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml"
+#EXTM3U
 #EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="https://logo.catvod.com/TVBS新聞.png" group-title="YOUTUBE油管新聞",TVBS新聞
 https://www.youtube.com/watch?v=m_dhMSvUCIc
 #EXTINF:-1 tvg-name="東森新聞" tvg-logo="https://logo.catvod.com/東森新聞.png" group-title="YOUTUBE油管新聞",東森新聞
@@ -33,6 +33,8 @@ https://4gtvmobile-mozai.4gtv.tv/ZMGjzp8Q03TOvebPbXxTMJJ_oyqbRtPje3mNyj0MBUk%3d/
 https://4gtvmobile-mozai.4gtv.tv/dhJ6TJqJfJp0np7rk0XQU0LjoiwIAFA033KU93QirmE%3d/index.m3u8?token=SQf4QWx47wMS6kehZw5b6g&expires=1767431124&token1=gD7rcI1cfVYsdnfUvr0tIA&expires1=1767431124&refer=YjhmNGRkNTQtNGMxMy00ZDA0LWJhMjctNzEyMjZmZjgxN2Jk&y=0
 #EXTINF:-1 tvg-id="三立新聞iNEWS" tvg-name="三立新聞iNEWS" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live089_mobile.png" group-title="新聞財經",三立新聞iNEWS
 https://4gtvmobile-mozai.4gtv.tv/hmsCJ5MJCItbPNPTn9Yf5hu_oAGtgKeJZuaud0W3TV8%3d/index.m3u8?token=zWdDwTPzSjB-aswIePf3rA&expires=1767431133&token1=JQWztKmwnYTqhUooCoNmPQ&expires1=1767431133&refer=MjlmNzc4MzYtZjkzOC00NjMwLTgxZmItZmQwOTNiYzc5ZDZj&y=0
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv072_mobile.png" group-title="新聞財經",TVBS新聞
+https://4gtvmobile-mozai.4gtv.tv/xvWK09Lw-CeReMtGOJPAjIjCEFXehLJHDQfAd0RHN2k%3d/index.m3u8?token=F-P982YFiECMDlB8foPUOg&expires=1767431140&token1=J8aoKYYPQS9apVWOzGuUaA&expires1=1767431140&refer=ZjZjMTk0NzItNTQxNy00NmYwLTkxNjEtNTE4YjhhMDU5NWVj&y=0
 #EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv019_mobile.png" group-title="新聞財經",東森財經新聞台
 https://4gtvmobile-mozai.4gtv.tv/iEa847TNtBOnLPeXpUGR-2S9wWgUcEPGe4RUbqqCv7g%3d/index.m3u8?token=2Sbqad6y5Qsxop4RELWS8w&expires=1767431150&token1=MpBt5oq7zydQY-R9Rocggw&expires1=1767431150&refer=YjA2ZDg3N2YtMjAyYy00ODRkLTk1YTgtYmFjZmU3MWJmYWJk&y=0
 #EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv074_mobile.png" group-title="新聞財經",中視新聞
@@ -47,6 +49,10 @@ https://4gtvmobile-mozai.4gtv.tv/r-an29mMdUq-jyn3FzCdio9IgRa9toBoI8qSEkW6n_Y%3d/
 https://4gtvmobile-mozai.4gtv.tv/vapLqEagl-K68OfdGjS777D0IFY6mnkwDTjwjoWrk2M%3d/index.m3u8?token=bNvxkFPTn31EH0hhCsu7hQ&expires=1767431188&token1=wqCjYaSYmCuwv4yY_QxU3A&expires1=1767431188&refer=NDFmYmIyYzgtNzg3Ni00MTYzLTliNWMtMGVmZGU4NDVkOGI1&y=0
 #EXTINF:-1 tvg-id="SBN全球財經台" tvg-name="SBN全球財經台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live060_mobile.png" group-title="新聞財經",SBN全球財經台
 https://4gtvmobile-mozai.4gtv.tv/kWRiJTkWRKqgOI9i_F8j5W19375nkrPe2K8ZWPWMxe0%3d/index.m3u8?token=ZbAS1p_2fHm2QG1hqLCTSg&expires=1767431196&token1=Sg5DOTdqmpyiVLnzT0ZwVQ&expires1=1767431196&refer=MjJhNTJlYzAtNzJiOS00ZGUwLWI5ZTMtYjNkYzA0ODRkYTM4&y=0
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv073_mobile.png" group-title="新聞財經",TVBS
+https://4gtvmobile-mozai.4gtv.tv/Eg8X95o9b1VGlKrLEnuMzAUXEw6zmYeXb3QdcGBV4Cs%3d/index.m3u8?token=e0BxtF_ymEmquB0JcuBalQ&expires=1767431205&token1=oo73DdaU2h-US4_CqFqxcA&expires1=1767431205&refer=ZjRmZTdkZTYtMWQ5My00ZDg2LWEyZTEtODZlZjNmZDI3OGIx&y=0
+#EXTINF:-1 tvg-id="NHK WORLD-JAPAN" tvg-name="NHK WORLD-JAPAN" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live168_mobile.png" group-title="新聞財經",NHK WORLD-JAPAN
+https://4gtvmobile-mozai.4gtv.tv/iTo0qRV3_rREMlMKv-IjJbOINmRcO3qM1fgDCu_KoKc%3d/index.m3u8?token=9K3yGvIZRSxsV_0w6z6oqA&expires=1767431653&token1=21yziEHS4S90SVHoBUnoGA&expires1=1767431653&refer=NTkzYjM0YzQtYzJkNi00NzI5LTk3YjEtZDQ3MTc4NmNkYTVk&y=0
 #EXTINF:-1 tvg-id="FRANCE24 英文台" tvg-name="FRANCE24 英文台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv_mobile.png" group-title="新聞財經",FRANCE24 英文台
 https://4gtvmobile-mozai.4gtv.tv/cV1KBcTtF7rbzlJj3b123zMjdc6LKfdt0Z7GlX0lWyo%3d/index.m3u8?token=poEbNvV_VXzZTno2sW_RkQ&expires=1767431661&token1=CdKHU3BU4VktcWB-uE2Ljw&expires1=1767431661&refer=YjE2N2I0ODAtNThlNy00ODE5LTg1MzgtYjM2MDYxNGI4ZGQw&y=0
 #EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-ftv10_mobile.png" group-title="新聞財經",半島國際新聞台
@@ -55,6 +61,10 @@ https://4gtvmobile-mozai.4gtv.tv/utWDLwVtRYUTYx5OmurwWUYdpZ2jy7Iu67fuvB8tuQg%3d/
 https://4gtvmobile-mozai.4gtv.tv/o3JV1PypYlh7Brhm5-2xmUG1-P4YiMbOFYQGw_7Or_4%3d/index.m3u8?token=IB6OnrR2jUl0YQCmUEN6ag&expires=1767431678&token1=VKVaK_fDajFI4KDfHPWfcw&expires1=1767431678&refer=NDY1NzQzOTYtZTM4Ny00Njk3LTgwNjctYWE5OGM1NmJmODhj&y=0
 #EXTINF:-1 tvg-id="DW德國之聲" tvg-name="DW德國之聲" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live071_mobile.png" group-title="新聞財經",DW德國之聲
 https://4gtvmobile-mozai.4gtv.tv/_294Est_gPYZ3u1PTnyA4Pd7udlqYltqUa_wZwnclSk%3d/index.m3u8?token=0bCgDoWX5Hk7o2U3Sym61w&expires=1767431685&token1=pf0mfFAFOVDowIITirOxmA&expires1=1767431685&refer=Y2M4OTNkNTctMWE3OC00MzE2LWEwZWEtZWIyYzNhNzhlYTll&y=0
+#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-logo="https://i.imgur.com/Gwij0Fj.png" group-title="新聞財經",TVB News Channel
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-user-agent="iPhone" http-header="Referer=https://live.kankanews.com/" group-title="新聞財經",五星体育
+http://101.35.240.114:88/live.php?id=五星体育
 #EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv003_mobile.png" group-title="綜合",民視第一台
 https://4gtvmobile-mozai.4gtv.tv/amX-3JumBDL2FmV4I6WeKqbajBpGBcf1qeEojZaugbE%3d/index.m3u8?token=SBdSmUFPj4JW0Wg6beguTQ&expires=1767430886&token1=8OP4BvGV_MneheM_Y7OX8g&expires1=1767430886&refer=NjNiZWEwNzEtMTM1My00N2MxLThkNTktOGVkZjBiODI5NmEz&y=0
 #EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv001_mobile.png" group-title="綜合",民視台灣台
@@ -73,6 +83,8 @@ https://4gtvmobile-mozai.4gtv.tv/Rpj6Fx83El0dZuZ9orVUd300Znew5SRddVpTOWI1X78%3d/
 https://4gtvmobile-mozai.4gtv.tv/DidOjSI5SGc-WxRNXF0gQ-Ok5T--Rr3sALmsgeTaii8%3d/index.m3u8?token=XRiHCUmcmGiL9EC5yUn4mg&expires=1767430938&token1=_3YZmrVWtPypk_hDkwm4YQ&expires1=1767430938&refer=ZGQ4ODFkNzAtZTFmOS00MmFlLTk5YWUtNGNkNmE0MDI5NTEx&y=0
 #EXTINF:-1 tvg-id="八大綜藝台" tvg-name="八大綜藝台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv039_mobile.png" group-title="綜合",八大綜藝台
 https://4gtvmobile-mozai.4gtv.tv/x4lMtTwu3psaxyc5uYEtZ56qSvGsaKNFyz0pyhcGmhE%3d/index.m3u8?token=iKZ8geAaPe13r0QOmRxMtQ&expires=1767430945&token1=6YCIIuaWPanLM3gbHsCIZw&expires1=1767430945&refer=MzE2ZDI5MWQtZWY1Yy00ZDU5LWEwNjgtODU3NmYyNmRkMzgy&y=0
+#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live086_mobile.png" group-title="綜合",TVBS精采台
+https://4gtvmobile-mozai.4gtv.tv/WMkUSjuFcANemms7W3eFeVsdGKaUZ87RSB1T82LNB5A%3d/index.m3u8?token=qhtlC_NcHcixxFDKwlaSsw&expires=1767430953&token1=vEclpguSpmyK1C_v0d05Jw&expires1=1767430953&refer=MWQ0NjRlZWQtMjJlNy00MTU2LWFiYWEtZDgyMjRlMDI0Mzg0&y=0
 #EXTINF:-1 tvg-id="愛爾達娛樂台" tvg-name="愛爾達娛樂台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv070_mobile.png" group-title="綜合",愛爾達娛樂台
 https://4gtvmobile-mozai.4gtv.tv/NyFGSQVwA-EiWeopNjohCvKjAKw0ZhdBCZJiUUXMAi0%3d/index.m3u8?token=kWqOdF6o45kKBuILfYsSDg&expires=1767430960&token1=ktqG4yrghcEH5f1kMYkJlA&expires1=1767430960&refer=ZGJlMWIxNzctOTVkMi00NDZlLWI5YWQtMzljZDg0ZGM5ZjM0&y=0
 #EXTINF:-1 tvg-id="靖天綜合台" tvg-name="靖天綜合台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv046_mobile.png" group-title="綜合",靖天綜合台
@@ -123,6 +135,8 @@ https://4gtvmobile-mozai.4gtv.tv/ktPSs7G2b6lwo0ZEk0olbZBcOqWYc1C68VNN8CVogac%3d/
 https://4gtvmobile-mozai.4gtv.tv/FdpoqUyhJvTuTF7qQEmdYByF3h1b6mCyRvkqLeTmd0M%3d/index.m3u8?token=TSnU2_f-z_94pQNevheMYw&expires=1767431252&token1=KFxJnotl8NLSXxZ8zN9hFQ&expires1=1767431252&refer=NGFlMDYxZjUtNDdmMy00ZjRiLWExOTQtOGZhMTI5OWUyY2Ji&y=0
 #EXTINF:-1 tvg-id="靖天資訊台" tvg-name="靖天資訊台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv065_mobile.png" group-title="綜合",靖天資訊台
 https://4gtvmobile-mozai.4gtv.tv/MmN-q0GVJuhTN0zFC1gMy69wklcti8sYczborEQx920%3d/index.m3u8?token=6N4kRYozi1oBEKCaZcYfHw&expires=1767431259&token1=YKIKWGxYJ2a4VZgFXKxhmw&expires1=1767431259&refer=NTViNzMyZmYtMTBjZi00OTUzLWIxZWEtZDVhNWQ3YzE4ODNh&y=0
+#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv068_mobile.png" group-title="綜合",TVBS歡樂台
+https://4gtvmobile-mozai.4gtv.tv/fZL0cpBwo7kJaOBCyohqEOYxUel8YT_BrPJtQPA5Lbs%3d/index.m3u8?token=QWMnP-Q7sIvcUVMFR3TXpA&expires=1767431267&token1=1nLoz8qJUeU888FgJqa0lA&expires1=1767431267&refer=MWNhODMzZDUtMTQ1My00ZWQyLWI2ZGItNGEyNDc1OWQzZjhm&y=0
 #EXTINF:-1 tvg-id="韓國娛樂台 KMTV" tvg-name="韓國娛樂台 KMTV" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv016_mobile.png" group-title="綜合",韓國娛樂台 KMTV
 https://4gtvmobile-mozai.4gtv.tv/1XXwaBwb3wb_5WZu0cSL9gSZHVSCa1DRBlrKQnkNwAE%3d/index.m3u8?token=W1lzrL4OqR0s-6PblERqSg&expires=1767431275&token1=sojQkUjrHYGG5__jRIITTA&expires1=1767431275&refer=N2QzMjYxMTktZjZiMC00ZGJiLTgyZGEtNmFjNDFhMzgzMTU4&y=0
 #EXTINF:-1 tvg-id="ROCK Entertainment" tvg-name="ROCK Entertainment" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live080_mobile.png" group-title="綜合",ROCK Entertainment
@@ -219,10 +233,16 @@ https://4gtvmobile-mozai.4gtv.tv/ij9sYT4mmde2yzW09RPnub-N6Rzul_wuDEqtZU6c_Fk%3d/
 https://4gtvmobile-mozai.4gtv.tv/OWYwTMUzTpUs29sgKRaSEj5hywRwBGHxjmeOPxC2CrM%3d/index.m3u8?token=RH9CzYK0HkkYQrkfuwzefg&expires=1767431630&token1=rHDWVOqTVJb39lCnLHh8Og&expires1=1767431630&refer=YjJiNDM0OTItY2YzYy00MWQxLTk4MTItOTRlMjI1MjhjY2Rk&y=0
 #EXTINF:-1 tvg-id="大愛二台" tvg-name="大愛二台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live106_mobile.png" group-title="綜合",大愛二台
 https://4gtvmobile-mozai.4gtv.tv/FVylHGpkrY6FTSr4DpUgxjLRaZUDdov2eV6ZD-wKYQo%3d/index.m3u8?token=irFO7e72ogNyXitP8mI6xg&expires=1767431638&token1=adniq7cvg7gtRgS8LHzXtA&expires1=1767431638&refer=MTdmMGJlMjctYTZkMy00MzM2LWEwYzMtODcxOTgwZTcyZGNi&y=0
+#EXTINF:-1 tvg-id="人間衛視" tvg-name="人間衛視" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live008_mobile.png" group-title="綜合",人間衛視
+https://4gtvmobile-mozai.4gtv.tv/2-N2jWHk77Mnddq0Vww_weW5ZkD15thQiK1e_4o-xu4%3d/index.m3u8?token=uALkLu3Dn-dT1AD7-B_MOA&expires=1767431646&token1=8Kjp0KUfG_sKVppmxbCNdg&expires1=1767431646&refer=YjJlMThmZDgtYTRjZS00NjA3LTlkZGUtZjg5OWQ2ZjJmYzEy&y=0
 #EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv084_mobile_0204.png" group-title="綜合",國會頻道1
 https://4gtvmobile-mozai.4gtv.tv/qzzNua4lZhgtOAGI-qenmtD_9nDRUB_nqC61J-A_qpA%3d/index.m3u8?token=2IK4tJg7MBZnWjeLtMpS5g&expires=1767431693&token1=9WZwY--SdAnfT1zjgPxSBw&expires1=1767431693&refer=NjFmOWJmODYtOGM4OC00YTQ3LTlhNmMtNzEwYWY2MDE0ZWE0&y=0
 #EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv085_mobile_0204.png" group-title="綜合",國會頻道2
 https://4gtvmobile-mozai.4gtv.tv/dCnk9_VTbL1LU94So6bdvy-CGN5TBnnvgKUS5qfFmEM%3d/index.m3u8?token=z5Hh18zgOogp_uNTdocHag&expires=1767431700&token1=GfmLrZJjyI_xurVgUOTGJg&expires1=1767431700&refer=MzcyNDE1MDAtMGI2NS00NDAyLTliOWItYTJiNDUwOGEzMzky&y=0
+#EXTINF:-1 tvg-id="TVBS綜藝台" tvg-name="TVBS綜藝台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_TVBS綜藝台_mobile-.png" group-title="綜合",TVBS綜藝台
+https://4gtvmobile-mozai.4gtv.tv/L_TGC4y_VbXXPAiK1l_h9zDCHI6Mx_1pOLjPXe_dig4%3d/index.m3u8?token=ui_NqmCWn0z0M1GtdRNC2Q&expires=1767431708&token1=ZN4dRQ94cH3SXd2y2GZ7xA&expires1=1767431708&refer=Y2M1ZDc5MDctOWIxYi00M2M0LTlmNTUtNDVkNGRhYzFkYzhi&y=0
+#EXTINF:-1 tvg-id="TVBS台劇台" tvg-name="TVBS台劇台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_TVBS台劇台_mobile-.png" group-title="綜合",TVBS台劇台
+https://4gtvmobile-mozai.4gtv.tv/leK3lFr1SxM-ZnjA7S30dPxppEqwbu2D3T4fmAEjB7Q%3d/index.m3u8?token=BsPOI5dPib5PuLo_ecScYw&expires=1767431716&token1=krJXuaQn5UfDm8GU98yfjg&expires1=1767431716&refer=MWI5N2ZiNzgtOThiMS00Y2EyLThhN2MtYzI0NTUxZTM2NGVk&y=0
 #EXTINF:-1 tvg-id="經典電影台" tvg-name="經典電影台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" group-title="綜合",經典電影台
 https://4gtvmobile-mozai.4gtv.tv/XFo0dBFfSfR41EhraGTlGNwce5Kp28CEPJID_aKa-jg%3d/index.m3u8?token=D_MsR5fFhgp4J-KLKKOXlA&expires=1767431723&token1=DvLEDcRIcV7cLGmEyTCC5A&expires1=1767431723&refer=ZmMyZThmZGEtYzE1ZS00NjQ5LThhMDAtN2FlZTVlZGVhZDI4&y=0
 #EXTINF:-1 tvg-id="經典卡通台" tvg-name="經典卡通台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live022_mobile.png" group-title="綜合",經典卡通台
@@ -351,6 +371,8 @@ https://4gtvmobile-mozai.4gtv.tv/QpzxVdM2CKbptxYAF88A6V_A1MulM0wkcjPrvfHLb3v1LKe
 https://4gtvmobile-mozai.4gtv.tv/nNobJ0qi0ammAghVG4-Dkj32GSuiKhmosoKpucEeXopWm0yiuwBpWohStHOuYuCp7hWn3CZ59diFS-Cacl-TJw%3d%3d/index.m3u8?token=OTVfWedRJ_1EK2NJqEx29w&expires=1767432205&token1=kDjcfQaWTOAW7ba3NVPTRg&expires1=1767461005&refer=NDY3ZGE5NDMtODQ3MC00YWQ5LTk5NGQtZGE2OTZkYWQ5ODJj&y=2025
 #EXTINF:-1 tvg-id="輕鬆看法律-FastTV飛速看" tvg-name="輕鬆看法律-FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/fast-live221.png" group-title="綜合",輕鬆看法律-FastTV飛速看
 https://4gtvmobile-mozai.4gtv.tv/fOS8dy1DE5rEbTrO8_IsX2iEln7Uhsdjl1P4YMTEoey8CvATRP4IGZCpw5Y-tT46xBeiAvIOeYBcg1P6b032Tg%3d%3d/index.m3u8?token=PaAw4lAXeUGTdpmOwX_Q3w&expires=1767432213&token1=hHxP1U0uLNxXhA8Y009G_A&expires1=1767461013&refer=MjJhOWJlNDUtMzIxNi00OTI3LWIyNzMtZGE0MGY0Njk4OTdj&y=2025
+#EXTINF:-1 tvg-id="TVBS看板人物-FastTV飛速看" tvg-name="TVBS看板人物-FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/fast-live222.png" group-title="綜合",TVBS看板人物-FastTV飛速看
+https://4gtvmobile-mozai.4gtv.tv/HzlBTk0eZTbtj-Yy19hpuax55HR1oLrHRQnzo1nRH7bLo3cMxYM2a8qS6qyHC32FgI1t9mRPU21GbIE1XKNMJg%3d%3d/index.m3u8?token=SAVZ9QSQVuESOs8Yq9uzdw&expires=1767432221&token1=Yw4QtuqjLHo0ZgpmpD-Uzw&expires1=1767461021&refer=NTFjNTMzM2UtYjFjNC00Y2ViLWI2MjYtZTNmMGZkN2I2MWU1&y=2024
 #EXTINF:-1 tvg-id="野蠻遊戲：We Play -FastTV飛速看" tvg-name="野蠻遊戲：We Play -FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/fast-live223.png" group-title="綜合",野蠻遊戲：We Play -FastTV飛速看
 https://4gtvmobile-mozai.4gtv.tv/6yo9D2Ly_YI4I3GRCUlfArlsqIn8OFtGuflsYdEOZSQjEUlMFdJq3tikHOgeAUDwYGhwUoKvxZ718s6ErCP3CA%3d%3d/index.m3u8?token=XEyw1AMVAi9eUGylID-7nQ&expires=1767432228&token1=tlTv00Fd5ZdOm3H5hvYoaw&expires1=1767461028&refer=OTI3N2I3NjAtMjNkMS00NGUyLWJiMTYtOTVjOTIxNDFmNDZi&y=2024
 #EXTINF:-1 tvg-id="最愛韓星-FastTV飛速看" tvg-name="最愛韓星-FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/fast-live224.png" group-title="綜合",最愛韓星-FastTV飛速看
@@ -411,6 +433,146 @@ https://4gtvmobile-mozai.4gtv.tv/eyL8de2vUMo8xyNzRhyEj7JL0sV9NlF6xBSy73gNMo6OBtT
 https://4gtvmobile-mozai.4gtv.tv/jjOu-s83FtQau5rfklStoMb4fruhUUlpMUTv5j-nJZya18B79LHO29VlCKimE37I/index.m3u8?token=2xJF5BjpfudJYFajnxFqqw&expires=1767432443&token1=MP1aSOjXRcjDLGoUkSTWzg&expires1=1767461243&refer=Yjk3ZjA4NTktZjQ1MS00YWE3LWJlN2QtN2IzZDJmNTcyMzU1&y=2021
 #EXTINF:-1 tvg-id="東離劍遊紀-FastTV飛速看" tvg-name="東離劍遊紀-FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/FastTV飛速看-主題推薦(PILI).png" group-title="綜合",東離劍遊紀-FastTV飛速看
 https://4gtvmobile-mozai.4gtv.tv/HCR7M1vInZ4SFJPHaAgDNpXc_gLqXCsqT3mbb44ojRfBm8KCnv4yTPMNY435GjIB/index.m3u8?token=XZFH8J7XFWoYaTE7qQUX_w&expires=1767432450&token1=C_hhEhRjRFXjQBOkyGtOYQ&expires1=1767461250&refer=M2RiMzhmNTUtN2NhZC00OTU3LWI4ZjktY2Q0OWM0N2IyNTdh&y=2024
+#EXTINF:-1 tvg-id="HOYTV.hk" tvg-logo="https://i.imgur.com/NfVZPTT.png" group-title="綜合",HOY TV
+http://media.fantv.hk/m3u8/archive/channel2.m3u8
+#EXTINF:-1 tvg-id="HKSTV.hk" tvg-logo="https://i.imgur.com/UhwlxwL.png" group-title="綜合",HKSTV
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-id="3HD.th@SD" tvg-logo="https://i.imgur.com/YRiulCU.png" group-title="Thailand",3HD
+https://lb1-live-mv.v2h-cdn.com/hls/ffae/muulk/muulk.m3u8
+#EXTINF:-1 tvg-id="13SiamThai.th@SD" tvg-logo="https://i.imgur.com/FvEp1S2.png" group-title="Thailand",13 Siam Thai (1080p)
+https://live.x2.co.th/live/13livetv-th.m3u8
+#EXTINF:-1 tvg-id="AtTV.th@SD" tvg-logo="https://files.catbox.moe/6rj9aw.jpg" group-title="Thailand",@TV (720p)
+http://49.0.87.24:1936/HDAttv/Attv/playlist.m3u8
+#EXTINF:-1 tvg-id="ALTV.th@SD" tvg-logo="https://i.imgur.com/MCbCSWv.png" group-title="Thailand",ALTV (1080p)
+https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8
+#EXTINF:-1 tvg-id="AmarinTV.th@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/Amarin_TV_2015.svg/revision/latest/scale-to-width-down/512" group-title="Thailand",Amarin TV
+https://lb1-live-mv.v2h-cdn.com/hls/ffad/vibomi/vibomi.m3u8
+#EXTINF:-1 tvg-id="News1.th@SD" tvg-logo="" group-title="Thailand",ASTV News 1 (720p) [Not 24/7]
+http://news1.live14.com/stream/news1.m3u8
+#EXTINF:-1 tvg-id="BoonniyomTV.th@SD" tvg-logo="https://i.imgur.com/KvdFCD5.png" group-title="Thailand",Boonniyom TV
+https://live.x2.co.th/live/bntv.m3u8
+#EXTINF:-1 tvg-id="Channel5.th@SD" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="Thailand",Channel 5 (1080p)
+https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel7.th@SD" tvg-logo="https://i.imgur.com/SBCIwek.png" group-title="Thailand",Channel 7 (1080p)
+https://lb1-live-mv.v2h-cdn.com/hls/ffac/gohg/gohg.m3u8
+#EXTINF:-1 tvg-id="Channel8.th@SD" tvg-logo="https://i.imgur.com/P3c5jAu.png" group-title="Thailand",Channel 8 (1080p) [Not 24/7]
+http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8
+#EXTINF:-1 tvg-id="CoolChannel.th@SD" tvg-logo="https://i.imgur.com/MU4E0A7.png" group-title="Thailand",Cool Channel
+https://live-iptv.cool-channel.com/cool/live-720P.m3u8
+#EXTINF:-1 tvg-id="DLTV1.th@SD" tvg-logo="https://i.imgur.com/nLzdGeX.png" group-title="Thailand",DLTV 1 (1080p)
+https://cdn-live.dltv.ac.th/dltv01.m3u8
+#EXTINF:-1 tvg-id="DLTV2.th@SD" tvg-logo="https://i.imgur.com/lDBSTfE.png" group-title="Thailand",DLTV 2 (1080p)
+https://cdn-live.dltv.ac.th/dltv02.m3u8
+#EXTINF:-1 tvg-id="DLTV3.th@SD" tvg-logo="https://i.imgur.com/wmrxerm.png" group-title="Thailand",DLTV 3 (1080p)
+https://cdn-live.dltv.ac.th/dltv03.m3u8
+#EXTINF:-1 tvg-id="DLTV4.th@SD" tvg-logo="https://i.imgur.com/WkpoQhU.png" group-title="Thailand",DLTV 4 (1080p)
+https://cdn-live.dltv.ac.th/dltv04.m3u8
+#EXTINF:-1 tvg-id="DLTV5.th@SD" tvg-logo="https://i.imgur.com/J1E89jX.png" group-title="Thailand",DLTV 5 (1080p)
+https://cdn-live.dltv.ac.th/dltv05.m3u8
+#EXTINF:-1 tvg-id="DLTV6.th@SD" tvg-logo="https://i.imgur.com/qeIHWC0.png" group-title="Thailand",DLTV 6 (1080p)
+https://cdn-live.dltv.ac.th/dltv06.m3u8
+#EXTINF:-1 tvg-id="DLTV7.th@SD" tvg-logo="https://i.imgur.com/OjYwMe3.png" group-title="Thailand",DLTV 7 (1080p)
+https://cdn-live.dltv.ac.th/dltv07.m3u8
+#EXTINF:-1 tvg-id="DLTV8.th@SD" tvg-logo="https://i.imgur.com/xIwn5Ha.png" group-title="Thailand",DLTV 8 (1080p)
+https://cdn-live.dltv.ac.th/dltv08.m3u8
+#EXTINF:-1 tvg-id="DLTV9.th@SD" tvg-logo="https://i.imgur.com/yPeSAry.png" group-title="Thailand",DLTV 9 (1080p)
+https://cdn-live.dltv.ac.th/dltv09.m3u8
+#EXTINF:-1 tvg-id="DLTV10.th@SD" tvg-logo="https://i.imgur.com/TgN81Zr.png" group-title="Thailand",DLTV 10 (1080p)
+https://cdn-live.dltv.ac.th/dltv10.m3u8
+#EXTINF:-1 tvg-id="DLTV11.th@SD" tvg-logo="https://i.imgur.com/hFk2b5s.png" group-title="Thailand",DLTV 11 (1080p)
+https://cdn-live.dltv.ac.th/dltv11.m3u8
+#EXTINF:-1 tvg-id="DLTV12.th@SD" tvg-logo="https://i.imgur.com/ITt6lY7.png" group-title="Thailand",DLTV 12 (1080p)
+https://cdn-live.dltv.ac.th/dltv12.m3u8
+#EXTINF:-1 tvg-id="DLTV13.th@SD" tvg-logo="https://i.imgur.com/asB5w3v.png" group-title="Thailand",DLTV 13 (1080p)
+https://cdn-live.dltv.ac.th/dltv13.m3u8
+#EXTINF:-1 tvg-id="DLTV14.th@SD" tvg-logo="https://i.imgur.com/HOjZRNS.png" group-title="Thailand",DLTV 14 (1080p)
+https://cdn-live.dltv.ac.th/dltv14.m3u8
+#EXTINF:-1 tvg-id="DLTV15.th@SD" tvg-logo="https://i.imgur.com/onJi2b6.png" group-title="Thailand",DLTV 15 (1080p)
+https://cdn-live.dltv.ac.th/dltv15.m3u8
+#EXTINF:-1 tvg-id="DopaChannel.th@SD" tvg-logo="https://i.imgur.com/Z9vxti4.png" group-title="Thailand",Dopa Channel
+http://dopachannel.truegse.com/live/dopatv03.m3u8
+#EXTINF:-1 tvg-id="EsanTV.th@SD" tvg-logo="https://i.postimg.cc/K8VDGs9k/esantv.png" group-title="Thailand",Esan TV (720p)
+https://psiiptv-b.sky-cdn.com/ttd20-playlist/index.m3u8
+#EXTINF:-1 tvg-id="ETV.th@SD" tvg-logo="https://i.imgur.com/HTnQGcs.png" group-title="Thailand",ETV (1080p)
+http://150.95.66.20:1935/live/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="GMM25.th@SD" tvg-logo="https://i.imgur.com/uARba6N.png" group-title="Thailand",GMM 25
+https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/7e85dc4a59904e45b4fdffebd62e1d82/playlist_ssaiM.m3u8
+#EXTINF:-1 tvg-id="GoodIdeaTV.th@SD" tvg-logo="https://i.imgur.com/ETgVyTy.png" group-title="Thailand",Good Idea TV (720p) [Not 24/7]
+http://stream1.ai-net.net:1935/gtv1/_definst_/smil:gtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="JKN18.th@SD" tvg-logo="https://i.imgur.com/m4nPR2L.png" group-title="Thailand",JKN 18 (1080p)
+https://lb1-live-mv.v2h-cdn.com/hls/ffda/jkn18/jkn18.m3u8
+#EXTINF:-1 tvg-id="KasetChannel.th@SD" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kaset-th.png" group-title="Thailand",Kaset Channel
+http://103.120.113.107/Kasat70/video.m3u8
+#EXTINF:-1 tvg-id="LanthungTV.th@SD" tvg-logo="https://www.lyngsat.com/logo/tv/ll/lanthung-tv-th.png" group-title="Thailand",Lanthung TV
+https://live-us1.thaimomo.com/live-as/chlantung-2/playlist.m3u8
+#EXTINF:-1 tvg-id="LaoThaiTV.us@SD" tvg-logo="https://i.imgur.com/q6cQzbv.png" group-title="Thailand",Lao-Thai TV (720p)
+https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="Mangorn.th@SD" tvg-logo="" group-title="Thailand",Mangorn (720p)
+http://49.0.87.24:1936/HDDragon/Dragon/playlist.m3u8
+#EXTINF:-1 tvg-id="MayaChannel.th@SD" tvg-logo="https://i.imgur.com/UropueN.png" group-title="Thailand",Maya Channel
+http://146.88.62.69:1935/Transcoder/มายาHD.stream_576p/playlist.m3u8
+#EXTINF:-1 tvg-id="MCOTHD.th@SD" tvg-logo="https://i.imgur.com/ejPxGmU.png" group-title="Thailand",MCOT HD
+https://lb1-live-mv.v2h-cdn.com/hls/ffbb/gdhk/gdhk.m3u8
+#EXTINF:-1 tvg-id="MediaTV.th@SD" tvg-logo="https://www.lyngsat.com/logo/tv/mm/media-tv-th.png" group-title="Thailand",Media TV
+http://49.0.87.24:1936/HDMediatv/Mediatv/playlist.m3u8
+#EXTINF:-1 tvg-id="MONO29.th@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png" group-title="Thailand",MONO 29 (1080p)
+https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8
+#EXTINF:-1 tvg-id="DramaChannel.th@SD" tvg-logo="https://i.imgur.com/ill1Ux6.png" group-title="Thailand",MV Mall DD (1080p)
+https://lb1-live-mv.v2h-cdn.com/hls/fdee/mvmalldd/mvmalldd.m3u8
+#EXTINF:-1 tvg-id="NationTV.th@SD" tvg-logo="https://i.imgur.com/h3TY38F.png" group-title="Thailand",Nation TV
+https://nationtv-1jdcjo.cdn.byteark.com/fleetstream/nationtvlive/index.m3u8
+#EXTINF:-1 tvg-id="NBT2HD.th@SD" tvg-logo="https://i.imgur.com/IJh6SHb.png" group-title="Thailand",NBT 2HD (720p)
+https://cdn-edge-ott.prd.go.th/live_vlc/smil:c30f-97f7-c767-ca64-98aa/chunklist.m3u8
+#EXTINF:-1 tvg-id="NBT11.th@Central" tvg-logo="https://i.imgur.com/8hYQIxS.png" group-title="Thailand",NBT 11 Central (720p)
+https://cdn-edge-ott.prd.go.th/live_vlc/smil:01f1-8b4b-971e-aa35-d5fa.smil/playlist.m3u8?DVR=
+#EXTINF:-1 tvg-id="One31.th@SD" tvg-logo="https://i.imgur.com/HXFNbuc.png" group-title="Thailand",One 31
+https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8
+#EXTINF:-1 tvg-id="PoliceTV.th@SD" tvg-logo="https://i.imgur.com/GhboFGt.png" group-title="Thailand",Police TV (1080p)
+https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8
+#EXTINF:-1 tvg-id="PSISaradee99.th@SD" tvg-logo="https://i.imgur.com/TmDI6Tz.png" group-title="Thailand",PSI Saradee 99
+http://103.120.113.107/Saradee/index.m3u8
+#EXTINF:-1 tvg-id="RamaChannel.th@SD" tvg-logo="https://i.imgur.com/pnbzE2V.png" group-title="Thailand",Rama Channel
+https://ramach.ddns.net/live/ramalive/index.m3u8
+#EXTINF:-1 tvg-id="RTMASEAN.my@SD" tvg-logo="https://i.imgur.com/skAiUxg.png" group-title="Thailand",RTM ASEAN
+https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
+#EXTINF:-1 tvg-id="SBBTV.th@SD" tvg-logo="https://i.imgur.com/B1tyK1Z.png" group-title="Thailand",SBB TV
+https://cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTTV.th@SD" tvg-logo="https://i.imgur.com/rmNDylW.png" group-title="Thailand",SBT TV
+http://122.155.12.107:1935/live/sbt_tv_aac_300/playlist.m3u8
+#EXTINF:-1 tvg-id="STOUChannel.th@SD" tvg-logo="https://i.imgur.com/L3T2QZz.png" group-title="Thailand",STOU Channel (720p)
+https://stream1.stou.ac.th/live/stou_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="SuwannabhumiChannel.th@SD" tvg-logo="https://i.imgur.com/6AGKP0A.png" group-title="Thailand",Suwannabhumi Channel (720p)
+https://live.bangkokstream.com:19360/suwannabhumi/suwannabhumi.m3u8
+#EXTINF:-1 tvg-id="ThaiChaiyo.th@SD" tvg-logo="https://i.imgur.com/uOfb3y1.png" group-title="Thailand",Thai Chaiyo (720p)
+https://live-iptv.thaichaiyo.tv/tcy/live-manifest.m3u8
+#EXTINF:-1 tvg-id="ThaiParliamentTelevision.th@SD" tvg-logo="https://i.imgur.com/Okcnmt6.png" group-title="Thailand",Thai Parliament TV (1080p) [Not 24/7]
+https://tv-live.tpchannel.org/live/tv.m3u8
+#EXTINF:-1 tvg-id="ThaiPBS.th@SD" tvg-logo="https://i.imgur.com/CwalZjr.png" group-title="Thailand",Thai PBS (1080p) [Not 24/7]
+https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Thaiban83.th@SD" tvg-logo="https://www.lyngsat.com/logo/tv/tt/thaiban-83.png" group-title="Thailand",Thaiban 83 (576p)
+https://lb1-live-mv.v2h-cdn.com/hls/ffcd/thaibaan/thaibaan.m3u8
+#EXTINF:-1 tvg-id="ThairathTV.th@SD" tvg-logo="https://i.imgur.com/qIorZoy.png" group-title="Thailand",Thairath TV
+https://lb1-live-mv.v2h-cdn.com/hls/ffaf/thairath/thairath.m3u8
+#EXTINF:-1 tvg-id="TNN16.th@SD" tvg-logo="https://i.imgur.com/skpvuKq.png" group-title="Thailand",TNN 16 (720p)
+https://lb1-live-mv.v2h-cdn.com/hls/ffdc/mugvhogvho/mugvhogvho.m3u8
+#EXTINF:-1 tvg-id="TopNews.th@SD" tvg-logo="https://i.imgur.com/tRFnV9M.png" group-title="Thailand",Top News (720p)
+https://live.topnews.co.th/hls/topnews_a_720.m3u8
+#EXTINF:-1 tvg-id="True4U.th@SD" tvg-logo="https://i.imgur.com/O6Xre1O.png" group-title="Thailand",True 4U (720)
+https://lb1-live-mv.v2h-cdn.com/hls/ffca/mifainp/mifainp.m3u8
+#EXTINF:-1 tvg-id="TVMuslimThailand.th@SD" tvg-logo="https://i.imgur.com/aCFpuzW.png" group-title="Thailand",TV Muslim Thailand
+https://vdo.plathong.net/tvmuslim/tvmuslim/playlist.m3u8
+#EXTINF:-1 tvg-id="tvNMoviesAsia.hk@SD" tvg-logo="https://i.imgur.com/c4XvwO2.png" group-title="Thailand",tvN Movies (Indonesian Subtitle) (576p)
+http://210.210.155.37/dr9445/h/h21/index.m3u8
+#EXTINF:-1 tvg-id="UmmTV.th@SD" tvg-logo="https://i.imgur.com/5AV0JpL.png" group-title="Thailand",Umm TV
+http://psilive1.sky-cdn.com:1935/psi-62/psi-62.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="WhiteChannel.th@SD" tvg-logo="https://i.imgur.com/Chx0AV9.png" group-title="Thailand",White Channel (1080p)
+http://symc-cdn.violin.co.th:1935/tndedge/whitechannel/chunklist.m3u8
+#EXTINF:-1 tvg-id="WorkpointTV.th@SD" tvg-logo="https://i.imgur.com/zq6Xshf.png" group-title="Thailand",Workpoint TV
+https://lb1-live-mv.v2h-cdn.com/hls/ffcb/gbinrvp/gbinrvp.m3u8
+#EXTINF:-1 tvg-id="ZabbChannel.th@SD" tvg-logo="https://i.imgur.com/4TMtUjW.png" group-title="Thailand",Zabb Channel (720p)
+https://vdo.plathong.net/flash7057/flash7057/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeBollymovies.in@SD" tvg-logo="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" group-title="Thailand",Zee Bollymovies (1080p) [Geo-blocked]
+https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="春晚" group-title="歷年春晚",春晚1983
 https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
 #EXTINF:-1 tvg-name="春晚" group-title="歷年春晚",春晚1984
@@ -497,195 +659,169 @@ https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 #EXTINF:-1 tvg-name="春晚" group-title="歷年春晚",春晚2025
 https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8
-#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live086_mobile.png" group-title="衛視IPV4",TVBS精采台
-https://4gtvmobile-mozai.4gtv.tv/WMkUSjuFcANemms7W3eFeVsdGKaUZ87RSB1T82LNB5A%3d/index.m3u8?token=qhtlC_NcHcixxFDKwlaSsw&expires=1767430953&token1=vEclpguSpmyK1C_v0d05Jw&expires1=1767430953&refer=MWQ0NjRlZWQtMjJlNy00MTU2LWFiYWEtZDgyMjRlMDI0Mzg0&y=0
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv072_mobile.png" group-title="衛視IPV4",TVBS新聞
-https://4gtvmobile-mozai.4gtv.tv/xvWK09Lw-CeReMtGOJPAjIjCEFXehLJHDQfAd0RHN2k%3d/index.m3u8?token=F-P982YFiECMDlB8foPUOg&expires=1767431140&token1=J8aoKYYPQS9apVWOzGuUaA&expires1=1767431140&refer=ZjZjMTk0NzItNTQxNy00NmYwLTkxNjEtNTE4YjhhMDU5NWVj&y=0
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv073_mobile.png" group-title="衛視IPV4",TVBS
-https://4gtvmobile-mozai.4gtv.tv/Eg8X95o9b1VGlKrLEnuMzAUXEw6zmYeXb3QdcGBV4Cs%3d/index.m3u8?token=e0BxtF_ymEmquB0JcuBalQ&expires=1767431205&token1=oo73DdaU2h-US4_CqFqxcA&expires1=1767431205&refer=ZjRmZTdkZTYtMWQ5My00ZDg2LWEyZTEtODZlZjNmZDI3OGIx&y=0
-#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv068_mobile.png" group-title="衛視IPV4",TVBS歡樂台
-https://4gtvmobile-mozai.4gtv.tv/fZL0cpBwo7kJaOBCyohqEOYxUel8YT_BrPJtQPA5Lbs%3d/index.m3u8?token=QWMnP-Q7sIvcUVMFR3TXpA&expires=1767431267&token1=1nLoz8qJUeU888FgJqa0lA&expires1=1767431267&refer=MWNhODMzZDUtMTQ1My00ZWQyLWI2ZGItNGEyNDc1OWQzZjhm&y=0
-#EXTINF:-1 tvg-id="人間衛視" tvg-name="人間衛視" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live008_mobile.png" group-title="衛視IPV4",人間衛視
-https://4gtvmobile-mozai.4gtv.tv/2-N2jWHk77Mnddq0Vww_weW5ZkD15thQiK1e_4o-xu4%3d/index.m3u8?token=uALkLu3Dn-dT1AD7-B_MOA&expires=1767431646&token1=8Kjp0KUfG_sKVppmxbCNdg&expires1=1767431646&refer=YjJlMThmZDgtYTRjZS00NjA3LTlkZGUtZjg5OWQ2ZjJmYzEy&y=0
-#EXTINF:-1 tvg-id="NHK WORLD-JAPAN" tvg-name="NHK WORLD-JAPAN" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live168_mobile.png" group-title="衛視IPV4",NHK WORLD-JAPAN
-https://4gtvmobile-mozai.4gtv.tv/iTo0qRV3_rREMlMKv-IjJbOINmRcO3qM1fgDCu_KoKc%3d/index.m3u8?token=9K3yGvIZRSxsV_0w6z6oqA&expires=1767431653&token1=21yziEHS4S90SVHoBUnoGA&expires1=1767431653&refer=NTkzYjM0YzQtYzJkNi00NzI5LTk3YjEtZDQ3MTc4NmNkYTVk&y=0
-#EXTINF:-1 tvg-id="TVBS綜藝台" tvg-name="TVBS綜藝台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_TVBS綜藝台_mobile-.png" group-title="衛視IPV4",TVBS綜藝台
-https://4gtvmobile-mozai.4gtv.tv/L_TGC4y_VbXXPAiK1l_h9zDCHI6Mx_1pOLjPXe_dig4%3d/index.m3u8?token=ui_NqmCWn0z0M1GtdRNC2Q&expires=1767431708&token1=ZN4dRQ94cH3SXd2y2GZ7xA&expires1=1767431708&refer=Y2M1ZDc5MDctOWIxYi00M2M0LTlmNTUtNDVkNGRhYzFkYzhi&y=0
-#EXTINF:-1 tvg-id="TVBS台劇台" tvg-name="TVBS台劇台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_TVBS台劇台_mobile-.png" group-title="衛視IPV4",TVBS台劇台
-https://4gtvmobile-mozai.4gtv.tv/leK3lFr1SxM-ZnjA7S30dPxppEqwbu2D3T4fmAEjB7Q%3d/index.m3u8?token=BsPOI5dPib5PuLo_ecScYw&expires=1767431716&token1=krJXuaQn5UfDm8GU98yfjg&expires1=1767431716&refer=MWI5N2ZiNzgtOThiMS00Y2EyLThhN2MtYzI0NTUxZTM2NGVk&y=0
-#EXTINF:-1 tvg-id="TVBS看板人物-FastTV飛速看" tvg-name="TVBS看板人物-FastTV飛速看" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/fast-live222.png" group-title="衛視IPV4",TVBS看板人物-FastTV飛速看
-https://4gtvmobile-mozai.4gtv.tv/HzlBTk0eZTbtj-Yy19hpuax55HR1oLrHRQnzo1nRH7bLo3cMxYM2a8qS6qyHC32FgI1t9mRPU21GbIE1XKNMJg%3d%3d/index.m3u8?token=SAVZ9QSQVuESOs8Yq9uzdw&expires=1767432221&token1=Yw4QtuqjLHo0ZgpmpD-Uzw&expires1=1767461021&refer=NTFjNTMzM2UtYjFjNC00Y2ViLWI2MjYtZTNmMGZkN2I2MWU1&y=2024
+#EXTINF:-1 tvg-id="CCM.hk" tvg-logo="https://i.imgur.com/1VhXilw.png" group-title="戲劇、電影與紀錄片",CCM
+http://210.210.155.37/qwr9ew/s/s31/index.m3u8
+#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-logo="https://i.imgur.com/Mb5ssnu.png" group-title="戲劇、電影與紀錄片",Celestial Movies
+http://210.210.155.37/dr9445/h/h14/index.m3u8
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-logo="https://i.imgur.com/Y282owj.png" group-title="戲劇、電影與紀錄片",Thrill
+http://210.210.155.37/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 tvg-id="tvNMoviesAsia.hk" tvg-logo="https://i.imgur.com/c4XvwO2.png" group-title="戲劇、電影與紀錄片",tvN Movies Asia
+http://210.210.155.37/dr9445/h/h21/index.m3u8
 #EXTINF:-1 tvg-id="PetClubTV.hk" tvg-logo="https://i.imgur.com/ykPNNwQ.png" group-title="",Pet Club TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTVAsia.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="衛視IPV4",Bloomberg TV Asia
+#EXTINF:-1 tvg-id="BloombergTVAsia.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="其它",Bloomberg TV Asia
 http://210.210.155.37/dr9445/h/h03/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="衛視IPV4",Bloomberg TV Asia Live Event
+#EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="其它",Bloomberg TV Asia Live Event
 https://bloomberg.com/media-manifest/streams/asia-event.m3u8
-#EXTINF:-1 tvg-id="KIX.hk" tvg-logo="https://i.imgur.com/zWcUAdb.png" group-title="衛視IPV4",KIX
+#EXTINF:-1 tvg-id="KIX.hk" tvg-logo="https://i.imgur.com/zWcUAdb.png" group-title="其它",KIX
 http://210.210.155.37/dr9445/h/h07/index.m3u8
-#EXTINF:-1 tvg-id="HOYTV.hk" tvg-logo="https://i.imgur.com/NfVZPTT.png" group-title="衛視IPV4",HOY TV
-http://media.fantv.hk/m3u8/archive/channel2.m3u8
-#EXTINF:-1 tvg-id="HKSTV.hk" tvg-logo="https://i.imgur.com/UhwlxwL.png" group-title="衛視IPV4",HKSTV
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 tvg-id="CCM.hk" tvg-logo="https://i.imgur.com/1VhXilw.png" group-title="衛視IPV4",CCM
-http://210.210.155.37/qwr9ew/s/s31/index.m3u8
-#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-logo="https://i.imgur.com/Mb5ssnu.png" group-title="衛視IPV4",Celestial Movies
-http://210.210.155.37/dr9445/h/h14/index.m3u8
-#EXTINF:-1 tvg-id="Thrill.hk" tvg-logo="https://i.imgur.com/Y282owj.png" group-title="衛視IPV4",Thrill
-http://210.210.155.37/qwr9ew/s/s34/index.m3u8
-#EXTINF:-1 tvg-id="tvNMoviesAsia.hk" tvg-logo="https://i.imgur.com/c4XvwO2.png" group-title="衛視IPV4",tvN Movies Asia
-http://210.210.155.37/dr9445/h/h21/index.m3u8
-#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-logo="https://i.imgur.com/Gwij0Fj.png" group-title="衛視IPV4",TVB News Channel
-http://r.jdshipin.com/CkuBd
-#EXTINF:-1 tvg-id="BSTV.hk" tvg-logo="https://i.imgur.com/GVYSSgm.png" group-title="衛視IPV4",BSTV
+#EXTINF:-1 tvg-id="BSTV.hk" tvg-logo="https://i.imgur.com/GVYSSgm.png" group-title="其它",BSTV
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",重温经典
-http://101.35.240.114:88/live.php?id=重温经典
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",翡翠台
-http://101.35.240.114:88/live.php?id=翡翠台
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-user-agent="iPhone" http-header="Referer=https://live.kankanews.com/" group-title="衛視IPV4",五星体育
-http://101.35.240.114:88/live.php?id=五星体育
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" http-user-agent="iPhone" group-title="衛視IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
-http://101.35.240.114:88/phenix.php?id=fhzx
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" http-user-agent="iPhone" group-title="衛視IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
-http://101.35.240.114:88/phenix.php?id=fhzw
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" http-user-agent="iPhone" group-title="衛視IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
-http://101.35.240.114:88/phenix.php?id=fhhk
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" http-user-agent="AptvPlayer-UA" http-referer="https:/aptv.app/" group-title="衛視IPV4",湖南卫视
-http://101.35.240.114:88/live.php?id=湖南卫视
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",北京卫视
-http://101.35.240.114:88/live.php?id=北京卫视
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",深圳卫视
-http://101.35.240.114:88/live.php?id=深圳卫视
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",浙江卫视
-http://101.35.240.114:88/live.php?id=浙江卫视
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" http-user-agent="AptvPlayer-UA" http-header="Referer=https://litchi-play-encrypted-site.jstv.com/" group-title="衛視IPV4",江苏卫视
-http://101.35.240.114:88/live.php?id=江苏卫视
-#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",陕西卫视
-http://101.35.240.114:88/live.php?id=陕西卫视
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",湖北卫视
-http://101.35.240.114:88/live.php?id=湖北卫视
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",内蒙古卫视
-http://101.35.240.114:88/live.php?id=内蒙古卫视
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",江西卫视
-http://101.35.240.114:88/live.php?id=江西卫视
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",广东卫视
-http://101.35.240.114:88/live.php?id=广东卫视
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",东方卫视
-http://101.35.240.114:88/live.php?id=东方卫视
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",西藏卫视
-http://101.35.240.114:88/live.php?id=西藏卫视
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",新疆卫视
-http://101.35.240.114:88/live.php?id=新疆卫视
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" group-title="衛視IPV4",青海卫视
-http://74.48.192.96:82/live.php?id=青海卫视
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" group-title="衛視IPV4",东南卫视
-http://101.35.240.114:88/live.php?id=东南卫视
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" group-title="衛視IPV4",吉林卫视
-http://74.48.192.96:82/live.php?id=吉林卫视
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" group-title="衛視IPV4",四川卫视
-http://74.48.192.96:82/live.php?id=四川卫视
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" group-title="衛視IPV4",天津卫视
-http://74.48.192.96:82/live.php?id=天津卫视
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" http-user-agent="iPhone" http-referer="https://www.ahtv.cn/" group-title="衛視IPV4",安徽卫视
-http://101.35.240.114:88/live.php?id=安徽卫视
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" group-title="衛視IPV4",山东卫视
-http://74.48.192.96:82/live.php?id=山东卫视
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" group-title="衛視IPV4",山西卫视
-http://74.48.192.96:82/live.php?id=山西卫视
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" group-title="衛視IPV4",广西卫视
-http://74.48.192.96:82/live.php?id=广西卫视
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" group-title="衛視IPV4",河北卫视
-http://74.48.192.96:82/live.php?id=河北卫视
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" group-title="衛視IPV4",河南卫视
-http://74.48.192.96:82/live.php?id=河南卫视
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" group-title="衛視IPV4",甘肃卫视
-http://74.48.192.96:82/live.php?id=甘肃卫视
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" group-title="衛視IPV4",贵州卫视
-http://74.48.192.96:82/live.php?id=贵州卫视
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" group-title="衛視IPV4",辽宁卫视
-http://74.48.192.96:82/live.php?id=辽宁卫视
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" group-title="衛視IPV4",重庆卫视
-http://74.48.192.96:82/live.php?id=重庆卫视
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" group-title="衛視IPV4",黑龙江卫视
-http://74.48.192.96:82/live.php?id=黑龙江卫视
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" group-title="衛視IPV4",海南卫视
-http://74.48.192.96:82/live.php?id=海南卫视
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" group-title="衛視IPV4",大湾区卫视
-http://74.48.192.96:82/live.php?id=大湾区卫视
-#EXTINF:-1 tvg-id="北京卫视4K" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",北京卫视4K
-http://101.35.240.114:88/live.php?id=北京卫视
-#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视" http-user-agent="AptvPlayer-UA" group-title="衛視IPV4",深圳卫视4K
-http://101.35.240.114:88/live.php?id=深圳卫视
-#EXTINF:-1 tvg-id="江苏卫视4K" tvg-name="江苏卫视" http-user-agent="aliplayer" group-title="衛視IPV4",江苏卫视4K
-http://101.35.240.114:88/live.php?id=江苏卫视4K
-#EXTINF:-1 tvg-id="浙江卫视4K" tvg-name="浙江卫视" http-user-agent="aliplayer" group-title="衛視IPV4",浙江卫视4K
-http://101.35.240.114:88/live.php?id=浙江卫视4K
-#EXTINF:-1 tvg-id="湖南卫视4K" tvg-name="湖南卫视" http-user-agent="aliplayer" group-title="衛視IPV4",湖南卫视4K
-http://101.35.240.114:88/live.php?id=湖南卫视4K
-#EXTINF:-1 tvg-id="山东卫视4K" tvg-name="山东卫视" http-user-agent="aliplayer" group-title="衛視IPV4",山东卫视4K
-http://101.35.240.114:88/live.php?id=山东卫视4K
-#EXTINF:-1 tvg-id="东方卫视4K" tvg-name="东方卫视" http-user-agent="aliplayer" group-title="衛視IPV4",东方卫视4K
-http://101.35.240.114:88/live.php?id=东方卫视4K
-#EXTINF:-1 tvg-id="广东卫视4K" tvg-name="广东卫视" http-user-agent="aliplayer" group-title="衛視IPV4",广东卫视4K
-http://101.35.240.114:88/live.php?id=广东卫视4K
-#EXTINF:-1 tvg-id="四川卫视4K" tvg-name="四川卫视" http-user-agent="aliplayer" http-referer="https://api.chinaaudiovisual.cn/" group-title="衛視IPV4",四川卫视4K
-http://101.35.240.114:88/live.php?id=四川卫视4K
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV1
 http://101.35.240.114:88/live.php?id=CCTV1
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="其他",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="其它",CCTV2
 http://74.48.192.96:82/live.php?id=CCTV2
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV3
 http://101.35.240.114:88/live.php?id=CCTV3
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="其他",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="其它",CCTV4
 http://74.48.192.96:82/live.php?id=CCTV4
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV5
 http://101.35.240.114:88/live.php?id=CCTV5
-#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="其他",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" group-title="其它",CCTV5+
 http://74.48.192.96:82/live.php?id=CCTV5p
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV6
 http://101.35.240.114:88/live.php?id=CCTV6
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" group-title="其他",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" group-title="其它",CCTV7
 http://74.48.192.96:82/live.php?id=CCTV7
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV8
 http://101.35.240.114:88/live.php?id=CCTV8
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" group-title="其他",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" group-title="其它",CCTV9
 http://74.48.192.96:82/live.php?id=CCTV9
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV10
 http://101.35.240.114:88/live.php?id=CCTV10
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" group-title="其他",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" group-title="其它",CCTV11
 http://74.48.192.96:82/live.php?id=CCTV11
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV12
 http://101.35.240.114:88/live.php?id=CCTV12
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="其他",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="其它",CCTV13
 http://74.48.192.96:82/live.php?id=CCTV13
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" http-user-agent="AptvPlayer-UA" group-title="其他",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" http-user-agent="AptvPlayer-UA" group-title="其它",CCTV14
 http://101.35.240.114:88/live.php?id=CCTV14
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="其他",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="其它",CCTV15
 http://74.48.192.96:82/live.php?id=CCTV15
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" http-user-agent="AptvPlayer-UA" http-referer="https:/aptv.app/" group-title="其他",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" http-user-agent="AptvPlayer-UA" http-referer="https:/aptv.app/" group-title="其它",CCTV16
 http://101.35.240.114:88/live.php?id=CCTV16
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="其他",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="其它",CCTV17
 http://74.48.192.96:82/live.php?id=CCTV17
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="其他",CGTN英语
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="其它",CGTN英语
 https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="其他",CGTN纪录
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="其它",CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" group-title="其他",CGTN西语
+#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" group-title="其它",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="其他",CGTN法语
+#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="其它",CGTN法语
 https://0472.org/hls/cgtnf.m3u8
-#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" group-title="其他",CGTN阿语
+#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" group-title="其它",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="其他",CGTN俄语
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="其它",CGTN俄语
 https://0472.org/hls/cgtne.m3u8
-#EXTINF:-1 tvg-name="CHC家庭影院" group-title="其他",CHC家庭影院
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="其它",CHC家庭影院
 http://74.48.192.96:82/live.php?id=CHC家庭影院
-#EXTINF:-1 tvg-name="CHC动作电影" http-user-agent="AptvPlayer-UA" group-title="其他",CHC动作电影
+#EXTINF:-1 tvg-name="CHC动作电影" http-user-agent="AptvPlayer-UA" group-title="其它",CHC动作电影
 http://101.35.240.114:88/live.php?id=CHC动作电影
-#EXTINF:-1 tvg-name="CHC影迷电影" group-title="其他",CHC影迷电影
+#EXTINF:-1 tvg-name="CHC影迷电影" group-title="其它",CHC影迷电影
 http://74.48.192.96:82/live.php?id=CHC影迷电影
-#EXTINF:-1 tvg-id="苏州4K" tvg-name="苏州4K" group-title="其他",苏州4K
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" http-user-agent="AptvPlayer-UA" group-title="其它",重温经典
+http://101.35.240.114:88/live.php?id=重温经典
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" http-user-agent="AptvPlayer-UA" group-title="其它",翡翠台
+http://101.35.240.114:88/live.php?id=翡翠台
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" http-user-agent="iPhone" group-title="其它" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
+http://101.35.240.114:88/phenix.php?id=fhzx
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" http-user-agent="iPhone" group-title="其它" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" http-user-agent="iPhone" group-title="其它" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
+http://101.35.240.114:88/phenix.php?id=fhhk
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" http-user-agent="AptvPlayer-UA" http-referer="https:/aptv.app/" group-title="其它",湖南卫视
+http://101.35.240.114:88/live.php?id=湖南卫视
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="其它",北京卫视
+http://101.35.240.114:88/live.php?id=北京卫视
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" http-user-agent="AptvPlayer-UA" group-title="其它",深圳卫视
+http://101.35.240.114:88/live.php?id=深圳卫视
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" http-user-agent="AptvPlayer-UA" group-title="其它",浙江卫视
+http://101.35.240.114:88/live.php?id=浙江卫视
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" http-user-agent="AptvPlayer-UA" http-header="Referer=https://litchi-play-encrypted-site.jstv.com/" group-title="其它",江苏卫视
+http://101.35.240.114:88/live.php?id=江苏卫视
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" http-user-agent="AptvPlayer-UA" group-title="其它",陕西卫视
+http://101.35.240.114:88/live.php?id=陕西卫视
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" http-user-agent="AptvPlayer-UA" group-title="其它",湖北卫视
+http://101.35.240.114:88/live.php?id=湖北卫视
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" http-user-agent="AptvPlayer-UA" group-title="其它",内蒙古卫视
+http://101.35.240.114:88/live.php?id=内蒙古卫视
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" http-user-agent="AptvPlayer-UA" group-title="其它",江西卫视
+http://101.35.240.114:88/live.php?id=江西卫视
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" http-user-agent="AptvPlayer-UA" group-title="其它",广东卫视
+http://101.35.240.114:88/live.php?id=广东卫视
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" http-user-agent="AptvPlayer-UA" group-title="其它",东方卫视
+http://101.35.240.114:88/live.php?id=东方卫视
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" http-user-agent="AptvPlayer-UA" group-title="其它",西藏卫视
+http://101.35.240.114:88/live.php?id=西藏卫视
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" http-user-agent="AptvPlayer-UA" group-title="其它",新疆卫视
+http://101.35.240.114:88/live.php?id=新疆卫视
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" group-title="其它",青海卫视
+http://74.48.192.96:82/live.php?id=青海卫视
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" group-title="其它",东南卫视
+http://101.35.240.114:88/live.php?id=东南卫视
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" group-title="其它",吉林卫视
+http://74.48.192.96:82/live.php?id=吉林卫视
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" group-title="其它",四川卫视
+http://74.48.192.96:82/live.php?id=四川卫视
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" group-title="其它",天津卫视
+http://74.48.192.96:82/live.php?id=天津卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" http-user-agent="iPhone" http-referer="https://www.ahtv.cn/" group-title="其它",安徽卫视
+http://101.35.240.114:88/live.php?id=安徽卫视
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" group-title="其它",山东卫视
+http://74.48.192.96:82/live.php?id=山东卫视
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" group-title="其它",山西卫视
+http://74.48.192.96:82/live.php?id=山西卫视
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" group-title="其它",广西卫视
+http://74.48.192.96:82/live.php?id=广西卫视
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" group-title="其它",河北卫视
+http://74.48.192.96:82/live.php?id=河北卫视
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" group-title="其它",河南卫视
+http://74.48.192.96:82/live.php?id=河南卫视
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" group-title="其它",甘肃卫视
+http://74.48.192.96:82/live.php?id=甘肃卫视
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" group-title="其它",贵州卫视
+http://74.48.192.96:82/live.php?id=贵州卫视
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" group-title="其它",辽宁卫视
+http://74.48.192.96:82/live.php?id=辽宁卫视
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" group-title="其它",重庆卫视
+http://74.48.192.96:82/live.php?id=重庆卫视
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" group-title="其它",黑龙江卫视
+http://74.48.192.96:82/live.php?id=黑龙江卫视
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" group-title="其它",海南卫视
+http://74.48.192.96:82/live.php?id=海南卫视
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" group-title="其它",大湾区卫视
+http://74.48.192.96:82/live.php?id=大湾区卫视
+#EXTINF:-1 tvg-id="北京卫视4K" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="其它",北京卫视4K
+http://101.35.240.114:88/live.php?id=北京卫视
+#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视" http-user-agent="AptvPlayer-UA" group-title="其它",深圳卫视4K
+http://101.35.240.114:88/live.php?id=深圳卫视
+#EXTINF:-1 tvg-id="江苏卫视4K" tvg-name="江苏卫视" http-user-agent="aliplayer" group-title="其它",江苏卫视4K
+http://101.35.240.114:88/live.php?id=江苏卫视4K
+#EXTINF:-1 tvg-id="浙江卫视4K" tvg-name="浙江卫视" http-user-agent="aliplayer" group-title="其它",浙江卫视4K
+http://101.35.240.114:88/live.php?id=浙江卫视4K
+#EXTINF:-1 tvg-id="湖南卫视4K" tvg-name="湖南卫视" http-user-agent="aliplayer" group-title="其它",湖南卫视4K
+http://101.35.240.114:88/live.php?id=湖南卫视4K
+#EXTINF:-1 tvg-id="山东卫视4K" tvg-name="山东卫视" http-user-agent="aliplayer" group-title="其它",山东卫视4K
+http://101.35.240.114:88/live.php?id=山东卫视4K
+#EXTINF:-1 tvg-id="东方卫视4K" tvg-name="东方卫视" http-user-agent="aliplayer" group-title="其它",东方卫视4K
+http://101.35.240.114:88/live.php?id=东方卫视4K
+#EXTINF:-1 tvg-id="广东卫视4K" tvg-name="广东卫视" http-user-agent="aliplayer" group-title="其它",广东卫视4K
+http://101.35.240.114:88/live.php?id=广东卫视4K
+#EXTINF:-1 tvg-id="四川卫视4K" tvg-name="四川卫视" http-user-agent="aliplayer" http-referer="https://api.chinaaudiovisual.cn/" group-title="其它",四川卫视4K
+http://101.35.240.114:88/live.php?id=四川卫视4K
+#EXTINF:-1 tvg-id="苏州4K" tvg-name="苏州4K" group-title="其它",苏州4K
 https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
-#EXTINF:-1 tvg-id="河北4K" tvg-name="河北4K" group-title="其他",河北4K
+#EXTINF:-1 tvg-id="河北4K" tvg-name="河北4K" group-title="其它",河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
