@@ -1,0 +1,39 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="Channel 3 Thailand" tvg-name="Channel 3 Thailand" tvg-logo="" group-title="GPT-泰国",Channel 3 Thailand
+https://live.catvod.com/live.php?id=ch3_pat
+#EXTINF:-1 tvg-id="Channel 5 Thailand" tvg-name="Channel 5 Thailand" tvg-logo="" group-title="GPT-泰国",Channel 5 Thailand
+https://live.catvod.com/live.php?id=ch5_pat
+#EXTINF:-1 tvg-id="Channel 7 Thailand" tvg-name="Channel 7 Thailand" tvg-logo="" group-title="GPT-泰国",Channel 7 Thailand
+https://live.catvod.com/live.php?id=ch7_pat
+#EXTINF:-1 tvg-id="MCOT HD Thailand-1" tvg-name="MCOT HD Thailand-1" tvg-logo="" group-title="GPT-泰国",MCOT HD Thailand-1
+https://live.catvod.com/live.php?id=mcot_pat
+#EXTINF:-1 tvg-id="PPTV Thailand1" tvg-name="PPTV Thailand1" tvg-logo="" group-title="GPT-泰国",PPTV Thailand1
+https://live.catvod.com/live.php?id=pptv_pat
+#EXTINF:-1 tvg-id="Thai Thai" tvg-name="Thai Thai" tvg-logo="" group-title="GPT-泰国",Thai Thai
+https://live.catvod.com/live.php?id=thaithai_pat
+#EXTINF:-1 tvg-id="Amarin" tvg-name="Amarin" tvg-logo="" group-title="GPT-泰国",Amarin
+https://live.catvod.com/live.php?id=amarin_pat
+#EXTINF:-1 tvg-id="Ch 8" tvg-name="Ch 8" tvg-logo="" group-title="GPT-泰国",Ch 8
+https://live.catvod.com/live.php?id=ch8_pat
+#EXTINF:-1 tvg-id="GmmOne" tvg-name="GmmOne" tvg-logo="" group-title="GPT-泰国",GmmOne
+https://live.catvod.com/live.php?id=gmmone_pat
+#EXTINF:-1 tvg-id="Mono" tvg-name="Mono" tvg-logo="" group-title="GPT-泰国",Mono
+https://live.catvod.com/live.php?id=mono_pat
+#EXTINF:-1 tvg-id="Thairath" tvg-name="Thairath" tvg-logo="" group-title="GPT-泰国",Thairath
+https://live.catvod.com/live.php?id=thairath_pat
+#EXTINF:-1 tvg-id="tpbs" tvg-name="tpbs" tvg-logo="" group-title="GPT-泰国",tpbs
+https://live.catvod.com/live.php?id=tpbs_pat
+#EXTINF:-1 tvg-id="Workpoint" tvg-name="Workpoint" tvg-logo="" group-title="GPT-泰国",Workpoint
+https://live.catvod.com/live.php?id=workpoint_pat
+#EXTINF:-1 tvg-id="Gmm Channel" tvg-name="Gmm Channel" tvg-logo="" group-title="GPT-泰国",Gmm Channel
+https://live.catvod.com/live.php?id=gmmchannel_pat
+#EXTINF:-1 tvg-id="Nation" tvg-name="Nation" tvg-logo="" group-title="GPT-泰国",Nation
+https://live.catvod.com/live.php?id=nation_pat
+#EXTINF:-1 tvg-id="Tnn24" tvg-name="Tnn24" tvg-logo="" group-title="GPT-泰国",Tnn24
+https://live.catvod.com/live.php?id=tnn24_pat
+#EXTINF:-1 tvg-id="Nbt" tvg-name="Nbt" tvg-logo="" group-title="GPT-泰国",Nbt
+https://live.catvod.com/live.php?id=nbt_pat
+#EXTINF:-1 tvg-id="New" tvg-name="New" tvg-logo="" group-title="GPT-泰国",New
+https://live.catvod.com/live.php?id=new_pat
+#EXTINF:-1 tvg-id="TPTV" tvg-name="TPTV" tvg-logo="" group-title="GPT-泰国",TPTV
+https://live.catvod.com/live.php?id=tptv_pat
