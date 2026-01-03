@@ -1,7 +1,7 @@
 name: Auto Update IPTV List
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 jobs:
   build:
@@ -17,5 +17,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add 4gtv.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync original" && git push)
+          # 修正點：使用 git add . 確保包含 smart.m3u 和 4gtv.m3u
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sort and sync IPTV" && git push)
