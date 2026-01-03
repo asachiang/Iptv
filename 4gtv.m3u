@@ -1949,6 +1949,8 @@ http://4gtvtw.koyeb.app/li-4gtv-4gtv053/index.m3u8?token=abcd1234
 http://4gtvtw.koyeb.app/li-litv-ftv07/index.m3u8?token=abcd1234
 #EXTINF:-1 tvg-id="亚洲旅游台" tvg-name="亚洲旅游台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Asiatravel.png"?token=abcd1234 group-title="生活旅遊",亞洲旅遊
 http://4gtvtw.koyeb.app/li-4gtv-4gtv076/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="SMART知识台" tvg-name="SMART知识台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/smarttv.png"?token=abcd1234 group-title="生活旅遊",Smart知識台
+http://4gtvtw.koyeb.app/li-litv-longturn19/index.m3u8?token=abcd1234
 #EXTINF:-1 group-title="亞太GT",華視教育體育文化
 http://211.23.95.147:18881/live/dtv19_h265.ts
 #EXTINF:-1 group-title="亞太GT",TLC旅遊生活
