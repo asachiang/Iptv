@@ -13,12 +13,8 @@ def fetch_m3u(url):
         return []
 
 def is_stable(url):
-    """
-    不穩定移除機制：
-    檢查連結可用性，若 2.5 秒內無回應或非 200 狀態碼則視為不穩定。
-    """
+    """檢查連結可用性，2.5 秒超時"""
     try:
-        # 使用 stream=True 僅抓取標頭，加快檢測速度
         with requests.get(url, timeout=2.5, stream=True, allow_redirects=True) as response:
             return response.status_code == 200
     except:
@@ -46,15 +42,12 @@ def run():
                 info, url = lines[i], lines[i+1].strip() if i+1 < len(lines) else ""
                 if not url: continue
                 
-                # --- 特殊邏輯：針對來源中包含 "Smart" 字眼的頻道進行穩定性檢查 ---
+                # 針對 LinWei 源中的 Smart 關鍵字進行穩定性檢查
                 if "smart" in info.lower():
-                    print(f"檢測 Smart 頻道穩定性: {info}")
                     if not is_stable(url):
-                        print(" -> 不穩定，已移除")
                         continue 
-                # -------------------------------------------------------
 
-                # 分類關鍵字匹配
+                # 分類邏輯
                 if any(k in info for k in ["酒店", "HOTEL", "台灣酒店"]): categories["HOTEL"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["歐飛", "點播", "OFFY"]): categories["OFFY"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["新聞", "財經"]): categories["NEWS"].append(f"{info}\n{url}")
@@ -65,7 +58,7 @@ def run():
                 elif any(k in info for k in ["體育", "運動", "健康", "生活"]): categories["SPORT"].append(f"{info}\n{url}")
                 else: categories["OTHER"].append(f"{info}\n{url}")
 
-    # 處理 Thailand (包含不穩定移除)
+    # 處理 Thailand (移除不穩定源)
     print("正在處理泰國頻道穩定性檢測...")
     th_lines = fetch_m3u(URL_IPTV_ORG_TH)
     for i in range(len(th_lines)):
@@ -84,7 +77,6 @@ def run():
 
     # 寫入最終合併檔案 4gtv.m3u
     order = ["YT", "NEWS", "GENERAL", "HOTEL", "OFFY", "DRAMA", "KIDS", "MUSIC", "SPORT", "OTHER", "TH"]
-    
     with open("4gtv.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for key in order:
@@ -92,4 +84,7 @@ def run():
                 unique_list = list(dict.fromkeys(categories[key])) 
                 f.write("\n".join(unique_list) + "\n")
 
-    print("✅ 更新完成！LinWei 源中的 Smart
+    print("Update Completed!")
+
+if __name__ == "__main__":
+    run()
