@@ -21,17 +21,11 @@ jobs:
       
       - run: python update_iptv.py
       
-            - name: Commit and Push
+      - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          # 建議：只 add 腳本實際產生的檔案
-          git add 4gtv.m3u smart.m3u
-          
-          # 或者使用 git add . (把所有變更都加入)
-          # git add .
-
+          git add 4gtv.m3u Thailand.m3u  # 同步更新這兩個檔案
           # 檢查是否有變更，有變更才 Commit
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
