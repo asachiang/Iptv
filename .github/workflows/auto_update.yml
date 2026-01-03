@@ -1,21 +1,35 @@
 name: Auto Update IPTV List
 on:
   schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *'  # 修正為每小時
+  workflow_dispatch:      # 保留手動觸發按鈕，方便測試
+
+permissions:              # 確保 Action 有寫入檔案的權限
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          
       - run: pip install requests
+      
       - run: python update_iptv.py
+      
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add 4gtv.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Sort and sync IPTV" && git push)
+          git add 4gtv.m3u Thailand.m3u  # 同步更新這兩個檔案
+          # 檢查是否有變更，有變更才 Commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "No changes detected"
+          fi
