@@ -17,6 +17,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # 同時追蹤 4gtv.m3u, smart.m3u 與 thailand.m3u
-          git add 4gtv.m3u smart.m3u thailand.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update IPTV lists and Thailand channels" && git push)
+          # 使用 git add . 自動包含 4gtv.m3u 與 thailand.m3u
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto sync: 4GTV, Thailand and Smart IPTV" && git push)
