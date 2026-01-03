@@ -1,111 +1,128 @@
 import requests
 import re
 import os
+import concurrent.futures
 
 def fetch_m3u(url):
     """抓取網路上的 M3U 檔案"""
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    r.encoding = 'utf-8'
-    return r.text.splitlines()
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        r.encoding = 'utf-8'
+        return r.text.splitlines()
+    except Exception as e:
+        print(f"❌ 抓取失敗 {url}: {e}")
+        return []
+
+def check_url(url):
+    """嚴格篩選：檢查網址是否可播放"""
+    try:
+        # 使用 HEAD 請求節省流量，僅檢查狀態碼
+        response = requests.head(url, timeout=5, allow_redirects=True)
+        return response.status_code in [200, 302]
+    except:
+        return False
+
+def get_thailand_url(index_url):
+    """獲取泰國源連結"""
+    lines = fetch_m3u(index_url)
+    for line in lines:
+        if "thailand.m3u" in line.lower() and line.startswith("http"):
+            return line.strip()
+    return "https://iptv-org.github.io/iptv/countries/th.m3u"
 
 def run():
-    # 設定來源網址
-    URL_4GTV = "https://jody.im5k.fun/4gtv.m3u"
-    URL_SMART = "https://jody.im5k.fun/smart.m3u"
+    index_url = "https://iptv-org.github.io/iptv/index.country.m3u"
+    thai_url = get_thailand_url(index_url)
     
-    # 本地檔案
+    sources = [
+        {"name": "台灣4GTV", "url": "https://jody.im5k.fun/4gtv.m3u"},
+        {"name": "香港頻道", "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/HongKong.m3u8"},
+        {"name": "國際源", "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"}
+    ]
+    
     youtube_file = "youtube 新聞.m3u"
+    main_output = "4gtv.m3u"
+    thai_output = "Thailand.m3u" 
     
-    # 4GTV 分類排序清單
-    PREFERRED_ORDER = ["新聞", "財經新聞", "綜合", "戲劇、電影", "電影", "戲劇", "兒童", "其他"]
+    PREFERRED_ORDER = [
+        "YOUTUBE油管新聞", "新聞財經", "綜合", "Thailand", 
+        "衛视IPV4", "央視IPV4", "4K8K頻道",
+        "戲劇、電影與紀錄片", "兒童與青少年", 
+        "音樂綜藝", "運動健康生活", "其它"
+    ]
+    
+    groups = {name: [] for name in PREFERRED_ORDER}
+    thailand_only_list = [] 
 
-    try:
-        # ========= 1️⃣ 處理 4GTV 內容並分類 =========
-        lines = fetch_m3u(URL_4GTV)
-        groups = {name: [] for name in PREFERRED_ORDER}
-        header = "#EXTM3U"
-        
+    # --- 步驟 A: 處理泰國源 + 效驗 ---
+    print(f"📡 正在篩選泰國頻道 (此步驟較慢): {thai_url}")
+    thai_lines = fetch_m3u(thai_url)
+    
+    # 提取頻道資訊對
+    temp_thai = []
+    for i in range(len(thai_lines)):
+        if thai_lines[i].startswith("#EXTINF"):
+            info = thai_lines[i]
+            url = thai_lines[i+1].strip() if i+1 < len(thai_lines) else ""
+            if url: temp_thai.append((info, url))
+
+    # 使用多執行緒加速效驗
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(lambda p: check_url(p[1]), temp_thai))
+    
+    for (info, url), is_valid in zip(temp_thai, results):
+        if is_valid:
+            info = re.sub(r'group-title="[^"]+"', 'group-title="Thailand"', info) if 'group-title="' in info else info.replace("#EXTINF:-1", '#EXTINF:-1 group-title="Thailand"')
+            entry = f"{info}\n{url}"
+            groups["Thailand"].append(entry)
+            thailand_only_list.append(entry)
+
+    # --- 步驟 B: 處理其餘來源 (不逐一效驗以維持速度，或視需求加入) ---
+    for src in sources:
+        print(f"📡 處理來源: {src['name']}")
+        lines = fetch_m3u(src['url'])
         i = 0
         while i < len(lines):
             line = lines[i].strip()
             if line.startswith("#EXTINF"):
                 info = line
-                url_line = lines[i+1].strip() if i+1 < len(lines) else ""
-                match = re.search(r'group-title="([^"]+)"', info)
-                detected = match.group(1) if match else "其他"
-                # 判斷屬於哪個分類
-                key = next((k for k in PREFERRED_ORDER if k in detected), "其他")
-                groups[key].append(f"{info}\n{url_line}")
-                i += 2
-            else:
-                if line.startswith("#EXTM3U"): header = line
-                i += 1
+                url = lines[i+1].strip() if i+1 < len(lines) else ""
+                name = info.split(',')[-1].upper()
+                search_text = (name + info.upper())
+                
+                target = "其它"
+                if any(k in search_text for k in ["CCTV", "央視", "中央台"]): target = "央視IPV4"
+                elif any(k in search_text for k in ["衛視", "卫视", "TVB", "翡翠", "鳳凰", "HK", "HONG KONG"]): target = "衛视IPV4"
+                elif any(k in search_text for k in ["4K", "8K", "ULTRAHD", "UHD"]): target = "4K8K頻道"
+                elif any(k in search_text for k in ["新聞", "NEWS", "財經", "股市"]): target = "新聞財經"
+                elif any(k in search_text for k in ["綜合", "GENERAL", "4GTV"]): target = "綜合"
+                elif any(k in search_text for k in ["電影", "戲劇", "MOVIE", "DRAMA", "影視"]): target = "戲劇、電影與紀錄片"
+                elif any(k in search_text for k in ["兒童", "KIDS", "CARTOON", "少兒"]): target = "兒童與青少年"
+                elif any(k in search_text for k in ["音樂", "綜藝", "MUSIC", "VARIETY"]): target = "音樂綜藝"
+                elif any(k in search_text for k in ["運動", "SPORTS", "健康", "體育"]): target = "運動健康生活"
 
-        # ========= 2️⃣ 讀取本地 YouTube 新聞 =========
-        youtube_content = []
+                info = re.sub(r'group-title="[^"]+"', f'group-title="{target}"', info) if 'group-title="' in info else info.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{target}"')
+                groups[target].append(f"{info}\n{url}")
+                i += 2
+            else: i += 1
+
+    # --- 步驟 C: 寫入檔案 ---
+    with open(thai_output, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n" + "\n".join(thailand_only_list))
+
+    with open(main_output, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
         if os.path.exists(youtube_file):
             with open(youtube_file, "r", encoding="utf-8") as yf:
-                youtube_content = [line.strip() for line in yf if not line.startswith("#EXTM3U") and line.strip()]
+                f.write("".join([line for line in yf if not line.startswith("#EXTM3U")]))
 
-        # ========= 3️⃣ 抓取 smart.m3u 並分區過濾 =========
-        smart_lines = fetch_m3u(URL_SMART)
-        
-        # 【功能：儲存原始檔到 GitHub 網下】
-        with open("smart.m3u", "w", encoding="utf-8") as sf:
-            sf.write("\n".join(smart_lines))
-        
-        # 準備三個籃子裝不同地區的 GPT 頻道
-        smart_tw, smart_hk, smart_th = [], [], []
+        for cat in PREFERRED_ORDER:
+            if cat == "YOUTUBE油管新聞": continue 
+            for item in groups[cat]:
+                f.write(item + "\n")
 
-        i = 0
-        while i < len(smart_lines):
-            line = smart_lines[i].strip()
-            if line.startswith("#EXTINF"):
-                info = line
-                url_line = smart_lines[i+1].strip() if i+1 < len(smart_lines) else ""
-                
-                # 判定地區 (包含繁簡體關鍵字)
-                if any(k in info for k in ["GPT-台湾", "GPT-台灣"]):
-                    smart_tw.append(f"{info}\n{url_line}")
-                elif "GPT-香港" in info:
-                    smart_hk.append(f"{info}\n{url_line}")
-                elif any(k in info for k in ["GPT-泰国", "GPT-泰國"]):
-                    smart_th.append(f"{info}\n{url_line}")
-                i += 2
-            else:
-                i += 1
-
-        # ========= 4️⃣ 寫入最終合併後的 4gtv.m3u (自定義排序) =========
-        with open("4gtv.m3u", "w", encoding="utf-8") as f:
-            f.write(header + "\n")
-
-            # A. YouTube 新聞 (最頂端)
-            for line in youtube_content:
-                f.write(line + "\n")
-
-            # B. 4GTV 新聞/財經/綜合 (第二、三列順位)
-            # 在這裡我們優先寫入這三類
-            priority_cats = ["新聞", "財經新聞", "綜合"]
-            for cat in priority_cats:
-                for entry in groups[cat]:
-                    f.write(entry + "\n")
-
-            # C. GPT 地區頻道 (台 > 港 > 泰)
-            for entry in smart_tw: f.write(entry + "\n")
-            for entry in smart_hk: f.write(entry + "\n")
-            for entry in smart_th: f.write(entry + "\n")
-
-            # D. 剩餘的 4GTV 分類 (排除掉前面已寫過的)
-            for cat in PREFERRED_ORDER:
-                if cat not in priority_cats:
-                    for entry in groups[cat]:
-                        f.write(entry + "\n")
-
-        print("✅ 腳本執行成功！4gtv.m3u 與 smart.m3u 已同步更新。")
-
-    except Exception as e:
-        print(f"❌ 發生錯誤：{e}")
+    print(f"✅ 更新完成！已排除無法播放的泰國頻道。")
 
 if __name__ == "__main__":
     run()
