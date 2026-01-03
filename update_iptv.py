@@ -1,6 +1,5 @@
 import requests
 import os
-import re
 
 def fetch_m3u(url):
     """抓取 M3U 檔案"""
@@ -28,7 +27,7 @@ def run():
     URL_IPTV_ORG_TH = "https://iptv-org.github.io/iptv/countries/th.m3u"
     YT_FILE = "youtube 新聞.m3u"
 
-    # 初始化分類容器 (已移除您指定的分類)
+    # 初始化分類容器 (已移除 HOTEL 與 OFFY)
     categories = {
         "YT": [], "NEWS": [], "GENERAL": [], "DRAMA": [], 
         "KIDS": [], "MUSIC": [], "SPORT": [], "OTHER": [], "TH": []
@@ -47,7 +46,7 @@ def run():
                     if not is_stable(url):
                         continue 
 
-                # 簡化後的分類邏輯 (移除 台灣酒店、歐飛點播、New, Education 等)
+                # 分類關鍵字匹配 (已移除 台灣酒店 與 歐飛點播 的判斷)
                 if any(k in info for k in ["新聞", "財經"]): categories["NEWS"].append(f"{info}\n{url}")
                 elif "綜合" in info: categories["GENERAL"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["戲劇", "電影", "紀錄"]): categories["DRAMA"].append(f"{info}\n{url}")
@@ -73,8 +72,10 @@ def run():
         with open(YT_FILE, "r", encoding="utf-8") as yf:
             categories["YT"] = [l.strip() for l in yf if not l.startswith("#EXTM3U") and l.strip()]
 
-    # 寫入最終合併檔案 4gtv.m3u (排序不含已刪除分類)
+    # 寫入最終合併檔案 4gtv.m3u
+    # 排序：YT -> 新聞 -> 綜合 -> 戲劇 -> 兒童 -> 音樂 -> 運動 -> 其它 -> Thailand
     order = ["YT", "NEWS", "GENERAL", "DRAMA", "KIDS", "MUSIC", "SPORT", "OTHER", "TH"]
+    
     with open("4gtv.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for key in order:
