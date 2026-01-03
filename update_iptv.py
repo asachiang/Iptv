@@ -1,117 +1,81 @@
-import requests
-import re
 import os
+import re
 
-TIMEOUT = 8
+SMART = "smart.m3u"
+THAI = "thailand.m3u"
+OUTPUT = "smart.m3u"
 
-# ======================
-# 基本工具
-# ======================
-def fetch_m3u(url):
-    try:
-        r = requests.get(url, timeout=30)
-        r.raise_for_status()
-        r.encoding = "utf-8"
-        return r.text.splitlines()
-    except Exception as e:
-        print(f"❌ 抓取失敗: {url} {e}")
-        return []
+ORDER = [
+    "YOUTUBE油管新聞",
+    "新聞財經",
+    "綜合",
+    "Thailand 🇹🇭",
+    "歷年春晚",
+    "戲劇、電影與紀錄片",
+    "兒童與青少年",
+    "音樂綜藝",
+    "運動健康生活"
+]
 
-def is_valid_stream(url):
-    if not url.startswith(("http://", "https://")):
-        return False
-    bad = ["youtube", ".mp4", ".mkv", ".avi", "rtmp", "radio"]
-    return not any(b in url.lower() for b in bad)
+def parse_m3u(path):
+    groups = {}
+    header = "#EXTM3U"
+    if not os.path.exists(path):
+        return header, groups
 
-def head_check(url):
-    try:
-        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        return r.status_code < 400
-    except:
-        return False
-
-# ======================
-# 分類判斷
-# ======================
-def classify(text):
-    t = text.upper()
-    if "春晚" in t:
-        return "歷年春晚"
-    if any(k in t for k in ["NEWS", "新聞", "財經"]):
-        return "新聞財經"
-    if any(k in t for k in ["MOVIE", "DRAMA", "電影", "戲劇", "紀錄"]):
-        return "戲劇、電影與紀錄片"
-    if any(k in t for k in ["KIDS", "兒童", "卡通"]):
-        return "兒童與青少年"
-    if any(k in t for k in ["MUSIC", "綜藝", "音樂"]):
-        return "音樂綜藝"
-    if any(k in t for k in ["SPORT", "運動", "健康"]):
-        return "運動健康生活"
-    return "綜合"
-
-# ======================
-# Thailand 擷取
-# ======================
-def extract_thailand():
-    url = "https://iptv-org.github.io/iptv/index.country.m3u"
-    lines = fetch_m3u(url)
-
-    seen = set()
-    out = {"Thailand": []}
+    with open(path, "r", encoding="utf-8") as f:
+        lines = [l.strip() for l in f if l.strip()]
 
     i = 0
     while i < len(lines):
-        if lines[i].startswith("#EXTINF") and "THAILAND" in lines[i].upper():
+        if lines[i].startswith("#EXTM3U"):
+            header = lines[i]
+            i += 1
+            continue
+
+        if lines[i].startswith("#EXTINF"):
             info = lines[i]
-            j = i + 1
-            while j < len(lines) and not lines[j].startswith("#EXTINF"):
-                stream = lines[j].strip()
-                if is_valid_stream(stream) and stream not in seen:
-                    if head_check(stream):
-                        seen.add(stream)
-                        info = re.sub(
-                            r'group-title="[^"]+"',
-                            'group-title="Thailand"',
-                            info
-                        )
-                        out["Thailand"].append(f"{info}\n{stream}")
-                j += 1
-            i = j
+            url = lines[i + 1]
+            grp = re.search(r'group-title="([^"]+)"', info)
+            grp = grp.group(1) if grp else "其他"
+            groups.setdefault(grp, []).append((info, url))
+            i += 2
         else:
             i += 1
-    return out
+    return header, groups
 
-# ======================
-# 主程式
-# ======================
 def run():
-    OUTPUT_THAI = "thailand.m3u"
-    HEADER = "#EXTM3U"
+    header, smart_groups = parse_m3u(SMART)
+    _, thai_groups = parse_m3u(THAI)
 
-    groups = {
-        "YOUTUBE油管新聞": [],
-        "新聞財經": [],
-        "綜合": [],
-        "Thailand": [],
-        "歷年春晚": [],
-        "戲劇、電影與紀錄片": [],
-        "兒童與青少年": [],
-        "音樂綜藝": [],
-        "運動健康生活": []
-    }
+    # Thailand 強制修正群組名稱
+    thai_list = []
+    for g in thai_groups.values():
+        for info, url in g:
+            info = re.sub(
+                r'group-title="[^"]+"',
+                'group-title="Thailand 🇹🇭"',
+                info
+            )
+            thai_list.append((info, url))
 
-    # --- Thailand ---
-    thai = extract_thailand()
-    groups["Thailand"].extend(thai["Thailand"])
+    smart_groups["Thailand 🇹🇭"] = thai_list
 
-    # --- 輸出 Thailand ---
-    with open(OUTPUT_THAI, "w", encoding="utf-8") as f:
-        f.write(HEADER + "\n")
-        for item in groups["Thailand"]:
-            f.write(item + "\n")
+    seen = set()
+    with open(OUTPUT, "w", encoding="utf-8") as f:
+        f.write(header + "\n")
 
-    print(f"✅ Thailand 頻道完成：{len(groups['Thailand'])} 條")
-    print(f"📄 輸出檔案：{OUTPUT_THAI}")
+        for cat in ORDER:
+            if cat not in smart_groups:
+                continue
+            for info, url in smart_groups[cat]:
+                if url in seen:
+                    continue
+                seen.add(url)
+                f.write(info + "\n")
+                f.write(url + "\n")
+
+    print("✅ smart.m3u 已合併 Thailand 🇹🇭 並更新完成")
 
 if __name__ == "__main__":
     run()
