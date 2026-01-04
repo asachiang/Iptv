@@ -503,6 +503,8 @@ https://stream1.stou.ac.th/live/stou_720p/playlist.m3u8
 https://live.bangkokstream.com:19360/suwannabhumi/suwannabhumi.m3u8
 #EXTINF:-1 tvg-id="ThaiChaiyo.th@SD" tvg-logo="https://i.imgur.com/uOfb3y1.png" group-title="Undefined",Thai Chaiyo (720p)
 https://live-iptv.thaichaiyo.tv/tcy/live-manifest.m3u8
+#EXTINF:-1 tvg-id="ThaiPBS.th@SD" tvg-logo="https://i.imgur.com/CwalZjr.png" group-title="Undefined",Thai PBS (1080p) [Not 24/7]
+https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Thaiban83.th@SD" tvg-logo="https://www.lyngsat.com/logo/tv/tt/thaiban-83.png" group-title="Undefined",Thaiban 83 (576p)
 https://lb1-live-mv.v2h-cdn.com/hls/ffcd/thaibaan/thaibaan.m3u8
 #EXTINF:-1 tvg-id="TopNews.th@SD" tvg-logo="https://i.imgur.com/tRFnV9M.png" group-title="News",Top News (720p)
