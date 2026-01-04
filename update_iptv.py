@@ -27,13 +27,13 @@ def run():
     URL_IPTV_ORG_TH = "https://iptv-org.github.io/iptv/countries/th.m3u"
     YT_FILE = "youtube 新聞.m3u"
 
-    # 定義過濾黑名單（徹底移除這些字眼的頻道）
+    # 過濾黑名單（徹底移除酒店與歐飛）
     BLACKLIST = ["酒店", "HOTEL", "歐飛", "OFFY", "點播"]
 
     # 初始化分類容器
     categories = {
         "YT": [], "NEWS": [], "GENERAL": [], "DRAMA": [], 
-        "KIDS": [], "MUSIC": [], "SPORT": [], "OTHER": [], "TH": []
+        "MUSIC": [], "KIDS": [], "SPORT": [], "OTHER": [], "TH": []
     }
 
     # 處理 4GTV 與 LinWei 來源
@@ -44,7 +44,7 @@ def run():
                 info, url = lines[i], lines[i+1].strip() if i+1 < len(lines) else ""
                 if not url: continue
                 
-                # --- 強制過濾機制：如果在黑名單中，直接跳過 ---
+                # 強制過濾黑名單
                 if any(word in info.upper() for word in BLACKLIST):
                     continue
 
@@ -56,10 +56,9 @@ def run():
                 # 分類邏輯
                 if any(k in info for k in ["新聞", "財經"]): categories["NEWS"].append(f"{info}\n{url}")
                 elif "綜合" in info: categories["GENERAL"].append(f"{info}\n{url}")
-                elif any(k in info for k in ["兒童與青少年",]): categories["KIDS"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["戲劇", "電影", "紀錄"]): categories["DRAMA"].append(f"{info}\n{url}")
-
                 elif any(k in info for k in ["音樂", "綜藝", "娛樂"]): categories["MUSIC"].append(f"{info}\n{url}")
+                elif any(k in info for k in ["兒童", "少兒", "青少年", "動漫"]): categories["KIDS"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["體育", "運動", "健康", "生活"]): categories["SPORT"].append(f"{info}\n{url}")
                 else: categories["OTHER"].append(f"{info}\n{url}")
 
@@ -81,7 +80,9 @@ def run():
             categories["YT"] = [l.strip() for l in yf if not l.startswith("#EXTM3U") and l.strip()]
 
     # 寫入最終 4gtv.m3u
-    order = ["YT", "NEWS", "GENERAL", "DRAMA", "KIDS", "MUSIC", "SPORT", "OTHER", "TH"]
+    # 新的順序：1.YT, 2.新聞, 3.綜合, 4.戲劇, 5.音樂, 6.兒童與青少年, 7.運動, 8.其他, 9.Thailand
+    order = ["YT", "NEWS", "GENERAL", "DRAMA", "MUSIC", "KIDS", "SPORT", "OTHER", "TH"]
+    
     with open("4gtv.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for key in order:
@@ -89,7 +90,7 @@ def run():
                 unique_list = list(dict.fromkeys(categories[key])) 
                 f.write("\n".join(unique_list) + "\n")
 
-    print("Cleanup Completed!")
+    print("Update Completed with Category Reordering!")
 
 if __name__ == "__main__":
     run()
