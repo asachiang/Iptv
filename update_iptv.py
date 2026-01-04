@@ -56,8 +56,9 @@ def run():
                 # 分類邏輯
                 if any(k in info for k in ["新聞", "財經"]): categories["NEWS"].append(f"{info}\n{url}")
                 elif "綜合" in info: categories["GENERAL"].append(f"{info}\n{url}")
+                elif any(k in info for k in ["兒童與青少年",]): categories["KIDS"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["戲劇", "電影", "紀錄"]): categories["DRAMA"].append(f"{info}\n{url}")
-                elif any(k in info for k in ["兒童", "少兒", "動漫"]): categories["KIDS"].append(f"{info}\n{url}")
+
                 elif any(k in info for k in ["音樂", "綜藝", "娛樂"]): categories["MUSIC"].append(f"{info}\n{url}")
                 elif any(k in info for k in ["體育", "運動", "健康", "生活"]): categories["SPORT"].append(f"{info}\n{url}")
                 else: categories["OTHER"].append(f"{info}\n{url}")
