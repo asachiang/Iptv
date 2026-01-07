@@ -1,0 +1,241 @@
+#EXTM3U
+#EXTINF:-1 group-title="亞太GT",中視
+http://211.23.95.147:18881/live/dtv1_h265.ts
+#EXTINF:-1 group-title="亞太GT",中視新聞
+http://211.23.95.147:18881/live/dtv2_h265.ts
+#EXTINF:-1 group-title="亞太GT",中視經典
+http://211.23.95.147:18881/live/dtv3_h265.ts
+#EXTINF:-1 group-title="亞太GT",中視菁采
+http://211.23.95.147:18881/live/dtv4_h265.ts
+#EXTINF:-1 group-title="亞太GT",公視
+http://211.23.95.147:18881/live/dtv5_h265.ts
+#EXTINF:-1 group-title="亞太GT",公視台語
+http://211.23.95.147:18881/live/dtv6_h265.ts
+#EXTINF:-1 group-title="亞太GT",民視
+http://211.23.95.147:18881/live/dtv7_h265.ts
+#EXTINF:-1 group-title="亞太GT",民視第一
+http://211.23.95.147:18881/live/dtv8_h265.ts
+#EXTINF:-1 group-title="亞太GT",民視新聞
+http://211.23.95.147:18881/live/dtv9_h265.ts
+#EXTINF:-1 group-title="亞太GT",民視台灣
+http://211.23.95.147:18881/live/dtv10_h265.ts
+#EXTINF:-1 group-title="亞太GT",小公視
+http://211.23.95.147:18881/live/dtv11_h265.ts
+#EXTINF:-1 group-title="亞太GT",客家電視
+http://211.23.95.147:18881/live/dtv12_h265.ts
+#EXTINF:-1 group-title="亞太GT",原住民電視
+http://211.23.95.147:18881/live/dtv13_h265.ts
+#EXTINF:-1 group-title="亞太GT",台視
+http://211.23.95.147:18881/live/dtv14_h265.ts
+#EXTINF:-1 group-title="亞太GT",台視新聞
+http://211.23.95.147:18881/live/dtv15_h265.ts
+#EXTINF:-1 group-title="亞太GT",台視財經
+http://211.23.95.147:18881/live/dtv16_h265.ts
+#EXTINF:-1 group-title="亞太GT",台視綜合
+http://211.23.95.147:18881/live/dtv17_h265.ts
+#EXTINF:-1 group-title="亞太GT",華視
+http://211.23.95.147:18881/live/dtv18_h265.ts
+#EXTINF:-1 group-title="亞太GT",華視教育體育文化
+http://211.23.95.147:18881/live/dtv19_h265.ts
+#EXTINF:-1 group-title="亞太GT",華視新聞資訊
+http://211.23.95.147:18881/live/dtv20_h265.ts
+#EXTINF:-1 group-title="亞太GT",國會頻道1
+http://211.23.95.147:18881/live/dtv21_h265.ts
+#EXTINF:-1 group-title="亞太GT",國會頻道2
+http://211.23.95.147:18881/live/dtv22_h265.ts
+#EXTINF:-1 group-title="亞太GT",大愛
+http://211.23.95.147:18881/live/dtv23_h265.ts
+#EXTINF:-1 group-title="亞太GT",人間衛視
+http://211.23.95.147:18881/live/dtv24_h265.ts
+#EXTINF:-1 group-title="亞太GT",探索頻道
+http://211.23.95.147:18881/live/19_h265.ts
+#EXTINF:-1 group-title="亞太GT",TLC旅遊生活
+http://211.23.95.147:18881/live/21_h265.ts
+#EXTINF:-1 group-title="亞太GT",動物星球
+http://211.23.95.147:18881/live/22_h265.ts
+#EXTINF:-1 group-title="亞太GT",東森幼幼
+http://211.23.95.147:18881/live/25_h265.ts
+#EXTINF:-1 group-title="亞太GT",緯來綜合
+http://211.23.95.147:18881/live/26_h265.ts
+#EXTINF:-1 group-title="亞太GT",八大第1
+http://211.23.95.147:18881/live/27_h265.ts
+#EXTINF:-1 group-title="亞太GT",八大綜合
+http://211.23.95.147:18881/live/28_h265.ts
+#EXTINF:-1 group-title="亞太GT",三立台灣
+http://211.23.95.147:18881/live/29_h265.ts
+#EXTINF:-1 group-title="亞太GT",三立都會
+http://211.23.95.147:18881/live/30_h265.ts
+#EXTINF:-1 group-title="亞太GT",華藝綜合
+http://211.23.95.147:18881/live/31_h265.ts
+#EXTINF:-1 group-title="亞太GT",東森綜合
+http://211.23.95.147:18881/live/32_h265.ts
+#EXTINF:-1 group-title="亞太GT",東森超視
+http://211.23.95.147:18881/live/33_h265.ts
+#EXTINF:-1 group-title="亞太GT",中天綜合
+http://211.23.95.147:18881/live/36_h265.ts
+#EXTINF:-1 group-title="亞太GT",東風37
+http://211.23.95.147:18881/live/37_h265.ts
+#EXTINF:-1 group-title="亞太GT",年代MUCH
+http://211.23.95.147:18881/live/38_h265.ts
+#EXTINF:-1 group-title="亞太GT",中天娛樂
+http://211.23.95.147:18881/live/39_h265.ts
+#EXTINF:-1 group-title="亞太GT",東森戲劇
+http://211.23.95.147:18881/live/40_h265.ts
+#EXTINF:-1 group-title="亞太GT",八大戲劇
+http://211.23.95.147:18881/live/41_h265.ts
+#EXTINF:-1 group-title="亞太GT",TVBS歡樂
+http://211.23.95.147:18881/live/42_h265.ts
+#EXTINF:-1 group-title="亞太GT",緯來戲劇
+http://211.23.95.147:18881/live/43_h265.ts
+#EXTINF:-1 group-title="亞太GT",JET綜合
+http://211.23.95.147:18881/live/45_h265.ts
+#EXTINF:-1 group-title="亞太GT",壹新聞
+http://211.23.95.147:18881/live/49_h265.ts
+#EXTINF:-1 group-title="亞太GT",年代新聞
+http://211.23.95.147:18881/live/50_h265.ts
+#EXTINF:-1 group-title="亞太GT",東森新聞
+http://211.23.95.147:18881/live/51_h265.ts
+#EXTINF:-1 group-title="亞太GT",三立新聞
+http://211.23.95.147:18881/live/54_h265.ts
+#EXTINF:-1 group-title="亞太GT",TVBS新聞
+http://211.23.95.147:18881/live/55_h265.ts
+#EXTINF:-1 group-title="亞太GT",TVBS
+http://211.23.95.147:18881/live/56_h265.ts
+#EXTINF:-1 group-title="亞太GT",東森財經新聞
+http://211.23.95.147:18881/live/57_h265.ts
+#EXTINF:-1 group-title="亞太GT",非凡新聞
+http://211.23.95.147:18881/live/58_h265.ts
+#EXTINF:-1 group-title="亞太GT",緯來電影
+http://211.23.95.147:18881/live/63_h265.ts
+#EXTINF:-1 group-title="亞太GT",HBO
+http://211.23.95.147:18881/live/65_h265.ts
+#EXTINF:-1 group-title="亞太GT",AXN
+http://211.23.95.147:18881/live/67_h265.ts
+#EXTINF:-1 group-title="亞太GT",好萊塢電影
+http://211.23.95.147:18881/live/68_h265.ts
+#EXTINF:-1 group-title="亞太GT",amc電影
+http://211.23.95.147:18881/live/69_h265.ts
+#EXTINF:-1 group-title="亞太GT",緯來育樂
+http://211.23.95.147:18881/live/70_h265.ts
+#EXTINF:-1 group-title="亞太GT",CINEMAX
+http://211.23.95.147:18881/live/71_h265.ts
+#EXTINF:-1 group-title="亞太GT",緯來體育
+http://211.23.95.147:18881/live/72_h265.ts
+#EXTINF:-1 group-title="亞太GT",DAZN1
+http://211.23.95.147:18881/live/73_h265.ts
+#EXTINF:-1 group-title="亞太GT",DAZN2
+http://211.23.95.147:18881/live/74_h265.ts
+#EXTINF:-1 group-title="亞太GT",緯來日本
+http://211.23.95.147:18881/live/77_h265.ts
+#EXTINF:-1 group-title="亞太GT",國興衛視
+http://211.23.95.147:18881/live/78_h265.ts
+#EXTINF:-1 group-title="亞太GT",鏡新聞
+http://211.23.95.147:18881/live/86_h265.ts
+#EXTINF:-1 group-title="亞太GT",非凡商業
+http://211.23.95.147:18881/live/89_h265.ts
+#EXTINF:-1 group-title="亞太GT",NHK
+http://211.23.95.147:18881/live/95_h265.ts
+#EXTINF:-1 group-title="亞太GT",壹電影
+http://211.23.95.147:18881/live/102_h265.ts
+#EXTINF:-1 group-title="亞太GT",壹綜合
+http://211.23.95.147:18881/live/104_h265.ts
+#EXTINF:-1 tvg-id="LiveABC互動英語頻道" tvg-name="LiveABC互動英語頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/liveabc.png" group-title="兒童卡通",LiveABC 互動英語台
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live030/index.m3u8
+#EXTINF:-1 tvg-id="達文西頻道" tvg-name="達文西頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DaVinci.png" group-title="兒童卡通",達文西
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv018/index.m3u8
+#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png" group-title="兒童卡通",ELTV生活英語台
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/litv-longturn20/index.m3u8
+#EXTINF:-1 tvg-id="Nick Jr. 兒童頻道" tvg-name="Nick Jr. 兒童頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Nickjr.png" group-title="兒童卡通",Nick Jr.
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live032/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Nickelodeon.png" group-title="兒童卡通",Nickelodeon
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live105/index.m3u8
+#EXTINF:-1 tvg-id="DreamWorks 夢工廠動畫" tvg-name="DreamWorks 夢工廠動畫" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DreamWorks.png" group-title="兒童卡通",DreamWorks
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live017/index.m3u8
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/GoldenTV7.png" group-title="兒童卡通",靖天卡通
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv044/index.m3u8
+#EXTINF:-1 tvg-id="靖洋卡通Nice Bingo" tvg-name="靖洋卡通Nice Bingo" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/jy1.png" group-title="兒童卡通",靖洋卡通
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv057/index.m3u8
+#EXTINF:-1 tvg-id="MOMO親子台" tvg-name="MOMO親子台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/momo1.png" group-title="兒童卡通",MOMO親子
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live107/index.m3u8
+#EXTINF:-1 tvg-id="經典卡通台" tvg-name="經典卡通台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/pc/logo_4gtv_4gtv-live022_pc.png" group-title="兒童卡通",經典卡通台
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live022/index.m3u8
+#EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/pc/logo_4gtv_4gtv-live024_pc.png" group-title="兒童卡通",精選動漫台
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live024/index.m3u8
+#EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV9.png" group-title="兒童卡通",龍華卡通
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-litv-longturn01/index.m3u8
+#EXTINF:-1 tvg-id="達文西頻道" tvg-name="達文西頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DaVinci.png" group-title="兒童卡通",達文西
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv018/index.m3u8
+#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png" group-title="兒童卡通",ELTV生活英語台
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-litv-longturn20/index.m3u8
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/GoldenTV7.png" group-title="兒童卡通",靖天卡通
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv044/index.m3u8
+#EXTINF:-1 tvg-id="靖洋卡通Nice Bingo" tvg-name="靖洋卡通Nice Bingo" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/jy1.png" group-title="兒童卡通",靖洋卡通
+http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv057/index.m3u8
+#EXTINF:-1 tvg-id="LIVEABC互動英語頻道" tvg-name="LIVEABC互動英語頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/liveabc.png" group-title="兒童卡通",LiveABC互動英語頻道
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live030/index.m3u8
+#EXTINF:-1 tvg-id="達文西頻道" tvg-name="達文西頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DaVinci.png" group-title="兒童卡通",達文西
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv018/index.m3u8
+#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png" group-title="兒童卡通",ELTV生活英語台
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/litv-longturn20/index.m3u8
+#EXTINF:-1 tvg-id="NICKJR.兒童頻道" tvg-name="NICKJR.兒童頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Nickjr.png" group-title="兒童卡通",Nick Jr.
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live032/index.m3u8
+#EXTINF:-1 tvg-id="尼克兒童頻道" tvg-name="尼克兒童頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Nickelodeon.png" group-title="兒童卡通",Nickelodeon
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live105/index.m3u8
+#EXTINF:-1 tvg-id="DREAMWORKS頻道" tvg-name="DREAMWORKS頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DreamWorks.png" group-title="兒童卡通",DreamWorks
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live017/index.m3u8
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/GoldenTV7.png" group-title="兒童卡通",靖天卡通
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv044/index.m3u8
+#EXTINF:-1 tvg-id="靖洋卡通NICEBINGO" tvg-name="靖洋卡通NICEBINGO" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/jy1.png" group-title="兒童卡通",靖洋卡通
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv057/index.m3u8
+#EXTINF:-1 tvg-id="MOMO親子台" tvg-name="MOMO親子台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/momo1.png" group-title="兒童卡通",MOMO親子
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live107/index.m3u8
+#EXTINF:-1 tvg-id="經典卡通台" tvg-name="經典卡通台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/pc/logo_4gtv_4gtv-live022_pc.png" group-title="兒童卡通",經典卡通台
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live022/index.m3u8
+#EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/pc/logo_4gtv_4gtv-live024_pc.png" group-title="兒童卡通",精選動漫台
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live024/index.m3u8
+#EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV9.png" group-title="兒童卡通",龍華卡通
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-litv-longturn01/index.m3u8
+#EXTINF:-1 tvg-id="達文西頻道" tvg-name="達文西頻道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DaVinci.png" group-title="兒童卡通",達文西
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv018/index.m3u8
+#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png" group-title="兒童卡通",ELTV生活英語台
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-litv-longturn20/index.m3u8
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/GoldenTV7.png" group-title="兒童卡通",靖天卡通
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv044/index.m3u8
+#EXTINF:-1 tvg-id="靖洋卡通NICEBINGO" tvg-name="靖洋卡通NICEBINGO" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/jy1.png" group-title="兒童卡通",靖洋卡通
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv057/index.m3u8
+#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png" group-title="兒童卡通",ELTV生活英語台
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-litv-longturn20/index.m3u8
+#EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV9.png" group-title="兒童卡通",龍華卡通
+http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/litv-longturn01/index.m3u8
+#EXTINF:-1 tvg-id="LIVEABC互动英语频道" tvg-name="LIVEABC互动英语频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/liveabc.png"?token=abcd1234 group-title="兒童卡通",LiveABC互動英語頻道
+http://4gtvtw.koyeb.app/4gtv-live030/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="达文西频道" tvg-name="达文西频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DaVinci.png"?token=abcd1234 group-title="兒童卡通",達文西頻道
+http://4gtvtw.koyeb.app/4gtv-4gtv018/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="ELTV生活英语台" tvg-name="ELTV生活英语台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png"?token=abcd1234 group-title="兒童卡通",ELTV生活英語台
+http://4gtvtw.koyeb.app/litv-longturn20/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="NICKJR.儿童频道" tvg-name="NICKJR.儿童频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Nickjr.png"?token=abcd1234 group-title="兒童卡通",Nick Jr.
+http://4gtvtw.koyeb.app/4gtv-live032/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="尼克儿童频道" tvg-name="尼克儿童频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Nickelodeon.png"?token=abcd1234 group-title="兒童卡通",尼克兒童頻道
+http://4gtvtw.koyeb.app/4gtv-live105/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="DREAMWORKS频道" tvg-name="DREAMWORKS频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DreamWorks.png"?token=abcd1234 group-title="兒童卡通",DREAMWORKS頻道
+http://4gtvtw.koyeb.app/4gtv-live017/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/GoldenTV7.png"?token=abcd1234 group-title="兒童卡通",靖天卡通
+http://4gtvtw.koyeb.app/4gtv-4gtv044/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="靖洋卡通NICEBINGO" tvg-name="靖洋卡通NICEBINGO" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/jy1.png"?token=abcd1234 group-title="兒童卡通",靖洋卡通
+http://4gtvtw.koyeb.app/4gtv-4gtv057/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="MOMO亲子台" tvg-name="MOMO亲子台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/momo1.png"?token=abcd1234 group-title="兒童卡通",MOMO親子
+http://4gtvtw.koyeb.app/4gtv-live107/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="经典卡通台" tvg-name="经典卡通台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/pc/logo_4gtv_4gtv-live022_pc.png"?token=abcd1234 group-title="兒童卡通",經典卡通台
+http://4gtvtw.koyeb.app/4gtv-live022/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="精选动漫台" tvg-name="精选动漫台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/pc/logo_4gtv_4gtv-live024_pc.png"?token=abcd1234 group-title="兒童卡通",精選動漫台
+http://4gtvtw.koyeb.app/4gtv-live024/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="龙华卡通台" tvg-name="龙华卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV9.png"?token=abcd1234 group-title="兒童卡通",龍華卡通
+http://4gtvtw.koyeb.app/li-litv-longturn01/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="达文西频道" tvg-name="达文西频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DaVinci.png"?token=abcd1234 group-title="兒童卡通",達文西頻道
+http://4gtvtw.koyeb.app/li-4gtv-4gtv018/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="ELTV生活英语台" tvg-name="ELTV生活英语台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA7.png"?token=abcd1234 group-title="兒童卡通",ELTV生活英語台
+http://4gtvtw.koyeb.app/li-litv-longturn20/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/GoldenTV7.png"?token=abcd1234 group-title="兒童卡通",靖天卡通
+http://4gtvtw.koyeb.app/li-4gtv-4gtv044/index.m3u8?token=abcd1234
+#EXTINF:-1 tvg-id="靖洋卡通NICEBINGO" tvg-name="靖洋卡通NICEBINGO" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/jy1.png"?token=abcd1234 group-title="兒童卡通",靖洋卡通
+http://4gtvtw.koyeb.app/li-4gtv-4gtv057/index.m3u8?token=abcd1234
