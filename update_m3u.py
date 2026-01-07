@@ -10,7 +10,7 @@ SOURCES = [
 
 # 2. 關鍵字匹配地圖 (模糊匹配，只要包含關鍵字就歸類)
 CATEGORY_MAP = {
-    "youtube 新聞": ["youtube", "新聞", "news"],
+    "YOUTUBE油管新聞": ["youtube", "油管新聞", "news"],
     "Litv立視": ["litv", "立視"],
     "亞太GT": ["亞太", "gt", "亞太gt"],
     "體育兢技": ["體育", "兢技", "運動", "sports", "體育競技"],
