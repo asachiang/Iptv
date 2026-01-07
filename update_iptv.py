@@ -1,69 +1,59 @@
 import requests
-import re
 
-def fetch_m3u_content(url):
-    """抓取遠端 M3U 內容並回傳行列表"""
+def fetch_content(url):
     try:
-        print(f"正在抓取資源: {url}")
         r = requests.get(url, timeout=30)
         r.raise_for_status()
         r.encoding = 'utf-8'
         return r.text.splitlines()
     except Exception as e:
-        print(f"錯誤: 無法讀取來源 {e}")
+        print(f"抓取失敗: {e}")
         return []
 
-def parse_channels(lines):
-    """解析 M3U 行，將頻道按分類標籤分組"""
-    # 這裡將頻道分為三個目標群組
-    groups = {
+def run():
+    # 指定來源網址
+    url = "https://raw.githubusercontent.com/LinWei630718/iptvtw/da39d222bb26830efd211e74addd6e5f490dc63d/4gtv.m3u"
+    
+    # 初始化分類容器
+    categories = {
         "Litv立視": [],
         "亞太GT": [],
         "體育兢技": []
     }
+
+    lines = fetch_content(url)
     
-    current_info = None
-    for line in lines:
-        line = line.strip()
+    # 解析邏輯
+    i = 0
+    while i < len(lines):
+        line = lines[i]
         if line.startswith("#EXTINF"):
-            current_info = line
-        elif line.startswith("http") and current_info:
-            # 根據頻道資訊中的關鍵字進行分類
-            if "Litv" in current_info or "立視" in current_info:
-                groups["Litv立視"].append(f"{current_info}\n{line}")
-            elif "亞太" in current_info or "GT" in current_info:
-                groups["亞太GT"].append(f"{current_info}\n{line}")
-            elif any(k in current_info for k in ["體育", "運動", "兢技", "Sport"]):
-                groups["體育兢技"].append(f"{current_info}\n{line}")
-            current_info = None
+            info = line
+            link = lines[i+1] if (i + 1) < len(lines) else ""
             
-    return groups
+            # 依照關鍵字分類
+            if "Litv" in info or "立視" in info:
+                categories["Litv立視"].append(f"{info}\n{link}")
+            elif "亞太" in info or "GT" in info:
+                categories["亞太GT"].append(f"{info}\n{link}")
+            elif any(k in info for k in ["體育", "運動", "兢技"]):
+                categories["體育兢技"].append(f"{info}\n{link}")
+            
+            i += 2
+        else:
+            i += 1
 
-def run():
-    # 來源網址
-    SOURCE_URL = "https://raw.githubusercontent.com/LinWei630718/iptvtw/da39d222bb26830efd211e74addd6e5f490dc63d/4gtv.m3u"
-    OUTPUT_FILE = "my_iptv.m3u"
+    # 嚴格按照指定順序輸出
+    output_order = ["Litv立視", "亞太GT", "體育兢技"]
     
-    # 1. 抓取資料
-    lines = fetch_m3u_content(SOURCE_URL)
-    if not lines:
-        return
-
-    # 2. 解析與分類
-    channel_groups = parse_channels(lines)
-
-    # 3. 按照要求順序排列輸出
-    # 順序：1. Litv立視 -> 2. 亞太GT -> 3. 體育兢技
-    ordered_keys = ["Litv立視", "亞太GT", "體育兢技"]
-    
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open("custom_list.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for key in ordered_keys:
-            if channel_groups[key]:
-                print(f"寫入 {key} 分類，共 {len(channel_groups[key])} 個頻道")
-                f.write("\n".join(channel_groups[key]) + "\n")
+        for key in output_order:
+            if categories[key]:
+                f.write(f"### {key} ###\n") # 加入分類標籤方便查看
+                f.write("\n".join(categories[key]) + "\n")
 
-    print(f"\n✅ 處理完成！檔案已儲存至: {OUTPUT_FILE}")
+    print("✅ 腳本執行完畢：已產生 custom_list.m3u")
 
 if __name__ == "__main__":
     run()
