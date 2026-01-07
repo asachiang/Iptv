@@ -4,7 +4,7 @@ import re
 # 1. 來源連結
 # 修正了 youtube.m3u 的抓取路徑，確保能抓到原始資料
 SOURCES = [
-    "https://raw.githubusercontent.com/asachiang/iptv/main/youtube.m3u",
+    "https://raw.githubusercontent.com/asachiang/iptv/main/youtube油管新聞.m3u",
     "https://raw.githubusercontent.com/LinWei630718/iptvtw/da39d222bb26830efd211e74addd6e5f490dc63d/4gtv.m3u"
 ]
 
