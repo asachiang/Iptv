@@ -4,13 +4,13 @@ import re
 # 1. 來源連結
 # 修正了 youtube.m3u 的抓取路徑，確保能抓到原始資料
 SOURCES = [
-    "https://raw.githubusercontent.com/asachiang/iptv/main/youtube油管新聞.m3u",
+    "https://raw.githubusercontent.com/asachiang/iptv/main/youtube新聞.m3u",
     "https://raw.githubusercontent.com/LinWei630718/iptvtw/da39d222bb26830efd211e74addd6e5f490dc63d/4gtv.m3u"
 ]
 
 # 2. 關鍵字匹配地圖 (模糊匹配，只要包含關鍵字就歸類)
 CATEGORY_MAP = {
-    "YOUTUBE油管新聞": ["youtube", "油管新聞", "news"],
+    "YOUTUBE油管新聞": ["youtube", "油管新聞", "新聞"],
     "Litv立視": ["litv", "立視"],
     "亞太GT": ["亞太", "gt", "亞太gt"],
     "體育兢技": ["體育", "兢技", "運動", "sports", "體育競技"],
