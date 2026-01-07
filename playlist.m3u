@@ -1,742 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,民視新聞
+#EXTINF:-1 group-title="Litv立視" ,民視新聞
 http://211.72.174.95:8117/0.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,東森新聞
-http://211.72.174.95:8138/0.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,寰宇新聞台灣台
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv156
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,中天新聞台
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv009
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,非凡新聞台
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv010
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,台視新聞
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv051
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,華視新聞
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv052
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,TVBS新聞
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv072
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,中視新聞
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv074
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,鏡電視新聞台
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv075
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,東森新聞台
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv152
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,東森財經新聞台
-http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv153
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,半島國際新聞台
-http://xtvantsc.xyz/litv_ts.php?id=litv-ftv10
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,民視新聞台
-http://xtvantsc.xyz/litv_ts.php?id=litv-ftv13
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞" ,寰宇新聞台
-http://xtvantsc.xyz/litv_ts.php?id=litv-longturn14
-
-#EXTINF:-1 tvg-id="中天新聞" tvg-name="中天新聞" tvg-logo="https://logo.doube.eu.org/中天新闻.png" group-title="YOUTUBE油管新聞",中天新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv009
-
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞台" tvg-logo="https://logo.doube.eu.org/TVBS新闻.png" group-title="YOUTUBE油管新聞",TVBS新聞台
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv072
-
-#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞" tvg-logo="https://logo.doube.eu.org/东森新闻台.png" group-title="YOUTUBE油管新聞",東森新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv152
-
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://logo.doube.eu.org/民视新闻台.png" group-title="YOUTUBE油管新聞",民視新聞台
-http://linwei.endl.site/litv.php?token=xxxx&id=litv-ftv13
-
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/镜电视新闻台.png" group-title="YOUTUBE油管新聞",鏡新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv075
-
-#EXTINF:-1 tvg-id="非凡新聞" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新闻.png" group-title="YOUTUBE油管新聞",非凡新聞台
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv010
-
-#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞" tvg-logo="https://logo.doube.eu.org/台视新闻台.png" group-title="YOUTUBE油管新聞",台視新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv051
-
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://logo.doube.eu.org/华视新闻.png" group-title="YOUTUBE油管新聞",華視新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv052
-
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞" tvg-logo="https://logo.doube.eu.org/中视新闻台.png" group-title="YOUTUBE油管新聞",中視新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv074
-
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台.png" group-title="YOUTUBE油管新聞",寰宇新聞台
-http://linwei.endl.site/litv.php?token=xxxx&id=litv-longturn14
-
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台湾台.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv156
-
-#EXTINF:-1 tvg-id="半島國際新聞" tvg-name="半島新聞" tvg-logo="https://logo.doube.eu.org/半岛国际新闻.png" group-title="YOUTUBE油管新聞",半島新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=litv-ftv10
-
-#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞" tvg-logo="https://logo.doube.eu.org/东森财经新闻台.png" group-title="YOUTUBE油管新聞",東森財經新聞
-http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv153
-
-#EXTINF:-1 tvg-id="中天新闻" tvg-name=",中天新聞台" tvg-logo="https://logo.doube.eu.org/中天新闻.png" group-title="YOUTUBE油管新聞",,中天新聞台
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv009
-
-#EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新聞台" tvg-logo="https://logo.doube.eu.org/TVBS新闻.png" group-title="YOUTUBE油管新聞",TVBS新聞台
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv072
-
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="東森新聞" tvg-logo="https://logo.doube.eu.org/东森新闻台.png" group-title="YOUTUBE油管新聞",東森新聞
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv152
-
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民視新聞台" tvg-logo="https://logo.doube.eu.org/民视新闻台.png" group-title="YOUTUBE油管新聞",民視新聞台
-https://0wei.endl.site/litv.php?token=linwei&id=litv-ftv13
-
-#EXTINF:-1 tvg-id="镜电视新闻台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/镜电视新闻台.png" group-title="YOUTUBE油管新聞",鏡新聞
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv075
-
-#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新闻.png" group-title="YOUTUBE油管新聞",非凡新聞台
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv010
-
-#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台視新聞" tvg-logo="https://logo.doube.eu.org/台视新闻台.png" group-title="YOUTUBE油管新聞",台視新聞
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv051
-
-#EXTINF:-1 tvg-id="华视新闻" tvg-name="華視新聞" tvg-logo="https://logo.doube.eu.org/华视新闻.png" group-title="YOUTUBE油管新聞",華視新聞
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv052
-
-#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中視新聞" tvg-logo="https://logo.doube.eu.org/中视新闻台.png" group-title="YOUTUBE油管新聞",中視新聞
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv074
-
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新聞台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台.png" group-title="YOUTUBE油管新聞",寰宇新聞台
-https://0wei.endl.site/litv.php?token=linwei&id=litv-longturn14
-
-#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台湾台.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv156
-
-#EXTINF:-1 tvg-id="半岛国际新闻" tvg-name="半島新聞" tvg-logo="https://logo.doube.eu.org/半岛国际新闻.png" group-title="YOUTUBE油管新聞",半島新聞
-https://0wei.endl.site/litv.php?token=linwei&id=litv-ftv10
-
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="東森財經新聞" tvg-logo="https://logo.doube.eu.org/东森财经新闻台.png" group-title="YOUTUBE油管新聞",東森財經新聞
-https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv153
-
-#EXTINF:-1 tvg-id="中天新闻" tvg-name=",中天新聞台" tvg-logo="https://logo.doube.eu.org/中天新闻.png" group-title="YOUTUBE油管新聞",,中天新聞台
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv009
-
-#EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新聞台" tvg-logo="https://logo.doube.eu.org/TVBS新闻.png" group-title="YOUTUBE油管新聞",TVBS新聞台
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv072
-
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="東森新聞" tvg-logo="https://logo.doube.eu.org/东森新闻台.png" group-title="YOUTUBE油管新聞",東森新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv152
-
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民視新聞台" tvg-logo="https://logo.doube.eu.org/民视新闻台.png" group-title="YOUTUBE油管新聞",民視新聞台
-https://iptvtw.endl.site/litv.php?token=linwei&id=litv-ftv13
-
-#EXTINF:-1 tvg-id="镜电视新闻台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/镜电视新闻台.png" group-title="YOUTUBE油管新聞",鏡新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv075
-
-#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新闻.png" group-title="YOUTUBE油管新聞",非凡新聞台
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv010
-
-#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台視新聞" tvg-logo="https://logo.doube.eu.org/台视新闻台.png" group-title="YOUTUBE油管新聞",台視新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv051
-
-#EXTINF:-1 tvg-id="华视新闻" tvg-name="華視新聞" tvg-logo="https://logo.doube.eu.org/华视新闻.png" group-title="YOUTUBE油管新聞",華視新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv052
-
-#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中視新聞" tvg-logo="https://logo.doube.eu.org/中视新闻台.png" group-title="YOUTUBE油管新聞",中視新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv074
-
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新聞台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台.png" group-title="YOUTUBE油管新聞",寰宇新聞台
-https://iptvtw.endl.site/litv.php?token=linwei&id=litv-longturn14
-
-#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台湾台.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv156
-
-#EXTINF:-1 tvg-id="半岛国际新闻" tvg-name="半島新聞" tvg-logo="https://logo.doube.eu.org/半岛国际新闻.png" group-title="YOUTUBE油管新聞",半島新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=litv-ftv10
-
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="東森財經新聞" tvg-logo="https://logo.doube.eu.org/东森财经新闻台.png" group-title="YOUTUBE油管新聞",東森財經新聞
-https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv153
-
-#EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="" group-title="YOUTUBE油管新聞",台視新聞
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=ttvnews_twn&token=ffmking
-
-#EXTINF:-1 tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="" group-title="YOUTUBE油管新聞",中視新聞
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=zhongshinews_twn&token=ffmking
-
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",東森新聞台
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=ettvnews&token=ffmking
-
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",東森財經新聞台
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=ettvcaijing_twn&token=ffmking
-
-#EXTINF:-1 tvg-id="TVBS 新闻台" tvg-name="TVBS 新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",TVBS 新聞台
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=tvbs_n&token=ffmking
-
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",民視新聞台
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=ftvnew_taiwan&token=ffmking
-
-#EXTINF:-1 tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="" group-title="YOUTUBE油管新聞",中天新聞
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=ctinews&token=ffmking
-
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",寰宇新聞台
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=huanyuxinwen_twn&token=ffmking
-
-#EXTINF:-1 tvg-id="壹新闻" tvg-name="壹新闻" tvg-logo="" group-title="YOUTUBE油管新聞",壹新聞
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=yinews&token=ffmking
-
-#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="" group-title="YOUTUBE油管新聞",非凡新聞
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=feifannews_twn&token=ffmking
-
-#EXTINF:-1 tvg-id="年代新闻" tvg-name="年代新闻" tvg-logo="" group-title="YOUTUBE油管新聞",年代新聞
-https://jlyzzgfhyeao.ap-northeast-1.clawcloudrun.com/smart.php?id=niandainews_twn&token=ffmking
-
-#EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="" group-title="YOUTUBE油管新聞",台視新聞
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=ttvnews_twn&token=abcd1234
-
-#EXTINF:-1 tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="" group-title="YOUTUBE油管新聞",中視新聞
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=zhongshinews_twn&token=abcd1234
-
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",東森新聞台
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=ettvnews&token=abcd1234
-
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",東森財經新聞台
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=ettvcaijing_twn&token=abcd1234
-
-#EXTINF:-1 tvg-id="TVBS 新闻台" tvg-name="TVBS 新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",TVBS 新聞台
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=tvbs_n&token=abcd1234
-
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",民視新聞台
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=ftvnew_taiwan&token=abcd1234
-
-#EXTINF:-1 tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="" group-title="YOUTUBE油管新聞",中天新聞
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=ctinews&token=abcd1234
-
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="" group-title="YOUTUBE油管新聞",寰宇新聞台
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=huanyuxinwen_twn&token=abcd1234
-
-#EXTINF:-1 tvg-id="壹新闻" tvg-name="壹新闻" tvg-logo="" group-title="YOUTUBE油管新聞",壹新聞
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=yinews&token=abcd1234
-
-#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="" group-title="YOUTUBE油管新聞",非凡新聞
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=feifannews_twn&token=abcd1234
-
-#EXTINF:-1 tvg-id="年代新闻" tvg-name="年代新闻" tvg-logo="" group-title="YOUTUBE油管新聞",年代新聞
-https://ctfwmbitweou.ap-southeast-1.clawcloudrun.com/smart.php?id=niandainews_twn&token=abcd1234
-
-#EXTINF:-1 tvg-name="壹新聞" tvg-logo="https://logo.catvod.com/壹新聞.png" group-title="YOUTUBE油管新聞",壹新聞
-http://220.134.196.147:8501/http/61.219.99.20:8081/hls/66/808/ch24.m3u8
-
-#EXTINF:-1 tvg-name="年代新聞" tvg-logo="https://logo.catvod.com/年代新聞.png" group-title="YOUTUBE油管新聞",年代新聞
-http://smt.iptv543.com/Smart.php?id=niandainews_twn
-
-#EXTINF:-1 tvg-name="東森新聞HD" tvg-logo="https://logo.catvod.com/東森新聞HD.png" group-title="YOUTUBE油管新聞",東森新聞HD
-http://220.134.196.147:8527/http/61.219.99.20:8081/hls/63/805/ch10.m3u8
-
-#EXTINF:-1 tvg-name="中天新聞" tvg-logo="https://logo.catvod.com/中天新聞.png" group-title="YOUTUBE油管新聞",中天新聞
-http://220.134.196.147:8567/http/61.219.99.20:8081/hls/78/80/ch63max.m3u8
-
-#EXTINF:-1 tvg-name="民視新聞" tvg-logo="https://logo.catvod.com/民視新聞.png" group-title="YOUTUBE油管新聞",民視新聞
-http://220.134.196.147:8519/http/61.219.99.20:8081/hls/85/80/FtvNews4max.m3u8
-
-#EXTINF:-1 tvg-name="三立新聞HD" tvg-logo="https://logo.catvod.com/三立新聞HD.png" group-title="YOUTUBE油管新聞",三立新聞HD
-http://220.134.196.147:8541/http/61.219.99.20:8081/hls/65/807/ch18.m3u8
-
-#EXTINF:-1 tvg-name="TVBS新聞HD" tvg-logo="https://logo.catvod.com/TVBS新聞HD.png" group-title="YOUTUBE油管新聞",TVBS新聞HD
-http://220.134.196.147:8542/http/61.219.99.20:8081/hls/75/817/ch59.m3u8
-
-#EXTINF:-1 tvg-id="非凡新聞" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新聞.png" group-title="YOUTUBE油管新聞",非凡新聞
-http://tv543.cc/litv.php?token=leifeng&id=4gtv-4gtv010
-
-#EXTINF:-1 tvg-name="寰宇新聞" tvg-logo="https://logo.catvod.com/寰宇新聞.png" group-title="YOUTUBE油管新聞",寰宇新聞
-http://220.134.196.147:8548/http/61.219.99.20:8081/hls/76/818/ch62.m3u8
-
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/鏡電視新聞台.png" group-title="YOUTUBE油管新聞",鏡新聞
-http://tv543.cc/litv.php?token=leifeng&id=4gtv-4gtv075
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",TVBS新聞
-http://211.23.114.106:8510/http/61.219.99.20:8081/hls/75/817/ch59.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",TVBS新聞
-http://220.134.196.147:8542/http/61.219.99.20:8081/hls/75/817/ch59.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",TVBS新聞
-http://61.221.81.93:8611/http/192.168.11.75/ch59.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",三立新聞
-http://220.134.196.147:8541/http/61.219.99.20:8081/hls/65/807/ch18.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",三立新聞
-http://61.221.81.93:8584/http/192.168.1.10:8088/hls/65/807/ch18.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",三立新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1016.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",中天新聞
-http://220.134.196.147:8567/http/61.219.99.20:8081/hls/78/80/ch63max.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",中天新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1675.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",中天新聞
-http://61.221.81.93:8582/http/192.168.1.10:8088/hls/78/80/ch63max.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",民視新聞
-http://220.134.196.147:8519/http/61.219.99.20:8081/hls/85/80/FtvNews4max.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",民視新聞
-http://61.221.81.93:8583/http/192.168.1.10:8088/hls/73/815/ch51.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",民視新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1204.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",年代新聞
-http://220.134.196.147:8538/http/61.219.99.20:8081/hls/67/809/ch27.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",年代新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1192.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",年代新聞
-http://61.221.81.93:8578/http/192.168.1.10:8088/hls/67/809/ch27.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",東森新聞
-http://220.134.196.147:8527/http/61.219.99.20:8081/hls/63/805/ch10.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",東森新聞
-http://61.221.81.93:8579/http/192.168.1.10:8088/hls/63/805/ch10.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",東森新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1014.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",非凡新聞
-http://220.134.196.147:8571/http/61.219.99.20:8081/hls/75/817/ch57.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",非凡新聞
-http://61.221.81.93:8586/http/192.168.1.10:8088/hls/75/817/ch57.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",非凡新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1013.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",壹新聞
-http://220.134.196.147:8501/http/61.219.99.20:8081/hls/66/808/ch24.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",壹新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1676.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",壹新聞
-http://61.221.81.93:8580/http/192.168.1.10:8088/hls/66/808/ch24.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",寰宇新聞
-http://220.134.196.147:8548/http/61.219.99.20:8081/hls/76/818/ch62.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",寰宇新聞
-http://61.221.81.93:8585/http/192.168.1.10:8088/hls/76/818/ch62.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",寰宇新聞
-http://hk.mushui.tk/mqlive/live.php?ip=211.23.114.106&url=http://211.23.114.106:5003/live1222.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",鏡電視新聞台
-http://211.23.114.106:8545/http/61.219.99.20:8092/upload/114/MNEWS_TS-1111_1.m3u8
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",鏡電視新聞台
-http://220.134.196.147:8561/http/61.219.99.20:8092/upload/114/MNEWS_TS-1111_1.m3u8
-
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Mnews.png" group-title="YOUTUBE油管新聞",鏡電視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv075/index.m3u8
-
-#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台"tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC6.png" group-title="YOUTUBE油管新聞",東森新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv152/index.m3u8
-
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png" group-title="YOUTUBE油管新聞",華視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv052/index.m3u8
-
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV1.png" group-title="YOUTUBE油管新聞",民視新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/litv-ftv13/index.m3u8
-
-#EXTINF:-1 tvg-id="三立新聞iNEWS" tvg-name="三立新聞iNEWS" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SET3.png" group-title="YOUTUBE油管新聞",三立iNEWS
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live089/index.m3u8
-
-#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC7.png" group-title="YOUTUBE油管新聞",東森財經新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv153/index.m3u8
-
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png" group-title="YOUTUBE油管新聞",中視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv074/index.m3u8
-
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png"" group-title="YOUTUBE油管新聞",中天新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv009/index.m3u8
-
-#EXTINF:-1 tvg-id="Bloomberg TV" tvg-name="Bloomberg TV" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/BloombergTV.png" group-title="YOUTUBE油管新聞",BLOOMBERG TV
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live059/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png" group-title="YOUTUBE油管新聞",寰宇新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/litv-longturn14/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv156/index.m3u8
-
-#EXTINF:-1 tvg-id="SBN全球財經台" tvg-name="SBN全球財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SBNcaijing.png" group-title="YOUTUBE油管新聞",SBN 全球財經台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live060/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global4.png" group-title="YOUTUBE油管新聞",寰宇財經
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv158/index.m3u8
-
-#EXTINF:-1 tvg-id="FRANCE24 英文台" tvg-name="FRANCE24 英文台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/France24.png" group-title="YOUTUBE油管新聞",FRANCE24 英文台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live146/index.m3u8
-
-#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/AlJazeera.png" group-title="YOUTUBE油管新聞",半島國際新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/litv-ftv10/index.m3u8
-
-#EXTINF:-1 tvg-id="VOA美國之音" tvg-name="VOA美國之音" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/VOATV.png" group-title="YOUTUBE油管新聞",VOA 美國之音
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/litv-ftv03/index.m3u8
-
-#EXTINF:-1 tvg-id="CNBC Asia 財經台" tvg-name="CNBC Asia 財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CNBCAsia.png" group-title="YOUTUBE油管新聞",CNBC Asia 財經台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live130/index.m3u8
-
-#EXTINF:-1 tvg-id="DW" tvg-name="DW德國之聲" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DWChannel.png" group-title="YOUTUBE油管新聞",DW德國之聲
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-live071/index.m3u8
-
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png" group-title="YOUTUBE油管新聞",華視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv052/index.m3u8
-
-#EXTINF:-1 tvg-id="非凡新聞台" tvg-name="非凡新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Unique1.png"" group-title="YOUTUBE油管新聞",非凡新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv010/index.m3u8
-
-#EXTINF:-1 tvg-id="非凡商業台" tvg-name="非凡商業台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Unique2.png"" group-title="YOUTUBE油管新聞",非凡商業
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv048/index.m3u8
-
-#EXTINF:-1 tvg-id="台視財經台" tvg-name="台視財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV3.png" group-title="YOUTUBE油管新聞",台視財經台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/4gtv-4gtv056/index.m3u8
-
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Mnews.png" group-title="YOUTUBE油管新聞",鏡電視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv075/index.m3u8
-
-#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台"tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC6.png" group-title="YOUTUBE油管新聞",東森新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv152/index.m3u8
-
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV1.png" group-title="YOUTUBE油管新聞",民視新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-litv-ftv13/index.m3u8
-
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TVBS1.png" group-title="YOUTUBE油管新聞",TVBS新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv072/index.m3u8
-
-#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC7.png" group-title="YOUTUBE油管新聞",東森財經新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv153/index.m3u8
-
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png" group-title="YOUTUBE油管新聞",中視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv074/index.m3u8
-
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png"" group-title="YOUTUBE油管新聞",中天新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv009/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png" group-title="YOUTUBE油管新聞",寰宇新聞
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-litv-longturn14/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv156/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global4.png" group-title="YOUTUBE油管新聞",寰宇財經
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv158/index.m3u8
-
-#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/AlJazeera.png" group-title="YOUTUBE油管新聞",半島國際新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-litv-ftv10/index.m3u8
-
-#EXTINF:-1 tvg-id="VOA美國之音" tvg-name="VOA美國之音" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/VOATV.png" group-title="YOUTUBE油管新聞",VOA 美國之音
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-litv-ftv03/index.m3u8
-
-#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV2.png" group-title="YOUTUBE油管新聞",台視新聞台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv051/index.m3u8
-
-#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_pc.png" group-title="YOUTUBE油管新聞",第1商業台
-http://qksqbkahqlbw.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv104/index.m3u8
-
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Mnews.png" group-title="YOUTUBE油管新聞",鏡電視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv075/index.m3u8
-
-#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台"tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC6.png" group-title="YOUTUBE油管新聞",東森新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv152/index.m3u8
-
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png" group-title="YOUTUBE油管新聞",華視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv052/index.m3u8
-
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV1.png" group-title="YOUTUBE油管新聞",民視新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/litv-ftv13/index.m3u8
-
-#EXTINF:-1 tvg-id="三立新聞INEWS" tvg-name="三立新聞INEWS" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SET3.png" group-title="YOUTUBE油管新聞",三立iNEWS
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live089/index.m3u8
-
-#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC7.png" group-title="YOUTUBE油管新聞",東森財經新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv153/index.m3u8
-
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png" group-title="YOUTUBE油管新聞",中視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv074/index.m3u8
-
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png"" group-title="YOUTUBE油管新聞",中天新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv009/index.m3u8
-
-#EXTINF:-1 tvg-id="BLOOMBERGTV" tvg-name="BLOOMBERGTV" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/BloombergTV.png" group-title="YOUTUBE油管新聞",BLOOMBERG TV
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live059/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png" group-title="YOUTUBE油管新聞",寰宇新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/litv-longturn14/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv156/index.m3u8
-
-#EXTINF:-1 tvg-id="SBN全球財經台" tvg-name="SBN全球財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SBNcaijing.png" group-title="YOUTUBE油管新聞",SBN 全球財經台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live060/index.m3u8
-
-#EXTINF:-1 tvg-id="NHK新聞資訊台" tvg-name="NHK新聞資訊台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/NHKWorld.png" group-title="YOUTUBE油管新聞", NHK 新聞資訊台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live168/index.m3u8
-
-#EXTINF:-1 tvg-id="FRANCE24英文台" tvg-name="FRANCE24英文台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/France24.png" group-title="YOUTUBE油管新聞",FRANCE24 英文台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live146/index.m3u8
-
-#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/AlJazeera.png" group-title="YOUTUBE油管新聞",半島國際新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live157/index.m3u8
-
-#EXTINF:-1 tvg-id="VOA美國之音" tvg-name="VOA美國之音" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/VOATV.png" group-title="YOUTUBE油管新聞",VOA 美國之音
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/litv-ftv03/index.m3u8
-
-#EXTINF:-1 tvg-id="CNBCASIA財經台" tvg-name="CNBCASIA財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CNBCAsia.png" group-title="YOUTUBE油管新聞",CNBC Asia 財經台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live130/index.m3u8
-
-#EXTINF:-1 tvg-id="DW" tvg-name="DW德國之聲" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DWChannel.png" group-title="YOUTUBE油管新聞",DW德國之聲
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-live071/index.m3u8
-
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png" group-title="YOUTUBE油管新聞",華視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv052/index.m3u8
-
-#EXTINF:-1 tvg-id="非凡新聞台" tvg-name="非凡新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Unique1.png"" group-title="YOUTUBE油管新聞",非凡新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv010/index.m3u8
-
-#EXTINF:-1 tvg-id="非凡商業台" tvg-name="非凡商業台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Unique2.png"" group-title="YOUTUBE油管新聞",非凡商業
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv048/index.m3u8
-
-#EXTINF:-1 tvg-id="台視財經台" tvg-name="台視財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV3.png" group-title="YOUTUBE油管新聞",台視財經台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv056/index.m3u8
-
-#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台"tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC6.png" group-title="YOUTUBE油管新聞",東森新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv152/index.m3u8
-
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV1.png" group-title="YOUTUBE油管新聞",民視新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-litv-ftv13/index.m3u8
-
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TVBS1.png" group-title="YOUTUBE油管新聞",TVBS新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv072/index.m3u8
-
-#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC7.png" group-title="YOUTUBE油管新聞",東森財經新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv153/index.m3u8
-
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png" group-title="YOUTUBE油管新聞",中視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv074/index.m3u8
-
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png"" group-title="YOUTUBE油管新聞",中天新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv009/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png" group-title="YOUTUBE油管新聞",寰宇新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-litv-longturn14/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv156/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global4.png" group-title="YOUTUBE油管新聞",寰宇財經
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv158/index.m3u8
-
-#EXTINF:-1 tvg-id="VOA美國之音" tvg-name="VOA美國之音" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/VOATV.png" group-title="YOUTUBE油管新聞",VOA 美國之音
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-litv-ftv03/index.m3u8
-
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV2.png" group-title="YOUTUBE油管新聞",台視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv051/index.m3u8
-
-#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_pc.png" group-title="YOUTUBE油管新聞",第1商業台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/li-4gtv-4gtv104/index.m3u8
-
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV2.png" group-title="YOUTUBE油管新聞",台視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv051/index.m3u8
-
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png" group-title="YOUTUBE油管新聞",中視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-4gtv-4gtv074/index.m3u8
-
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png" group-title="YOUTUBE油管新聞",華視新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-4gtv-4gtv052/index.m3u8
-
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png"" group-title="YOUTUBE油管新聞",中天新聞台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-4gtv-4gtv009/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png" group-title="YOUTUBE油管新聞",寰宇新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-litv-longturn14/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png" group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-4gtv-4gtv156/index.m3u8
-
-#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global4.png" group-title="YOUTUBE油管新聞",寰宇財經
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/of-4gtv-4gtv158/index.m3u8
-
-#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_pc.png" group-title="YOUTUBE油管新聞",第1商業台
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/4gtv-4gtv104/index.m3u8
-
-#EXTINF:-1 tvg-id="三立新聞INEWS" tvg-name="三立新聞INEWS" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SET3.png" group-title="YOUTUBE油管新聞",三立iNEWS
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/iNEWS/index.m3u8
-
-#EXTINF:-1 tvg-id="倪珍播新聞" tvg-name="倪珍播新聞" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_nnews_tv.png" group-title="YOUTUBE油管新聞",倪珍播新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/nnews-zh/index.m3u8
-
-#EXTINF:-1 tvg-id="倪珍越南語新聞" tvg-name="倪珍越南語新聞" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_nnews_tv.png" group-title="YOUTUBE油管新聞",倪珍越南語新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/nnews-vn/index.m3u8
-
-#EXTINF:-1 tvg-id="倪珍報氣象" tvg-name="倪珍報氣象" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_nnews_tv.png" group-title="YOUTUBE油管新聞",倪珍報氣象
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/nnews-wf/index.m3u8
-
-#EXTINF:-1 tvg-id="掏掏新聞" tvg-name="掏掏新聞" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_litv-playout50_tv_20211124.png" group-title="YOUTUBE油管新聞",掏掏新聞
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/ofiii50/index.m3u8
-
-#EXTINF:-1 tvg-id="大新聞大爆卦" tvg-name="大新聞大爆卦" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii201_tv_20230707.png" group-title="YOUTUBE油管新聞",大新聞大爆卦
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/ofiii201/index.m3u8
-
-#EXTINF:-1 tvg-id="新聞大白話" tvg-name="新聞大白話" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3239_ofiii202_tv_20240131.png" group-title="YOUTUBE油管新聞",新聞大白話
-http://reasavvtlxyy.ap-northeast-1.clawcloudrun.com/ofiii202/index.m3u8
-
-#EXTINF:-1 tvg-id="镜电视新闻台" tvg-name="镜电视新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Mnews.png"?token=abcd1234 group-title="YOUTUBE油管新聞",鏡電視新聞台
-http://4gtvtw.koyeb.app/4gtv-4gtv075/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC6.png"?token=abcd1234 group-title="YOUTUBE油管新聞",東森新聞
-http://4gtvtw.koyeb.app/4gtv-4gtv152/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="华视新闻" tvg-name="华视新闻" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",華視新聞台
-http://4gtvtw.koyeb.app/4gtv-4gtv052/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",民視新聞
-http://4gtvtw.koyeb.app/litv-ftv13/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="三立新闻INEWS" tvg-name="三立新闻INEWS" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SET3.png"?token=abcd1234 group-title="YOUTUBE油管新聞",三立iNEWS
-http://4gtvtw.koyeb.app/4gtv-live089/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC7.png"?token=abcd1234 group-title="YOUTUBE油管新聞",東森財經新聞
-http://4gtvtw.koyeb.app/4gtv-4gtv153/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中视新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",中視新聞台
-http://4gtvtw.koyeb.app/4gtv-4gtv074/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png""?token=abcd1234 group-title="YOUTUBE油管新聞",中天新聞台
-http://4gtvtw.koyeb.app/4gtv-4gtv009/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="BLOOMBERGTV" tvg-name="BLOOMBERGTV" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/BloombergTV.png"?token=abcd1234 group-title="YOUTUBE油管新聞",BLOOMBERG TV
-http://4gtvtw.koyeb.app/4gtv-live059/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png"?token=abcd1234 group-title="YOUTUBE油管新聞",寰宇新聞
-http://4gtvtw.koyeb.app/litv-longturn14/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新闻台湾台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png"?token=abcd1234 group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://4gtvtw.koyeb.app/4gtv-4gtv156/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="SBN全球财经台" tvg-name="SBN全球财经台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/SBNcaijing.png"?token=abcd1234 group-title="YOUTUBE油管新聞",SBN 全球財經台
-http://4gtvtw.koyeb.app/4gtv-live060/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="NHK新闻资讯台" tvg-name="NHK新闻资讯台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/NHKWorld.png"?token=abcd1234 group-title="YOUTUBE油管新聞",NHK 新聞資訊台
-http://4gtvtw.koyeb.app/4gtv-live168/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="FRANCE24英文台" tvg-name="FRANCE24英文台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/France24.png"?token=abcd1234 group-title="YOUTUBE油管新聞",FRANCE24 英文台
-http://4gtvtw.koyeb.app/4gtv-live146/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="半岛国际新闻台" tvg-name="半岛国际新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/AlJazeera.png"?token=abcd1234 group-title="YOUTUBE油管新聞",半島國際新聞台
-http://4gtvtw.koyeb.app/4gtv-live157/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="VOA美国之音" tvg-name="VOA美国之音" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/VOATV.png"?token=abcd1234 group-title="YOUTUBE油管新聞",VOA 美國之音
-http://4gtvtw.koyeb.app/litv-ftv03/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="CNBCASIA财经台" tvg-name="CNBCASIA财经台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CNBCAsia.png"?token=abcd1234 group-title="YOUTUBE油管新聞",CNBC Asia 財經台
-http://4gtvtw.koyeb.app/4gtv-live130/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="DW" tvg-name="DW德国之声" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/DWChannel.png"?token=abcd1234 group-title="YOUTUBE油管新聞",DW德國之聲
-http://4gtvtw.koyeb.app/4gtv-live071/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="华视新闻" tvg-name="华视新闻" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTS1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",華視新聞台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv052/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="非凡新闻台" tvg-name="非凡新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Unique1.png""?token=abcd1234 group-title="YOUTUBE油管新聞",非凡新聞
-http://4gtvtw.koyeb.app/4gtv-4gtv010/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="非凡商业台" tvg-name="非凡商业台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Unique2.png""?token=abcd1234 group-title="YOUTUBE油管新聞",非凡商業
-http://4gtvtw.koyeb.app/4gtv-4gtv048/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="台视财经台" tvg-name="台视财经台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV3.png"?token=abcd1234 group-title="YOUTUBE油管新聞",台視財經台
-http://4gtvtw.koyeb.app/4gtv-4gtv056/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台"tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC6.png"?token=abcd1234 group-title="YOUTUBE油管新聞",東森新聞
-http://4gtvtw.koyeb.app/li-4gtv-4gtv152/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",民視新聞
-http://4gtvtw.koyeb.app/li-litv-ftv13/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TVBS1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",TVBS新聞台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv072/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC7.png"?token=abcd1234 group-title="YOUTUBE油管新聞",東森財經新聞
-http://4gtvtw.koyeb.app/li-4gtv-4gtv153/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中视新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTV1.png"?token=abcd1234 group-title="YOUTUBE油管新聞",中視新聞台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv074/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CTI2.png""?token=abcd1234 group-title="YOUTUBE油管新聞",中天新聞台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv009/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global2.png"?token=abcd1234 group-title="YOUTUBE油管新聞",寰宇新聞
-http://4gtvtw.koyeb.app/li-litv-longturn14/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新闻台湾台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global3.png"?token=abcd1234 group-title="YOUTUBE油管新聞",寰宇新聞台灣台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv156/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="寰宇财经台" tvg-name="寰宇财经台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global4.png"?token=abcd1234 group-title="YOUTUBE油管新聞",寰宇財經
-http://4gtvtw.koyeb.app/li-4gtv-4gtv158/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="VOA美国之音" tvg-name="VOA美国之音" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/VOATV.png"?token=abcd1234 group-title="YOUTUBE油管新聞",VOA 美國之音
-http://4gtvtw.koyeb.app/li-litv-ftv03/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV2.png"?token=abcd1234 group-title="YOUTUBE油管新聞",台視新聞台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv051/index.m3u8?token=abcd1234
-
-#EXTINF:-1 tvg-id="第1商业台" tvg-name="第1商业台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_pc.png"?token=abcd1234 group-title="YOUTUBE油管新聞",第1商業台
-http://4gtvtw.koyeb.app/li-4gtv-4gtv104/index.m3u8?token=abcd1234
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",中視新聞
-http://211.23.95.147:18881/live/dtv2_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",民視新聞
-http://211.23.95.147:18881/live/dtv9_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",台視新聞
-http://211.23.95.147:18881/live/dtv15_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",華視新聞資訊
-http://211.23.95.147:18881/live/dtv20_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",壹新聞
-http://211.23.95.147:18881/live/49_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",年代新聞
-http://211.23.95.147:18881/live/50_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",東森新聞
-http://211.23.95.147:18881/live/51_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",三立新聞
-http://211.23.95.147:18881/live/54_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",TVBS新聞
-http://211.23.95.147:18881/live/55_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",東森財經新聞
-http://211.23.95.147:18881/live/57_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",非凡新聞
-http://211.23.95.147:18881/live/58_h265.ts
-
-#EXTINF:-1 group-title="YOUTUBE油管新聞",鏡新聞
-http://211.23.95.147:18881/live/86_h265.ts
 
 #EXTINF:-1 group-title="Litv立視" ,中視
 http://211.72.174.95:8113/0.ts
@@ -753,8 +18,14 @@ http://211.72.174.95:8115/0.ts
 #EXTINF:-1 group-title="Litv立視" ,台視
 http://211.72.174.95:8112/0.ts
 
+#EXTINF:-1 group-title="Litv立視" ,東森新聞
+http://211.72.174.95:8138/0.ts
+
 #EXTINF:-1 group-title="Litv立視" ,民視台灣台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv001
+
+#EXTINF:-1 group-title="Litv立視" ,寰宇新聞台灣台
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv156
 
 #EXTINF:-1 group-title="Litv立視" ,民視
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv002
@@ -767,6 +38,12 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv004
 
 #EXTINF:-1 group-title="Litv立視" ,豬哥亮歌廳秀
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv006
+
+#EXTINF:-1 group-title="Litv立視" ,中天新聞台
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv009
+
+#EXTINF:-1 group-title="Litv立視" ,非凡新聞台
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv010
 
 #EXTINF:-1 group-title="Litv立視" ,影迷數位電影台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv011
@@ -822,6 +99,12 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv048
 #EXTINF:-1 group-title="Litv立視" ,采昌影劇台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv049
 
+#EXTINF:-1 group-title="Litv立視" ,台視新聞
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv051
+
+#EXTINF:-1 group-title="Litv立視" ,華視新聞
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv052
+
 #EXTINF:-1 group-title="Litv立視" ,GINX Esports TV
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv053
 
@@ -870,8 +153,17 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv068
 #EXTINF:-1 group-title="Litv立視" ,ELTA 娛樂台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv070
 
+#EXTINF:-1 group-title="Litv立視" ,TVBS新聞
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv072
+
 #EXTINF:-1 group-title="Litv立視" ,TVBS
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv073
+
+#EXTINF:-1 group-title="Litv立視" ,中視新聞
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv074
+
+#EXTINF:-1 group-title="Litv立視" ,鏡電視新聞台
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv075
 
 #EXTINF:-1 group-title="Litv立視" ,亞洲旅遊台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv076
@@ -912,6 +204,12 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv104
 #EXTINF:-1 group-title="Litv立視" ,中天亞洲台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv109
 
+#EXTINF:-1 group-title="Litv立視" ,東森新聞台
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv152
+
+#EXTINF:-1 group-title="Litv立視" ,東森財經新聞台
+http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv153
+
 #EXTINF:-1 group-title="Litv立視" ,民視
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv155
 
@@ -923,6 +221,12 @@ http://xtvantsc.xyz/litv_ts.php?id=litv-ftv07
 
 #EXTINF:-1 group-title="Litv立視" ,民視影劇台
 http://xtvantsc.xyz/litv_ts.php?id=litv-ftv09
+
+#EXTINF:-1 group-title="Litv立視" ,半島國際新聞台
+http://xtvantsc.xyz/litv_ts.php?id=litv-ftv10
+
+#EXTINF:-1 group-title="Litv立視" ,民視新聞台
+http://xtvantsc.xyz/litv_ts.php?id=litv-ftv13
 
 #EXTINF:-1 group-title="Litv立視" ,i-Fun動漫台
 http://xtvantsc.xyz/litv_ts.php?id=litv-ftv15
@@ -969,6 +273,9 @@ http://xtvantsc.xyz/litv_ts.php?id=litv-longturn12
 #EXTINF:-1 group-title="Litv立視" ,博斯無限二台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn13
 
+#EXTINF:-1 group-title="Litv立視" ,寰宇新聞台
+http://xtvantsc.xyz/litv_ts.php?id=litv-longturn14
+
 #EXTINF:-1 group-title="Litv立視" ,龍華戲劇台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn18
 
@@ -987,8 +294,47 @@ http://xtvantsc.xyz/litv_ts.php?id=litv-longturn22
 #EXTINF:-1 group-title="Litv立視" ,寰宇財經台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv158
 
+#EXTINF:-1 tvg-id="中天新聞" tvg-name="中天新聞" tvg-logo="https://logo.doube.eu.org/中天新闻.png" group-title="Litv立視",中天新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv009
+
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞台" tvg-logo="https://logo.doube.eu.org/TVBS新闻.png" group-title="Litv立視",TVBS新聞台
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv072
+
+#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞" tvg-logo="https://logo.doube.eu.org/东森新闻台.png" group-title="Litv立視",東森新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv152
+
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://logo.doube.eu.org/民视新闻台.png" group-title="Litv立視",民視新聞台
+http://linwei.endl.site/litv.php?token=xxxx&id=litv-ftv13
+
+#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/镜电视新闻台.png" group-title="Litv立視",鏡新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv075
+
+#EXTINF:-1 tvg-id="非凡新聞" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新闻.png" group-title="Litv立視",非凡新聞台
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv010
+
+#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞" tvg-logo="https://logo.doube.eu.org/台视新闻台.png" group-title="Litv立視",台視新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv051
+
+#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://logo.doube.eu.org/华视新闻.png" group-title="Litv立視",華視新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv052
+
+#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞" tvg-logo="https://logo.doube.eu.org/中视新闻台.png" group-title="Litv立視",中視新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv074
+
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台.png" group-title="Litv立視",寰宇新聞台
+http://linwei.endl.site/litv.php?token=xxxx&id=litv-longturn14
+
+#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台湾台.png" group-title="Litv立視",寰宇新聞台灣台
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv156
+
+#EXTINF:-1 tvg-id="半島國際新聞" tvg-name="半島新聞" tvg-logo="https://logo.doube.eu.org/半岛国际新闻.png" group-title="Litv立視",半島新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=litv-ftv10
+
 #EXTINF:-1 tvg-id="美國之音" tvg-name="美國之音" tvg-logo="https://logo.doube.eu.org/美国之音.png" group-title="Litv立視",美國之音
 http://linwei.endl.site/litv.php?token=xxxx&id=litv-ftv03
+
+#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞" tvg-logo="https://logo.doube.eu.org/东森财经新闻台.png" group-title="Litv立視",東森財經新聞
+http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv153
 
 #EXTINF:-1 tvg-id="非凡商業" tvg-name="非凡商業台" tvg-logo="https://logo.doube.eu.org/非凡商业.png" group-title="Litv立視",非凡商業台
 http://linwei.endl.site/litv.php?token=xxxx&id=4gtv-4gtv048
@@ -1209,8 +555,47 @@ http://linwei.endl.site/litv.php?token=xxxx&id=litv-ftv17
 #EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="生活英語台" tvg-logo="https://logo.doube.eu.org/ELTV生活英语台.png" group-title="Litv立視",生活英語台
 http://linwei.endl.site/litv.php?token=xxxx&id=litv-longturn20
 
+#EXTINF:-1 tvg-id="中天新闻" tvg-name=",中天新聞台" tvg-logo="https://logo.doube.eu.org/中天新闻.png" group-title="Litv立視",,中天新聞台
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv009
+
+#EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新聞台" tvg-logo="https://logo.doube.eu.org/TVBS新闻.png" group-title="Litv立視",TVBS新聞台
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv072
+
+#EXTINF:-1 tvg-id="东森新闻台" tvg-name="東森新聞" tvg-logo="https://logo.doube.eu.org/东森新闻台.png" group-title="Litv立視",東森新聞
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv152
+
+#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民視新聞台" tvg-logo="https://logo.doube.eu.org/民视新闻台.png" group-title="Litv立視",民視新聞台
+https://0wei.endl.site/litv.php?token=linwei&id=litv-ftv13
+
+#EXTINF:-1 tvg-id="镜电视新闻台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/镜电视新闻台.png" group-title="Litv立視",鏡新聞
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv075
+
+#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新闻.png" group-title="Litv立視",非凡新聞台
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv010
+
+#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台視新聞" tvg-logo="https://logo.doube.eu.org/台视新闻台.png" group-title="Litv立視",台視新聞
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv051
+
+#EXTINF:-1 tvg-id="华视新闻" tvg-name="華視新聞" tvg-logo="https://logo.doube.eu.org/华视新闻.png" group-title="Litv立視",華視新聞
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv052
+
+#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中視新聞" tvg-logo="https://logo.doube.eu.org/中视新闻台.png" group-title="Litv立視",中視新聞
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv074
+
+#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新聞台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台.png" group-title="Litv立視",寰宇新聞台
+https://0wei.endl.site/litv.php?token=linwei&id=litv-longturn14
+
+#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台湾台.png" group-title="Litv立視",寰宇新聞台灣台
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv156
+
+#EXTINF:-1 tvg-id="半岛国际新闻" tvg-name="半島新聞" tvg-logo="https://logo.doube.eu.org/半岛国际新闻.png" group-title="Litv立視",半島新聞
+https://0wei.endl.site/litv.php?token=linwei&id=litv-ftv10
+
 #EXTINF:-1 tvg-id="美国之音" tvg-name="美國之音" tvg-logo="https://logo.doube.eu.org/美国之音.png" group-title="Litv立視",美國之音
 https://0wei.endl.site/litv.php?token=linwei&id=litv-ftv03
+
+#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="東森財經新聞" tvg-logo="https://logo.doube.eu.org/东森财经新闻台.png" group-title="Litv立視",東森財經新聞
+https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv153
 
 #EXTINF:-1 tvg-id="非凡商业" tvg-name="非凡商業台" tvg-logo="https://logo.doube.eu.org/非凡商业.png" group-title="Litv立視",非凡商業台
 https://0wei.endl.site/litv.php?token=linwei&id=4gtv-4gtv048
@@ -1431,8 +816,47 @@ https://0wei.endl.site/litv.php?token=linwei&id=litv-ftv17
 #EXTINF:-1 tvg-id="ELTV生活英语台" tvg-name="生活英語台" tvg-logo="https://logo.doube.eu.org/ELTV生活英语台.png" group-title="Litv立視",生活英語台
 https://0wei.endl.site/litv.php?token=linwei&id=litv-longturn20
 
+#EXTINF:-1 tvg-id="中天新闻" tvg-name=",中天新聞台" tvg-logo="https://logo.doube.eu.org/中天新闻.png" group-title="Litv立視",,中天新聞台
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv009
+
+#EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新聞台" tvg-logo="https://logo.doube.eu.org/TVBS新闻.png" group-title="Litv立視",TVBS新聞台
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv072
+
+#EXTINF:-1 tvg-id="东森新闻台" tvg-name="東森新聞" tvg-logo="https://logo.doube.eu.org/东森新闻台.png" group-title="Litv立視",東森新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv152
+
+#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民視新聞台" tvg-logo="https://logo.doube.eu.org/民视新闻台.png" group-title="Litv立視",民視新聞台
+https://iptvtw.endl.site/litv.php?token=linwei&id=litv-ftv13
+
+#EXTINF:-1 tvg-id="镜电视新闻台" tvg-name="鏡新聞" tvg-logo="https://logo.doube.eu.org/镜电视新闻台.png" group-title="Litv立視",鏡新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv075
+
+#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新聞" tvg-logo="https://logo.doube.eu.org/非凡新闻.png" group-title="Litv立視",非凡新聞台
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv010
+
+#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台視新聞" tvg-logo="https://logo.doube.eu.org/台视新闻台.png" group-title="Litv立視",台視新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv051
+
+#EXTINF:-1 tvg-id="华视新闻" tvg-name="華視新聞" tvg-logo="https://logo.doube.eu.org/华视新闻.png" group-title="Litv立視",華視新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv052
+
+#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中視新聞" tvg-logo="https://logo.doube.eu.org/中视新闻台.png" group-title="Litv立視",中視新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv074
+
+#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新聞台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台.png" group-title="Litv立視",寰宇新聞台
+https://iptvtw.endl.site/litv.php?token=linwei&id=litv-longturn14
+
+#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.doube.eu.org/寰宇新闻台湾台.png" group-title="Litv立視",寰宇新聞台灣台
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv156
+
+#EXTINF:-1 tvg-id="半岛国际新闻" tvg-name="半島新聞" tvg-logo="https://logo.doube.eu.org/半岛国际新闻.png" group-title="Litv立視",半島新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=litv-ftv10
+
 #EXTINF:-1 tvg-id="美国之音" tvg-name="美國之音" tvg-logo="https://logo.doube.eu.org/美国之音.png" group-title="Litv立視",美國之音
 https://iptvtw.endl.site/litv.php?token=linwei&id=litv-ftv03
+
+#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="東森財經新聞" tvg-logo="https://logo.doube.eu.org/东森财经新闻台.png" group-title="Litv立視",東森財經新聞
+https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv153
 
 #EXTINF:-1 tvg-id="非凡商业" tvg-name="非凡商業台" tvg-logo="https://logo.doube.eu.org/非凡商业.png" group-title="Litv立視",非凡商業台
 https://iptvtw.endl.site/litv.php?token=linwei&id=4gtv-4gtv048
@@ -1665,6 +1089,9 @@ http://4gtvtw.koyeb.app/4gtv-live050/index.m3u8?token=abcd1234
 #EXTINF:-1 group-title="亞太GT",中視
 http://211.23.95.147:18881/live/dtv1_h265.ts
 
+#EXTINF:-1 group-title="亞太GT",中視新聞
+http://211.23.95.147:18881/live/dtv2_h265.ts
+
 #EXTINF:-1 group-title="亞太GT",中視經典
 http://211.23.95.147:18881/live/dtv3_h265.ts
 
@@ -1683,6 +1110,9 @@ http://211.23.95.147:18881/live/dtv7_h265.ts
 #EXTINF:-1 group-title="亞太GT",民視第一
 http://211.23.95.147:18881/live/dtv8_h265.ts
 
+#EXTINF:-1 group-title="亞太GT",民視新聞
+http://211.23.95.147:18881/live/dtv9_h265.ts
+
 #EXTINF:-1 group-title="亞太GT",民視台灣
 http://211.23.95.147:18881/live/dtv10_h265.ts
 
@@ -1698,6 +1128,9 @@ http://211.23.95.147:18881/live/dtv13_h265.ts
 #EXTINF:-1 group-title="亞太GT",台視
 http://211.23.95.147:18881/live/dtv14_h265.ts
 
+#EXTINF:-1 group-title="亞太GT",台視新聞
+http://211.23.95.147:18881/live/dtv15_h265.ts
+
 #EXTINF:-1 group-title="亞太GT",台視財經
 http://211.23.95.147:18881/live/dtv16_h265.ts
 
@@ -1709,6 +1142,9 @@ http://211.23.95.147:18881/live/dtv18_h265.ts
 
 #EXTINF:-1 group-title="亞太GT",華視教育體育文化
 http://211.23.95.147:18881/live/dtv19_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",華視新聞資訊
+http://211.23.95.147:18881/live/dtv20_h265.ts
 
 #EXTINF:-1 group-title="亞太GT",國會頻道1
 http://211.23.95.147:18881/live/dtv21_h265.ts
@@ -1785,8 +1221,29 @@ http://211.23.95.147:18881/live/43_h265.ts
 #EXTINF:-1 group-title="亞太GT",JET綜合
 http://211.23.95.147:18881/live/45_h265.ts
 
+#EXTINF:-1 group-title="亞太GT",壹新聞
+http://211.23.95.147:18881/live/49_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",年代新聞
+http://211.23.95.147:18881/live/50_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",東森新聞
+http://211.23.95.147:18881/live/51_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",三立新聞
+http://211.23.95.147:18881/live/54_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",TVBS新聞
+http://211.23.95.147:18881/live/55_h265.ts
+
 #EXTINF:-1 group-title="亞太GT",TVBS
 http://211.23.95.147:18881/live/56_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",東森財經新聞
+http://211.23.95.147:18881/live/57_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",非凡新聞
+http://211.23.95.147:18881/live/58_h265.ts
 
 #EXTINF:-1 group-title="亞太GT",緯來電影
 http://211.23.95.147:18881/live/63_h265.ts
@@ -1823,6 +1280,9 @@ http://211.23.95.147:18881/live/77_h265.ts
 
 #EXTINF:-1 group-title="亞太GT",國興衛視
 http://211.23.95.147:18881/live/78_h265.ts
+
+#EXTINF:-1 group-title="亞太GT",鏡新聞
+http://211.23.95.147:18881/live/86_h265.ts
 
 #EXTINF:-1 group-title="亞太GT",非凡商業
 http://211.23.95.147:18881/live/89_h265.ts
