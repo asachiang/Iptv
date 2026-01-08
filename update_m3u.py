@@ -28,26 +28,32 @@ def main():
         res.encoding = "utf-8"
 
         if res.status_code == 200:
-            lines = res.text.splitlines()
-            i = 0
-            while i < len(lines):
-                if lines[i].startswith("#EXTINF"):
-                    extinf = lines[i]
-                    url = lines[i + 1] if i + 1 < len(lines) else ""
+lines = res.text.splitlines()
+i = 0
 
-                    # 移除舊 group-title
-                    extinf = re.sub(r'group-title="[^"]*"', '', extinf)
+while i < len(lines):
+    if lines[i].startswith("#EXTINF"):
+        extinf = lines[i]
+        url = lines[i + 1] if i + 1 < len(lines) else ""
 
-                    # 強制指定 youtube 新聞
-                    extinf = extinf.replace(
-                        "#EXTINF:",
-                        '#EXTINF:-1 group-title="youtube 新聞",'
-                    )
+        # 移除舊 group-title
+        extinf = re.sub(r'\s*group-title="[^"]*"', '', extinf)
 
-                    results["youtube 新聞"].append(f"{extinf}\n{url}")
-                    i += 2
-                else:
-                    i += 1
+        # 確保有 -1
+        if not extinf.startswith("#EXTINF:-1"):
+            extinf = extinf.replace("#EXTINF:", "#EXTINF:-1 ")
+
+        # 插入 youtube 新聞（不破壞逗號後名稱）
+        extinf = extinf.replace(
+            "#EXTINF:-1 ",
+            '#EXTINF:-1 group-title="youtube 新聞" ',
+            1
+        )
+
+        results["youtube 新聞"].append(f"{extinf}\n{url}")
+        i += 2
+    else:
+        i += 1
 
             print(f"✅ YouTube 新聞頻道數：{len(results['youtube 新聞'])}")
         else:
