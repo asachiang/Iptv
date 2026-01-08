@@ -1,10 +1,9 @@
 import requests
 import re
-import urllib.parse
 
 # ========= 來源 =========
-yt_filename = urllib.parse.quote("youtube新聞.m3u")
-SOURCE_YOUTUBE = f"https://raw.githubusercontent.com/asachiang/iptv/main/{yt_filename}"
+# 已更新為你提供的正確 YouTube 來源網址
+SOURCE_YOUTUBE = "https://raw.githubusercontent.com/asachiang/iptv/refs/heads/main/youtube%20%E6%96%B0%E8%81%9E.m3u"
 SOURCE_4GTV = "https://raw.githubusercontent.com/LinWei630718/iptvtw/da39d222bb26830efd211e74addd6e5f490dc63d/4gtv.m3u"
 
 # ========= 分類順序 =========
@@ -21,8 +20,8 @@ CATEGORY_MAP_4GTV = {
 def main():
     results = {cat: [] for cat in TARGET_ORDER}
 
-    # ===== YouTube 新聞：整個列表全收 =====
-    print(f"抓取 YouTube 列表：{SOURCE_YOUTUBE}")
+    # ===== YouTube 新聞 =====
+    print(f"正在抓取 YouTube 列表...")
     try:
         res = requests.get(SOURCE_YOUTUBE, timeout=15)
         res.encoding = "utf-8"
@@ -31,31 +30,32 @@ def main():
             lines = res.text.splitlines()
             i = 0
             while i < len(lines):
-                if lines[i].startswith("#EXTINF"):
-                    extinf = lines[i]
-                    url = lines[i + 1] if i + 1 < len(lines) else ""
-
-                    # 移除舊 group-title
+                line = lines[i].strip()
+                if line.startswith("#EXTINF"):
+                    extinf = line
+                    # 抓取下一行作為 URL
+                    url = ""
+                    if i + 1 < len(lines):
+                        url = lines[i+1].strip()
+                    
+                    # 格式化標籤
                     extinf = re.sub(r'\s*group-title="[^"]*"', '', extinf)
-
-                    # 確保有 -1
                     if not extinf.startswith("#EXTINF:-1"):
                         extinf = extinf.replace("#EXTINF:", "#EXTINF:-1 ")
-
-                    # 插入 youtube 新聞
+                    
                     extinf = extinf.replace(
                         "#EXTINF:-1 ",
                         '#EXTINF:-1 group-title="youtube 新聞" ',
                         1
                     )
-
+                    
                     results["youtube 新聞"].append(f"{extinf}\n{url}")
                     i += 2
                 else:
                     i += 1
             print(f"✅ YouTube 新聞頻道數：{len(results['youtube 新聞'])}")
         else:
-            print(f"❌ YouTube 讀取失敗：{res.status_code}")
+            print(f"❌ YouTube 讀取失敗，狀態碼：{res.status_code}")
     except Exception as e:
         print(f"❌ YouTube 發生錯誤：{e}")
 
@@ -63,13 +63,11 @@ def main():
     try:
         res = requests.get(SOURCE_4GTV, timeout=15)
         res.encoding = "utf-8"
-
         if res.status_code == 200:
             items = re.findall(r'(#EXTINF:.*?\nhttp.*)', res.text)
             for item in items:
                 m = re.search(r'group-title="([^"]+)"', item, re.IGNORECASE)
                 group = m.group(1).lower() if m else ""
-
                 for label, keywords in CATEGORY_MAP_4GTV.items():
                     if any(k in group for k in keywords):
                         results[label].append(item)
