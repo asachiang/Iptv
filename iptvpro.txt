@@ -322,7 +322,31 @@ Now Golf 2 CH683 (HK),http://iptvpro.pw:35451/live/加QQ群1077202079/40596748AA
 Now Golf 3 CH684 (HK),http://iptvpro.pw:35451/live/加QQ群1077202079/40596748AAcd/116.ts
 SUPER Sports CH11(HK),http://iptvpro.pw:35451/live/加QQ群1077202079/40596748AAcd/48.ts
 
-
+🇹🇭泰国,#genre#
+Channel 3 Thailand,http://96.44.160.246:9999/smt.php?id=ch3_pat
+Channel 5 Thailand,http://96.44.160.246:9999/smt.php?id=ch5_pat
+Channel 7 Thailand,http://96.44.160.246:9999/smt.php?id=ch7_pat
+MCOT HD Thailand-1,http://96.44.160.246:9999/smt.php?id=mcot_pat
+PPTV Thailand1,http://96.44.160.246:9999/smt.php?id=pptv_pat
+Thai Thai,http://96.44.160.246:9999/smt.php?id=thaithai_pat
+Amarin,http://96.44.160.246:9999/smt.php?id=amarin_pat
+Ch 8,http://96.44.160.246:9999/smt.php?id=ch8_pat
+GmmOne,http://96.44.160.246:9999/smt.php?id=gmmone_pat
+Mono,http://96.44.160.246:9999/smt.php?id=mono_pat
+Thairath,http://96.44.160.246:9999/smt.php?id=thairath_pat
+tpbs,http://96.44.160.246:9999/smt.php?id=tpbs_pat
+Workpoint,http://96.44.160.246:9999/smt.php?id=workpoint_pat
+Gmm Channel,http://96.44.160.246:9999/smt.php?id=gmmchannel_pat
+Nation,http://96.44.160.246:9999/smt.php?id=nation_pat
+Tnn24,http://96.44.160.246:9999/smt.php?id=tnn24_pat
+Nbt,http://96.44.160.246:9999/smt.php?id=nbt_pat
+New,http://96.44.160.246:9999/smt.php?id=new_pat
+TPTV,http://96.44.160.246:9999/smt.php?id=tptv_pat
+Test 1,http://96.44.160.246:9999/smt.php?id=AAA1
+Test 2,http://96.44.160.246:9999/smt.php?id=AAA2
+Test 3,http://96.44.160.246:9999/smt.php?id=AAA3
+Test 4,http://96.44.160.246:9999/smt.php?id=AAA4
+Test 5,http://96.44.160.246:9999/smt.php?id=AAA5
 📺新聞,#genre#
 TVB 無線新聞 News H265 (HK),http://iptvpro.pw:35451/live/加QQ群1077202079/40596748AAcd/3.ts
 TVB 無線新聞台 4K (HK),http://iptvpro.pw:35451/live/加QQ群1077202079/40596748AAcd/8.ts
