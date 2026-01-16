@@ -506,7 +506,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://raw.githubusercontent.com/asachiang/iptv/main/iptvpro.txt"
-        },
         }
     ]
 }
