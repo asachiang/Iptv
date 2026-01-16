@@ -508,42 +508,6 @@
             "url": "https://raw.githubusercontent.com/asachiang/iptv/main/iptvpro"
         },
         {
-            "name": "🐬iptvpro直播2",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/s/heads/main/iptvpro2"
-        },
-        {
-            "name": "🐬斯玛特直播1(梯子)",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FGfs/heads/main/斯瑪特直播源1"
-        },
-        {
-            "name": "🐬斯玛特直播2",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/Ffs/heads/main/斯瑪特直播源2"
-        },
-        {
-            "name": "🐬港台大陆频道",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆频道"
-        },
-        {
-            "name": "🐬港台大陆频道无18",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/rs/heads/main/港台大陆频道无18内容"
-        },
-        {
-            "name": "🐬xxx视频资源",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/r/heads/main/xxx视频资源(免番强)"
-        },
-        {
             "name": "🐬海角社区博主",
             "type": 0,
             "ua": "okhttp/5.3.2",
