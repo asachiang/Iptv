@@ -1,20 +1,19 @@
 YOUTUBE油管新聞,#genre#
-TVBS新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
-東森新聞,https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
 
+TVBS 新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
+​東森新聞,https://www.youtube.com/watch?v=V1p33hqPrUk
 中天新聞,https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
 
+​寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
+​三立新聞,https://www.youtube.com/watch?v=sjkukcgOJWI
+寰宇台灣,https://www.youtube.com/watch?v=w87VGpgd90U
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
 
 華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
 中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
 台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
-寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇台灣,https://www.youtube.com/watch?v=w87VGpgd90U
-鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
 民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
 公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
-三立新聞,https://www.youtube.com/live/MV9mI0GChwo?si=MhyFZd9z_E3aEoap
-
 
 🇹🇼台湾,#genre#
 TVBS 歡樂台,http://96.44.160.246:9999/smt.php?id=tvbshuanle_twn
