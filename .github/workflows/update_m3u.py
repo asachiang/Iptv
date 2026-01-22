@@ -1,0 +1,88 @@
+import requests
+import re
+
+# ========= 來源 =========
+# 已更新為你提供的正確 YouTube 來源網址
+SOURCE_YOUTUBE = "https://raw.githubusercontent.com/asachiang/iptv/refs/heads/main/youtube%20%E6%96%B0%E8%81%9E.m3u"
+SOURCE_4GTV = "https://raw.githubusercontent.com/LinWei630718/iptvtw/da39d222bb26830efd211e74addd6e5f490dc63d/4gtv.m3u"
+
+# ========= 分類順序 =========
+TARGET_ORDER = ["youtube 新聞", "Litv立視", "亞太GT", "體育兢技", "兒童卡通"]
+
+# ========= 4GTV 分類規則 =========
+CATEGORY_MAP_4GTV = {
+    "Litv立視": ["litv", "立視"],
+    "亞太GT": ["亞太", "gt"],
+    "體育兢技": ["體育", "兢技", "運動", "sports"],
+    "兒童卡通": ["兒童", "卡通", "kids", "anime"]
+}
+
+def main():
+    results = {cat: [] for cat in TARGET_ORDER}
+
+    # ===== YouTube 新聞 =====
+    print(f"正在抓取 YouTube 列表...")
+    try:
+        res = requests.get(SOURCE_YOUTUBE, timeout=15)
+        res.encoding = "utf-8"
+
+        if res.status_code == 200:
+            lines = res.text.splitlines()
+            i = 0
+            while i < len(lines):
+                line = lines[i].strip()
+                if line.startswith("#EXTINF"):
+                    extinf = line
+                    # 抓取下一行作為 URL
+                    url = ""
+                    if i + 1 < len(lines):
+                        url = lines[i+1].strip()
+                    
+                    # 格式化標籤
+                    extinf = re.sub(r'\s*group-title="[^"]*"', '', extinf)
+                    if not extinf.startswith("#EXTINF:-1"):
+                        extinf = extinf.replace("#EXTINF:", "#EXTINF:-1 ")
+                    
+                    extinf = extinf.replace(
+                        "#EXTINF:-1 ",
+                        '#EXTINF:-1 group-title="youtube 新聞" ',
+                        1
+                    )
+                    
+                    results["youtube 新聞"].append(f"{extinf}\n{url}")
+                    i += 2
+                else:
+                    i += 1
+            print(f"✅ YouTube 新聞頻道數：{len(results['youtube 新聞'])}")
+        else:
+            print(f"❌ YouTube 讀取失敗，狀態碼：{res.status_code}")
+    except Exception as e:
+        print(f"❌ YouTube 發生錯誤：{e}")
+
+    # ===== 4GTV =====
+    try:
+        res = requests.get(SOURCE_4GTV, timeout=15)
+        res.encoding = "utf-8"
+        if res.status_code == 200:
+            items = re.findall(r'(#EXTINF:.*?\nhttp.*)', res.text)
+            for item in items:
+                m = re.search(r'group-title="([^"]+)"', item, re.IGNORECASE)
+                group = m.group(1).lower() if m else ""
+                for label, keywords in CATEGORY_MAP_4GTV.items():
+                    if any(k in group for k in keywords):
+                        results[label].append(item)
+                        break
+    except Exception as e:
+        print(f"❌ 4GTV 發生錯誤：{e}")
+
+    # ===== 輸出 =====
+    with open("playlist.m3u", "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for label in TARGET_ORDER:
+            for ch in results[label]:
+                f.write("\n" + ch.strip() + "\n")
+
+    print("\n🎉 完成：playlist.m3u 已生成")
+
+if __name__ == "__main__":
+    main()
