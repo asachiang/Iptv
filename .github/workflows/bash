@@ -1,0 +1,55 @@
+echo "Generating full categorized playlists..."
+
+for f in Sports News Kids Movies Variety Taiwan HongKong All; do
+  echo "#EXTM3U" > "$f.m3u"
+done
+
+awk '
+BEGIN {
+  IGNORECASE=1
+  last=""
+}
+# 记录 EXTINF
+/^#EXTINF/ {
+  last=$0
+  next
+}
+# 播放地址
+/^(http|https):\/\// {
+  url=$0
+  if (seen[url]++) next
+
+  # 总表
+  print last >> "All.m3u"
+  print url >> "All.m3u"
+
+  # 分类（按优先级）
+  if (last ~ /(体育|sports|espn|nba|足球|篮球|cctv-?5)/) {
+    out="Sports.m3u"
+  }
+  else if (last ~ /(新闻|news|cnn|bbc|凤凰|cctv-?13)/) {
+    out="News.m3u"
+  }
+  else if (last ~ /(儿童|少儿|卡通|动漫|kids|baby|cctv-?14)/) {
+    out="Kids.m3u"
+  }
+  else if (last ~ /(台湾|台灣|tvbs|民视|三立| 东森)/) {
+    out="Taiwan.m3u"
+  }
+  else if (last ~ /(香港|翡翠|明珠|tvb|j2|viu)/) {
+    out="HongKong.m3u"
+  }
+  else if (last ~ /(电影|movie|movies|cinema|影院)/) {
+    out="Movies.m3u"
+  }
+  else if (last ~ /(综艺|娱乐|variety|show)/) {
+    out="Variety.m3u"
+  }
+  else {
+    next
+  }
+
+  print last >> out
+  print url >> out
+}
+' *.m3u *.m3u8 2>/dev/null
