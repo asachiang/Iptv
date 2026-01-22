@@ -1,0 +1,17 @@
+# 分类优先级（从上到下，命中即停）
+category_order[1]="Sports"
+category_order[2]="News"
+category_order[3]="Kids"
+category_order[4]="Taiwan"
+category_order[5]="HongKong"
+category_order[6]="Movies"
+category_order[7]="Variety"
+
+# 每个分类的关键词（正则）
+rules["Sports"]   = "(体育|sports|espn|nba|足球|篮球|cctv-?5)"
+rules["News"]    = "(新闻|news|cnn|bbc|凤凰|cctv-?13)"
+rules["Kids"]    = "(儿童|少儿|卡通|动漫|kids|baby|cctv-?14)"
+rules["Taiwan"]  = "(台湾|台灣|tvbs|民视|三立| 东森)"
+rules["HongKong"]= "(香港|翡翠|明珠|tvb|j2|viu)"
+rules["Movies"]  = "(电影|movie|movies|cinema|影院)"
+rules["Variety"] = "(综艺|娱乐|variety|show)"
