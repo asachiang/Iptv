@@ -1,5 +1,105 @@
 
 
+LIVE頻道,#genre#
+
+TVBS新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv072
+東森新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv152
+東森財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv153
+民視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv13
+中天新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv009
+華視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv052
+中視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv074
+台視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv051
+寰宇新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-longturn14
+寰宇台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv156
+鏡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv075
+非凡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv010
+
+華視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv041
+中視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv040
+台視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv066
+民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv002
+民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv155
+民視旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv07
+亞洲旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv076
+Smart知識台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang19
+
+靖天日本台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv047
+靖天育樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv062
+靖天映畫台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv055
+靖天國際台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv063
+靖天資訊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv065
+靖天電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv061
+靖天綜合台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv046
+靖天戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv058
+靖天歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv054
+靖洋戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv045
+靖天卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv044
+靖洋卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv057
+
+龍華電影台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang03
+龍華經典台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang21
+龍華洋片台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang02
+龍華日韓台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang11
+龍華偶像台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang12
+龍華戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang18
+龍華卡通台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang01
+
+amc電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv017
+我的歐洲電影,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv10
+影迷數位電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv011
+
+Pet Club TV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv110
+ELTA娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv070
+TVBS,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv073
+TVBS精采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv067
+TVBS歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv068
+八大精彩台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv034
+八大綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv039
+中天亞洲台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv109
+中視菁采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv064
+中視經典台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv080
+公視戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv042
+台灣戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang22
+民視台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv001
+民視第一台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv003
+民視綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv004
+民視影劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv09
+采昌影劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv049
+非凡商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv048
+視納華仁紀實頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv013
+達文西頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv018
+影迷數位紀實台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv15
+韓國娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv016
+ArirangTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv079
+
+台視財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv056
+寰宇財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv158
+Classica古典樂,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv059
+ELTV生活英語,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang20
+GINXEsportsTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv053
+MezzoLive,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv083
+TraceSports,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv077
+TraceUrban,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv082
+VOA美國之音,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv03
+好消息,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv16
+好消息2台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv17
+客家電視台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv043
+時尚運動X,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv014
+國會頻道1,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv084
+國會頻道2,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv085
+第1商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv104
+博斯高球二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang06
+博斯高球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang05
+博斯無限二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang13
+博斯無限台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang10
+博斯運動一台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang07
+博斯運動二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang08
+博斯網球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang09
+博斯魅力台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang04
+智林體育台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv101
+豬哥亮歌廳秀,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv006
+
 📺台灣新聞,#genre#
 TVBS HD,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv073
 TVBS HD,https://live.catvod.com/live.php?id=TVBS
@@ -853,105 +953,7 @@ TVBS新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 
 
-litv頻道,#genre#
 
-TVBS新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv072
-東森新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv152
-東森財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv153
-民視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv13
-中天新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv009
-華視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv052
-中視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv074
-台視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv051
-寰宇新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-longturn14
-寰宇台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv156
-鏡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv075
-非凡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv010
-
-華視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv041
-中視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv040
-台視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv066
-民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv002
-民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv155
-民視旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv07
-亞洲旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv076
-Smart知識台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang19
-
-靖天日本台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv047
-靖天育樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv062
-靖天映畫台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv055
-靖天國際台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv063
-靖天資訊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv065
-靖天電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv061
-靖天綜合台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv046
-靖天戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv058
-靖天歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv054
-靖洋戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv045
-靖天卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv044
-靖洋卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv057
-
-龍華電影台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang03
-龍華經典台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang21
-龍華洋片台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang02
-龍華日韓台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang11
-龍華偶像台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang12
-龍華戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang18
-龍華卡通台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang01
-
-amc電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv017
-我的歐洲電影,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv10
-影迷數位電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv011
-
-Pet Club TV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv110
-ELTA娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv070
-TVBS,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv073
-TVBS精采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv067
-TVBS歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv068
-八大精彩台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv034
-八大綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv039
-中天亞洲台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv109
-中視菁采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv064
-中視經典台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv080
-公視戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv042
-台灣戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang22
-民視台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv001
-民視第一台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv003
-民視綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv004
-民視影劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv09
-采昌影劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv049
-非凡商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv048
-視納華仁紀實頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv013
-達文西頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv018
-影迷數位紀實台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv15
-韓國娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv016
-ArirangTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv079
-
-台視財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv056
-寰宇財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv158
-Classica古典樂,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv059
-ELTV生活英語,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang20
-GINXEsportsTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv053
-MezzoLive,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv083
-TraceSports,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv077
-TraceUrban,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv082
-VOA美國之音,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv03
-好消息,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv16
-好消息2台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv17
-客家電視台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv043
-時尚運動X,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv014
-國會頻道1,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv084
-國會頻道2,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv085
-第1商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv104
-博斯高球二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang06
-博斯高球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang05
-博斯無限二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang13
-博斯無限台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang10
-博斯運動一台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang07
-博斯運動二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang08
-博斯網球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang09
-博斯魅力台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang04
-智林體育台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv101
-豬哥亮歌廳秀,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv006
 
 📺YouTube 新聞,#genre#
 Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
