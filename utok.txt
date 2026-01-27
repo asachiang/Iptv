@@ -1,120 +1,4 @@
-YOUTUBE油管新聞|,#genre#
-TVBS新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
-東森新聞,https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
 
-中天新聞,https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
-三立新聞,https://www.youtube.com/live/VqkrkP_k-nc?si=Goo84iTb0nBqAjJR
-
-華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
-台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
-寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇台灣,https://www.youtube.com/watch?v=w87VGpgd90U
-鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
-民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
-公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
-
-
-
-litv頻道,#genre#
-
-TVBS新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv072
-東森新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv152
-東森財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv153
-民視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv13
-中天新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv009
-華視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv052
-中視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv074
-台視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv051
-寰宇新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-longturn14
-寰宇台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv156
-鏡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv075
-非凡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv010
-
-華視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv041
-中視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv040
-台視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv066
-民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv002
-民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv155
-民視旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv07
-亞洲旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv076
-Smart知識台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang19
-
-靖天日本台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv047
-靖天育樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv062
-靖天映畫台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv055
-靖天國際台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv063
-靖天資訊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv065
-靖天電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv061
-靖天綜合台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv046
-靖天戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv058
-靖天歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv054
-靖洋戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv045
-靖天卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv044
-靖洋卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv057
-
-龍華電影台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang03
-龍華經典台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang21
-龍華洋片台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang02
-龍華日韓台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang11
-龍華偶像台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang12
-龍華戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang18
-龍華卡通台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang01
-
-amc電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv017
-我的歐洲電影,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv10
-影迷數位電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv011
-
-Pet Club TV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv110
-ELTA娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv070
-TVBS,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv073
-TVBS精采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv067
-TVBS歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv068
-八大精彩台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv034
-八大綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv039
-中天亞洲台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv109
-中視菁采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv064
-中視經典台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv080
-公視戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv042
-台灣戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang22
-民視台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv001
-民視第一台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv003
-民視綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv004
-民視影劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv09
-采昌影劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv049
-非凡商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv048
-視納華仁紀實頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv013
-達文西頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv018
-影迷數位紀實台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv15
-韓國娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv016
-ArirangTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv079
-
-台視財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv056
-寰宇財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv158
-Classica古典樂,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv059
-ELTV生活英語,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang20
-GINXEsportsTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv053
-MezzoLive,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv083
-TraceSports,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv077
-TraceUrban,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv082
-VOA美國之音,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv03
-好消息,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv16
-好消息2台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv17
-客家電視台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv043
-時尚運動X,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv014
-國會頻道1,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv084
-國會頻道2,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv085
-第1商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv104
-博斯高球二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang06
-博斯高球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang05
-博斯無限二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang13
-博斯無限台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang10
-博斯運動一台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang07
-博斯運動二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang08
-博斯網球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang09
-博斯魅力台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang04
-智林體育台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv101
-豬哥亮歌廳秀,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv006
 
 📺台灣新聞,#genre#
 TVBS HD,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv073
@@ -265,76 +149,6 @@ NOW新聞台,http://108.181.20.197/livehttpplay?channel_id=20041
 文茜的世界財經周報,http://114.34.40.48:50008/ofiii205/index.m3u8?proxy=true
 
 
-📺YouTube 新聞,#genre#
-Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
-parse=1
-ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-Decoder=3
-民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
-民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA&fmt=37
-民视戲劇,https://www.youtube.com/watch?v=hVOM87angqk&list=PL02zpjjwMEjoiKM4Rnd864YGyqYW-PsfV
-三立 iNews,https://www.youtube.com/watch?v=pF507BLtbqU
-三立 Live,https://m.youtube.com/@setnews/live
-三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
-三立財經,https://www.youtube.com/watch?v=CKjSm5ZeehE&fmt=37
-三立電視,https://www.youtube.com/watch?v=hfytG5Fj05w&list=PLE6ICy7YAcNYvZiazthDbEubWwJ0H4X_2&pp=iAQB
-非凡商業,https://www.youtube.com/watch?v=QlJJEwMYzEc
-非凡新聞,https://www.youtube.com/watch?v=NHQDx8vCrC4
-東森新聞,https://www.youtube.com/watch?v=V1p33hqPrUk
-東森新聞,http://www.youtube.com/c/newsebc/live
-東森財經新聞,https://www.youtube.com/@57ETFN/live
-東森財經新聞,https://www.youtube.com/watch?v=1I2iq41Akmo
-東森財經新聞,https://youtu.be/1I2iq41Akmo?list=PLUz3zvlwsLgVePWqWAjGpDBAvr2oz3jZC
-東森財經股市,https://www.youtube.com/watch?v=AEBeWMM1atA
-東森LIVE,https://youtu.be/V1p33hqPrUk
-東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
-東森LIVE,https://clonglii.serv00.net/youtube_d.php?id=E0zhe2gkXBs&data=normal
-TVBS HD,https://www.youtube.com/watch?v=DYSYTNkCObk
-TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&data=normal
-TVBS HD,https://www.youtube.com/watch?v=m_dhMSvUCIc
-TVBS NEWS,https://youtu.be/m_dhMSvUCIc
-TVBS NEWS,https://m.youtube.com/watch?v=m_dhMSvUCIc
-TVBS新聞,https://youtu.be/khRyrHgs0t8
-TVBS新聞台,https://youtu.be/m_dhMSvUCIc?list=PLUz3zvlwsLgVePWqWAjGpDBAvr2oz3jZC
-TVBS新聞台,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
-TVBS新聞台,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
-中天新聞,https://youtu.be/vr3XyVCR4T0
-中天新聞1臺,https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞2台,https://m.youtube.com/@ctiplusnews/streams/1
-中天新聞2臺,https://www.youtube.com/watch?v=WPfPjbOLNfE
-公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
-公視新聞,https://m.youtube.com/@PNNPTS/streams/1
-公視,https://m.youtube.com/@ptslivestream/streams/1
-公視台語台,https://m.youtube.com/channel/UCX6SRupi5lTDbIFJEOpReCQ/streams/1
-臺視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
-華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
-華視新聞,https://m.youtube.com/@CtsTw/streams/1
-鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
-寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇新聞,https://m.youtube.com/@globalnewstw/streams/1
-寰宇新聞2,https://m.youtube.com/@globalnewstw/streams/3
-寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc&fmt=37
-寰宇新聞台灣台,https://www.youtube.com/watch?v=w87VGpgd90U&fmt=37
-寰宇新聞台灣台,https://m.youtube.com/@globalnewstw/streams/2
-寰宇新聞臺灣臺,http://m.youtube.com/live/w87VGpgd90U
-寰宇財經台,https://m.youtube.com/@globlemoney/streams/1
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
-中視新聞,https://m.youtube.com/@twctvnews/streams/1
-全球財經台,https://m.youtube.com/@user-ro8bu3to2t/streams/1
-創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
-台灣地震監視,https://m.youtube.com/@eqm/streams/1 
-台視(台灣節點),https://m.youtube.com/watch?v=uDqQo8a7Xmk
-台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8&pp=ygUM5paw6Ze755u05pKt
-舌尖上的中国第四季 01,https://www.youtube.com/watch?v=9efpLqzjvCw
-舌尖上的中国第四季 02,https://www.youtube.com/watch?v=hVfBTUF4cHM
-舌尖上的中国第四季 03,https://www.youtube.com/watch?v=zRx82X5S5rY
-國會頻道1,https://m.youtube.com/@parliamentarytv/streams/1
-國會頻道2,https://m.youtube.com/@parliamentarytv/live
-大愛一臺-全球直播,https://m.youtube.com/watch?v=MIqUplvSRWA
-大愛一臺-臺灣直播(台灣節點),https://m.youtube.com/watch?v=oV_i3Hsl_zg
-大愛二臺-全球直播,https://m.youtube.com/watch?v=DTNkEm6jaqQ
-大愛二臺-臺灣直播(台灣節點),https://m.youtube.com/watch?v=OKvWtVoDR8I
-東京新宿,https://www.youtube.com/watch?v=DjdUEyjx8GM
 
 
 台灣頻道,#genre#
@@ -1021,7 +835,194 @@ CCTV-15 音乐,https://smart.pendy.dpdns.org/Smart.php?id=cctv15
 高清大片,http://106.52.196.79:80/TV/mui.php?id=gqdp
 新片放映廳,http://106.52.196.79:80/TV/mui.php?id=xpfyt
 
+YOUTUBE油管新聞|,#genre#
+TVBS新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
+東森新聞,https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
 
+中天新聞,https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
+三立新聞,https://www.youtube.com/live/VqkrkP_k-nc?si=Goo84iTb0nBqAjJR
+
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
+寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
+寰宇台灣,https://www.youtube.com/watch?v=w87VGpgd90U
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
+
+
+
+litv頻道,#genre#
+
+TVBS新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv072
+東森新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv152
+東森財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv153
+民視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv13
+中天新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv009
+華視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv052
+中視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv074
+台視新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv051
+寰宇新聞台,http://ezc.xtvantsc.xyz/litv.php?id=litv-longturn14
+寰宇台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv156
+鏡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv075
+非凡新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv010
+
+華視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv041
+中視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv040
+台視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv066
+民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv002
+民視,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv155
+民視旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv07
+亞洲旅遊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv076
+Smart知識台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang19
+
+靖天日本台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv047
+靖天育樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv062
+靖天映畫台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv055
+靖天國際台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv063
+靖天資訊台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv065
+靖天電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv061
+靖天綜合台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv046
+靖天戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv058
+靖天歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv054
+靖洋戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv045
+靖天卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv044
+靖洋卡通台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv057
+
+龍華電影台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang03
+龍華經典台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang21
+龍華洋片台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang02
+龍華日韓台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang11
+龍華偶像台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang12
+龍華戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang18
+龍華卡通台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang01
+
+amc電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv017
+我的歐洲電影,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv10
+影迷數位電影台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv011
+
+Pet Club TV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv110
+ELTA娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv070
+TVBS,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv073
+TVBS精采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv067
+TVBS歡樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv068
+八大精彩台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv034
+八大綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv039
+中天亞洲台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv109
+中視菁采台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv064
+中視經典台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv080
+公視戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv042
+台灣戲劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang22
+民視台灣台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv001
+民視第一台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv003
+民視綜藝台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv004
+民視影劇台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv09
+采昌影劇台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv049
+非凡商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv048
+視納華仁紀實頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv013
+達文西頻道,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv018
+影迷數位紀實台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv15
+韓國娛樂台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv016
+ArirangTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv079
+
+台視財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv056
+寰宇財經台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv158
+Classica古典樂,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv059
+ELTV生活英語,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang20
+GINXEsportsTV,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv053
+MezzoLive,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv083
+TraceSports,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv077
+TraceUrban,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv082
+VOA美國之音,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv03
+好消息,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv16
+好消息2台,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv17
+客家電視台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv043
+時尚運動X,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv014
+國會頻道1,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv084
+國會頻道2,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv085
+第1商業台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv104
+博斯高球二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang06
+博斯高球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang05
+博斯無限二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang13
+博斯無限台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang10
+博斯運動一台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang07
+博斯運動二台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang08
+博斯網球台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang09
+博斯魅力台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang04
+智林體育台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv101
+豬哥亮歌廳秀,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv006
+
+📺YouTube 新聞,#genre#
+Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
+parse=1
+ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Decoder=3
+民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA&fmt=37
+民视戲劇,https://www.youtube.com/watch?v=hVOM87angqk&list=PL02zpjjwMEjoiKM4Rnd864YGyqYW-PsfV
+三立 iNews,https://www.youtube.com/watch?v=pF507BLtbqU
+三立 Live,https://m.youtube.com/@setnews/live
+三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
+三立財經,https://www.youtube.com/watch?v=CKjSm5ZeehE&fmt=37
+三立電視,https://www.youtube.com/watch?v=hfytG5Fj05w&list=PLE6ICy7YAcNYvZiazthDbEubWwJ0H4X_2&pp=iAQB
+非凡商業,https://www.youtube.com/watch?v=QlJJEwMYzEc
+非凡新聞,https://www.youtube.com/watch?v=NHQDx8vCrC4
+東森新聞,https://www.youtube.com/watch?v=V1p33hqPrUk
+東森新聞,http://www.youtube.com/c/newsebc/live
+東森財經新聞,https://www.youtube.com/@57ETFN/live
+東森財經新聞,https://www.youtube.com/watch?v=1I2iq41Akmo
+東森財經新聞,https://youtu.be/1I2iq41Akmo?list=PLUz3zvlwsLgVePWqWAjGpDBAvr2oz3jZC
+東森財經股市,https://www.youtube.com/watch?v=AEBeWMM1atA
+東森LIVE,https://youtu.be/V1p33hqPrUk
+東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
+東森LIVE,https://clonglii.serv00.net/youtube_d.php?id=E0zhe2gkXBs&data=normal
+TVBS HD,https://www.youtube.com/watch?v=DYSYTNkCObk
+TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&data=normal
+TVBS HD,https://www.youtube.com/watch?v=m_dhMSvUCIc
+TVBS NEWS,https://youtu.be/m_dhMSvUCIc
+TVBS NEWS,https://m.youtube.com/watch?v=m_dhMSvUCIc
+TVBS新聞,https://youtu.be/khRyrHgs0t8
+TVBS新聞台,https://youtu.be/m_dhMSvUCIc?list=PLUz3zvlwsLgVePWqWAjGpDBAvr2oz3jZC
+TVBS新聞台,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
+TVBS新聞台,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
+中天新聞,https://youtu.be/vr3XyVCR4T0
+中天新聞1臺,https://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞2台,https://m.youtube.com/@ctiplusnews/streams/1
+中天新聞2臺,https://www.youtube.com/watch?v=WPfPjbOLNfE
+公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
+公視新聞,https://m.youtube.com/@PNNPTS/streams/1
+公視,https://m.youtube.com/@ptslivestream/streams/1
+公視台語台,https://m.youtube.com/channel/UCX6SRupi5lTDbIFJEOpReCQ/streams/1
+臺視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
+華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
+華視新聞,https://m.youtube.com/@CtsTw/streams/1
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
+寰宇新聞,https://m.youtube.com/@globalnewstw/streams/1
+寰宇新聞2,https://m.youtube.com/@globalnewstw/streams/3
+寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc&fmt=37
+寰宇新聞台灣台,https://www.youtube.com/watch?v=w87VGpgd90U&fmt=37
+寰宇新聞台灣台,https://m.youtube.com/@globalnewstw/streams/2
+寰宇新聞臺灣臺,http://m.youtube.com/live/w87VGpgd90U
+寰宇財經台,https://m.youtube.com/@globlemoney/streams/1
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+中視新聞,https://m.youtube.com/@twctvnews/streams/1
+全球財經台,https://m.youtube.com/@user-ro8bu3to2t/streams/1
+創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
+台灣地震監視,https://m.youtube.com/@eqm/streams/1 
+台視(台灣節點),https://m.youtube.com/watch?v=uDqQo8a7Xmk
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8&pp=ygUM5paw6Ze755u05pKt
+舌尖上的中国第四季 01,https://www.youtube.com/watch?v=9efpLqzjvCw
+舌尖上的中国第四季 02,https://www.youtube.com/watch?v=hVfBTUF4cHM
+舌尖上的中国第四季 03,https://www.youtube.com/watch?v=zRx82X5S5rY
+國會頻道1,https://m.youtube.com/@parliamentarytv/streams/1
+國會頻道2,https://m.youtube.com/@parliamentarytv/live
+大愛一臺-全球直播,https://m.youtube.com/watch?v=MIqUplvSRWA
+大愛一臺-臺灣直播(台灣節點),https://m.youtube.com/watch?v=oV_i3Hsl_zg
+大愛二臺-全球直播,https://m.youtube.com/watch?v=DTNkEm6jaqQ
+大愛二臺-臺灣直播(台灣節點),https://m.youtube.com/watch?v=OKvWtVoDR8I
+東京新宿,https://www.youtube.com/watch?v=DjdUEyjx8GM
 
 
 
