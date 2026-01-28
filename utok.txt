@@ -1,5 +1,19 @@
 
+YOUTUBE油管新聞|,#genre#
+TVBS新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
+東森新聞,https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
 
+中天新聞,https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
+三立新聞,https://www.youtube.com/live/VqkrkP_k-nc?si=Goo84iTb0nBqAjJR
+
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
+寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
+寰宇台灣,https://www.youtube.com/watch?v=w87VGpgd90U
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
 LIVE頻道,#genre#
 
 TVBS新聞台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv072
@@ -99,6 +113,8 @@ VOA美國之音,http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv03
 博斯魅力台,http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang04
 智林體育台,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv101
 豬哥亮歌廳秀,http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv006
+
+
 
 📺台灣新聞,#genre#
 TVBS HD,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv073
@@ -935,21 +951,7 @@ CCTV-15 音乐,https://smart.pendy.dpdns.org/Smart.php?id=cctv15
 高清大片,http://106.52.196.79:80/TV/mui.php?id=gqdp
 新片放映廳,http://106.52.196.79:80/TV/mui.php?id=xpfyt
 
-YOUTUBE油管新聞|,#genre#
-TVBS新聞,https://www.youtube.com/watch?v=m_dhMSvUCIc
-東森新聞,https://www.youtube.com/live/V1p33hqPrUk?si=byEUmKUYKqQEFU0N
 
-中天新聞,https://www.youtube.com/live/vr3XyVCR4T0?si=9quWZdOTvptvP-hO
-三立新聞,https://www.youtube.com/live/VqkrkP_k-nc?si=Goo84iTb0nBqAjJR
-
-華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
-台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
-寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇台灣,https://www.youtube.com/watch?v=w87VGpgd90U
-鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
-民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
-公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=upEckq1Ddm39bu2T
 
 
 
